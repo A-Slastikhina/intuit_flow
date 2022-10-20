@@ -1,0 +1,55 @@
+@import "normalize.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+    *, ::after, ::before {
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none
+}
+body{
+   // background-color: pink;
+}
+
+.section-title{
+    color: #6B6BC5;
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    line-height: 32.5px;
+}
+
+.section-subtitle{
+    color: #7A7A7D;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+   text-transform: uppercase;
+   font-weight: 300;
+   line-height: 29px;
+   //letter-spacing: 0.1em;
+
+}
+.wrapper{
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.paragraph{
+        color: #000000;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        line-height: 20.43px;
+}
+
+@import "header", "home_intro","home_experience","home_courses";
+

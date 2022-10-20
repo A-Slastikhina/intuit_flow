@@ -1,0 +1,48 @@
+
+.home-courses{
+//background-color: #FFC773;
+position: relative;
+overflow-x: hidden;
+overflow-y: hidden;
+background-image: url("../img/home/home_courses/courses_bckg.svg");
+background-repeat: no-repeat;
+background-size: cover;
+background-color: rgba(210,220,250,.75);
+
+ 
+}
+.home-courses__title{
+    margin-top: 40px;
+}
+
+.home-courses__paragraph{
+    margin-top: 20px;
+}
+
+.home-courses__item{
+    border-radius: 150px;
+    background-color: #ffffff;
+   min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-courses__item-img{
+    margin-top: 24px;
+}
+.home-courses__item-name{
+    font-size: 25px;
+    line-height: 29.05px;
+    letter-spacing: -1px;
+    margin-top: 20px;
+}
+.home-courses__item-description{
+    max-width:209px;
+    text-align: center;
+
+}
+
+.home-courses__item--more-btn{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}

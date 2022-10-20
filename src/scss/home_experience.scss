@@ -1,0 +1,27 @@
+
+.experience{
+    background-color: #ffffff;
+    background-image: linear-gradient(#ffffff 60%, rgba(210,220,250,0.75));
+ 
+}
+
+
+.experience__list{
+    background-image: url("../img/home/experiance/vert_decor_line.svg");
+    background-repeat: no-repeat;
+    background-position: 12px;
+    background-size: contain;
+}
+.experience__item {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    &:last-of-type{
+        padding-bottom: 20px;
+    }
+    & p{
+        max-width: 226px;
+
+    }
+}

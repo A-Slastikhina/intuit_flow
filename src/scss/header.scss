@@ -1,0 +1,75 @@
+
+.header{
+    position: absolute;
+    top: 0;
+    background: transparent;
+    border-bottom: 1px solid rgba(255,255,255, 0.3);
+    width: 100%;
+    background-color: transparent;
+}
+
+
+.header__menu{
+    display: flex;
+    justify-content:space-between;
+    
+
+
+}
+.header__addition{
+    display: none;
+}
+
+.header__list{
+    display: flex;
+}
+
+.header__item{
+    display: none;
+    font-family: 'Open Sans', sans-serif;
+}
+.header__item a{
+    text-decoration: none;
+
+}
+.header__item--socials{
+display: flex;
+
+}
+
+.site-socials__item{
+    text-decoration: none;
+   display: inline-block;
+    width: 27px;
+    height: 27px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    &--WA{
+    background-image: url("../img/header/WA.png");
+    }
+    &--IG{
+        background-image: url("../img/header/Insta.png");
+    }
+    &--lang{
+        background-image: url("../img/header/Lang.png");
+        background-color: transparent;
+        border: none;
+        width: 27px;
+        height: 27px;
+    }
+}
+
+.header__popup-btn{
+   background-color: transparent; 
+   width: 30px;
+   height: 22px;
+   border: none;
+    cursor: pointer;
+   background-image: url("../img/header/header_popup.png");
+}
+.hidden-popup{
+    display: none;
+}
