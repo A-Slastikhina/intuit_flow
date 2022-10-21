@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, inital-scale=1.0">
-    <link rel="stylesheet" href="css/style.min.css?_v=20221020164801">
+    <link rel="stylesheet" href="css/style.min.css?_v=20221021195738">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap&_v=20221020164801" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap&_v=20221021195738" rel="stylesheet">
     <title>Главная</title>
 </head>
     <body>
@@ -127,7 +127,7 @@
                 <p class="paragraph">Практик цигун и био-энергетики: с 2012 года, обучение по системе Чжунь Юань Цигун в 2015, Космоэнергетике - 2017</p>
             </li>
         </ul>
-        <img src="img/home/experiance/Michail_photo.svg" alt="Фото Михаила Царько">
+        <img class="experience__photo" src="img/home/experiance/Michail_photo.svg" alt="Фото Михаила Царько">
     </div>
     
 </section>
@@ -153,6 +153,31 @@
             <div class="home-courses__slider-line">
                 <ul class="home-courses__list">
                     <li class="home-courses__item">
+                        <img class="home-courses__item-img" src="img/home/home_courses/course1_img.svg" alt="">
+                        <p class="home-courses__item-name section-title">
+                            биоэнергетика
+                        </p>
+                        <p class="home-courses__item-description paragraph">
+                            Сотни часов активных практик в разных странах позволили
+                        </p>
+                        <a class="home-courses__item--more-btn" href="#">
+                            подробнее
+                        </a>
+                    </li>
+
+                    <li class="home-courses__item">
+                        <img class="home-courses__item-img" src="img/home/home_courses/course2_img.svg" alt="">
+                        <p class="home-courses__item-name section-title">
+                            цигун
+                        </p>
+                        <p class="home-courses__item-description paragraph">
+                            Сотни часов активных практик в разных странах позволили
+                        </p>
+                        <a class="home-courses__item--more-btn" href="#">
+                            подробнее
+                        </a>
+                    </li>
+                    <li class="home-courses__item home-courses__item--active">
                         <img class="home-courses__item-img" src="img/home/home_courses/course3_img.svg" alt="">
                         <p class="home-courses__item-name section-title">
                             взгляд в себя
@@ -164,33 +189,50 @@
                             подробнее
                         </a>
                     </li>
-                    <li class="home-courses__item"></li>
-                    <li class="home-courses__item home-courses__item--active"></li>
-                    <li class="home-courses__item"></li>
-                    <li class="home-courses__item"></li>
+                     <li class="home-courses__item">
+                        <img class="home-courses__item-img" src="img/home/home_courses/course1_img.svg" alt="">
+                        <p class="home-courses__item-name section-title">
+                            биоэнергетика
+                        </p>
+                        <p class="home-courses__item-description paragraph">
+                            Сотни часов активных практик в разных странах позволили
+                        </p>
+                        <a class="home-courses__item--more-btn" href="#">
+                            подробнее
+                        </a>
+                    </li>
+
+                    <li class="home-courses__item">
+                        <img class="home-courses__item-img" src="img/home/home_courses/course2_img.svg" alt="">
+                        <p class="home-courses__item-name section-title">
+                            цигун
+                        </p>
+                        <p class="home-courses__item-description paragraph">
+                            Сотни часов активных практик в разных странах позволили
+                        </p>
+                        <a class="home-courses__item--more-btn" href="#">
+                            подробнее
+                        </a>
+                    </li>
+                    
                 </ul>
             </div>
         </div>
         <div class="home-courses__slider-switch">
-            <button class="home-courses__prev-item-btn"></button>
+            <button class="home-courses__item-btn home-courses__item-btn--prev"></button>
 
             <div class="home-courses__item-controller">
-                <div class="home-courses__item-controller--not-active "></div>
             </div>
             <div class="home-courses__item-controller">
-                <div class="home-courses__item-controller--not-active "></div>
+            </div>
+            <div class="home-courses__item-controller home-courses__item-controller--active">
             </div>
             <div class="home-courses__item-controller">
-                <div class="home-courses__item-controller--active "></div>
             </div>
             <div class="home-courses__item-controller">
-                <div class="home-courses__item-controller--not-active "></div>
-            </div>
-            <div class="home-courses__item-controller">
-                <div class="home-courses__item-controller--not-active "></div>
             </div>
 
-            <button class="home-courses__next-item-btn"></button>
+            <button class="home-courses__item-btn home-courses__item-btn--next"></button>
 
 
         </div>
@@ -198,6 +240,6 @@
 </section>
     </main>
       <footer></footer>
-      <script src="js/app.min.js?_v=20221020164801"></script>
+      <script src="js/app.min.js?_v=20221021195738"></script>
     </body>
 </html>
