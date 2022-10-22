@@ -28,11 +28,7 @@
 
 
 .home-courses__item-controller{
-    width: 15px;
-    height: 15px;
-    border: 1px solid #464548;
-    border-radius: 50%;
-    cursor: pointer;
+
 
     &--active{
         width: 23px;
@@ -51,9 +47,11 @@
     margin: 0 auto;
 }
 
+/*
 .home-courses__slider-line{
     min-width: 1315px;
     position: relative;
     left: 0;
     transition: all 1s;
 }
+*/
