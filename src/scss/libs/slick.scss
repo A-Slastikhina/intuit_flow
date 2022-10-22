@@ -33,7 +33,7 @@ height: 30px;
     cursor: pointer;
 
 &::after{
-    content: url("../../img/home/home_courses/slider_prev_btn.svg");
+    content: url("../img/home/home_courses/slider_prev_btn.svg");
     width: 30px;
     height: 30px;
 }
@@ -46,7 +46,7 @@ height: 30px;
 
 
 &::after{
-    content: url("../../img/home/home_courses/slider_next_btn.svg");
+    content: url("../img/home/home_courses/slider_next_btn.svg");
     width: 30px;
     height: 30px;
 }
