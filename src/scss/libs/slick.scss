@@ -1,0 +1,95 @@
+@import "../../../node_modules/slick-carousel/slick/slick.scss";
+//@import "../../../node_modules/slick-carousel/slick/slick-theme.scss";
+
+//блок слайдера
+
+.home-courses__list{
+
+width: 263px;
+ margin: 20px auto;
+ //padding-bottom: 45px;
+}
+
+//стрелки
+
+.slick-arrow{
+position: absolute;
+bottom: -40px;
+transform: translateY(-85%);
+left: 50%;
+transform: translateX(-50%);
+border: none;
+background-color: transparent;
+font-size: 0;
+cursor: pointer;
+width: 30px;
+height: 30px;
+}
+
+.slick-prev{
+    left:10%;
+    bottom: -40px;
+    transform: translateX(-50%);
+    cursor: pointer;
+
+&::after{
+    content: url("../../img/home/home_courses/slider_prev_btn.svg");
+    width: 30px;
+    height: 30px;
+}
+}
+
+.slick-next{
+    left: 90%;
+    transform: translateX(-50%);
+    cursor: pointer;
+
+
+&::after{
+    content: url("../../img/home/home_courses/slider_next_btn.svg");
+    width: 30px;
+    height: 30px;
+}
+}
+
+.slick-dots{
+  padding: 0;
+  margin: 0;
+  position: absolute;  
+bottom: -40px;
+ transform: translateY(75%);
+
+ left: 50%;
+ transform: translateX(-50%);
+ width: 200px;
+text-align: center;
+
+  li{
+    display: inline-block;
+    margin: 0 5px;
+    height: 30px;
+  }
+  button{
+    background-color: transparent;
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #464548;
+    border-radius: 50%;
+    cursor: pointer;
+    vertical-align: center;
+  }
+}
+
+.slick-active{
+   button{
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background-image:url("../img/home/home_courses/controller_checked.svg") ;
+    background-size: 15px 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+   }
+    
+}

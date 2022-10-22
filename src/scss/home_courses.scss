@@ -8,6 +8,7 @@ background-image: url("../img/home/home_courses/courses_bckg.svg");
 background-repeat: no-repeat;
 background-size: cover;
 background-color: rgba(210,220,250,.75);
+padding-bottom: 45px;
 
  
 }
@@ -19,19 +20,18 @@ background-color: rgba(210,220,250,.75);
     margin-top: 20px;
 }
 
-.home-courses__list{
+/*.home-courses__list{
 margin: 0 auto;
 display: flex;
 min-width: 1315px;
 
 
 }
+*/
 .home-courses__item{
     border-radius: 150px;
     background-color: #ffffff;
-   display: flex;
-   flex: none;
-    flex-direction: column;
+
     align-items: center;
     width: 263px;
     min-height: 420px;
@@ -39,16 +39,21 @@ min-width: 1315px;
 }
 .home-courses__item-img{
     margin-top: 24px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .home-courses__item-name{
     font-size: 25px;
     line-height: 29.05px;
     letter-spacing: -1px;
     margin-top: 20px;
+    text-align: center;
 }
 .home-courses__item-description{
     max-width:209px;
     text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 
 }
 
@@ -59,8 +64,10 @@ min-width: 1315px;
     line-height: 20px;
     letter-spacing: 0em;
     text-align: center;
-    margin-top: 20px;
     margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
     font-family: 'Open Sans', sans-serif;
     border-radius: 20px;
     background-color: #FFCB73;

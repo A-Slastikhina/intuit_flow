@@ -55,5 +55,5 @@ a{
     color:#000000
 }
 
-@import "header", "home_intro","home_experience","home_courses","home_courses_slider";
-
+@import "header", "home_intro","home_experience","home_courses";
+@import "./libs/slick.scss";

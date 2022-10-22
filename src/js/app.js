@@ -7,7 +7,16 @@ import Swiper, { Navigation, Pagination } from 'swiper';
 const swiper = new Swiper();
 
 
- 
-import {findMedianElev} from "./modules/home_courses_slider.js";
-findMedianElev();
+import $ from 'jquery';
+import slikCarousel from 'slick-carousel';
+
+
+
+    $(".home-courses__list").slick({
+        dots:true,
+        infinite:true
+    })
+
+
+
 
