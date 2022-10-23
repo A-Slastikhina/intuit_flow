@@ -1,0 +1,30 @@
+.home-about{
+    position: relative;
+    z-index: 2;
+    .wrapper{
+        &::before{
+            content: url("../img/home/deco_flower.svg");
+            position: absolute;
+            overflow-y: hidden;
+            overflow-x: hidden;
+            right: 0;
+            top: -138px;
+            z-index: 0;
+        
+        }
+    }
+}
+
+
+.home-about__photo-gallery{
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    max-width: 278px;
+
+}
+

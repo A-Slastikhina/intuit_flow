@@ -15,13 +15,14 @@
 .experience__item {
     margin-top: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-start;
     align-items: flex-start;
     &:last-of-type{
         padding-bottom: 20px;
     }
     & p{
-        max-width: 226px;
+        max-width: 90%;
+        margin-left: 10px;
 
     }
 }
