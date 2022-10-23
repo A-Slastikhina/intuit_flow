@@ -11,12 +11,12 @@ import $ from 'jquery';
 import slikCarousel from 'slick-carousel';
 
 
-
     $(".home-courses__list").slick({
         dots:true,
-        infinite:true
+       // infinite:true
     })
 
 
+    import { Fancybox } from "@fancyapps/ui";
 
-
+  
