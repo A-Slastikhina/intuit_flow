@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, inital-scale=1.0">
-    <link rel="stylesheet" href="css/style.min.css?_v=20221023222519">
+    <link rel="stylesheet" href="css/style.min.css?_v=20221024135302">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap&_v=20221023222519" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap&_v=20221024135302" rel="stylesheet">
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.min.js?_v=20221024135302" type="text/javascript"></script>
+          
+    <!-- nanogallery2 -->
+    <link  href="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/css/nanogallery2.min.css?_v=20221024135302" rel="stylesheet" type="text/css">
+    <script  type="text/javascript" src="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/jquery.nanogallery2.min.js?_v=20221024135302"></script>
+
      <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">          
-     <link
-     rel="stylesheet"
-     href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css?_v=20221023222519"
-   />  
-       
-  
+ 
     <title>Главная</title>
 </head>
     <body>
@@ -235,38 +237,52 @@
     <p class="section-subtitle home-about__subtitle">
         наших мероприятий
     </p>
-    <div class="home-about__photo-gallery">
-            <a data-fancybox="gallery" href="img/home/home_about/photo1_desktop.svg" class="home-about__photo-item">
+    <div class="home-about__photo-gallery" id="nanogallery2"
+    data-nanogallery2 = '{
+        "thumbnailWidth":   "auto",
+        "itemsBaseURL":     "",
+        "thumbnailBorderHorizontal": "0",
+        "thumbnailL1BorderHorizontal": "0",
+        "thumbnailBorderVertical": "0",
+        "thumbnailL1BorderVertical":"0"
+
+      }'
+    >
+            <a href="img/home/home_about/photo1_desktop.svg" class="swipeboxExampleImg">
                 <picture>
                     <source media="(min-width: 600px)" srcset="img/home/home_about/photo1_desktop.svg">
                       <img class="product-item__photo" src="img/home/home_about/photo1_mobile.svg" alt="">
                       </picture>
             </a>
         
-        <a data-fancybox="gallery" href="img/home/home_about/photo3_mobile.svg" class="home-about__photo-item">
+        <a  href="img/home/home_about/photo3_mobile.svg" class="swipeboxExampleImg">
             <picture>
                 <source media="(min-width: 600px)" srcset="img/home/home_about/photo3_mobile.svg">
                   <img class="product-item__photo" src="img/home/home_about/photo3_mobile.svg" alt="">
                   </picture>
         </a>
 
-        <a data-fancybox="gallery" href="img/home/home_about/photo2_desktop.svg" class="home-about__photo-item">
+        <a  href="img/home/home_about/photo2_desktop.svg" class="swipeboxExampleImg">
             <picture>
                 <source media="(min-width: 600px)" srcset="img/home/home_about/photo2_desktop.svg">
                   <img class="product-item__photo" src="img/home/home_about/photo2_mobile.svg" alt="">
-                  </picture>
-        </a>
-
+            </picture>
+        </a>    
+    
+    
+   
     </div>
 
 
 </div>
 </section>
 
+
+
     </main>
       <footer></footer>
-      <script src="js/app.min.js?_v=20221023222519"></script>
-      <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js?_v=20221023222519"></script>
+ 
+      <script src="js/app.min.js?_v=20221024135302"></script>
 
     </body>
 </html>
