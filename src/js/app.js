@@ -16,7 +16,9 @@ import slikCarousel from 'slick-carousel';
        // infinite:true
     })
 
+import nanogallery2 from './jquery.nanogallery2.min.js';
 
-    import { Fancybox } from "@fancyapps/ui";
+
+
 
   

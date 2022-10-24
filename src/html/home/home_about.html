@@ -7,28 +7,40 @@
     <p class="section-subtitle home-about__subtitle">
         наших мероприятий
     </p>
-    <div class="home-about__photo-gallery">
-            <a data-fancybox="gallery" href="@img/home/home_about/photo1_desktop.svg" class="home-about__photo-item">
+    <div class="home-about__photo-gallery" id="nanogallery2"
+    data-nanogallery2 = '{
+        "thumbnailWidth":   "auto",
+        "itemsBaseURL":     "",
+        "thumbnailBorderHorizontal": "0",
+        "thumbnailL1BorderHorizontal": "0",
+        "thumbnailBorderVertical": "0",
+        "thumbnailL1BorderVertical":"0"
+
+      }'
+    >
+            <a href="@img/home/home_about/photo1_desktop.svg" class="swipeboxExampleImg">
                 <picture>
                     <source media="(min-width: 600px)" srcset="@img/home/home_about/photo1_desktop.svg">
                       <img class="product-item__photo" src="@img/home/home_about/photo1_mobile.svg" alt="">
                       </picture>
             </a>
         
-        <a data-fancybox="gallery" href="@img/home/home_about/photo3_mobile.svg" class="home-about__photo-item">
+        <a  href="@img/home/home_about/photo3_mobile.svg" class="swipeboxExampleImg">
             <picture>
                 <source media="(min-width: 600px)" srcset="@img/home/home_about/photo3_mobile.svg">
                   <img class="product-item__photo" src="@img/home/home_about/photo3_mobile.svg" alt="">
                   </picture>
         </a>
 
-        <a data-fancybox="gallery" href="@img/home/home_about/photo2_desktop.svg" class="home-about__photo-item">
+        <a  href="@img/home/home_about/photo2_desktop.svg" class="swipeboxExampleImg">
             <picture>
                 <source media="(min-width: 600px)" srcset="@img/home/home_about/photo2_desktop.svg">
                   <img class="product-item__photo" src="@img/home/home_about/photo2_mobile.svg" alt="">
-                  </picture>
-        </a>
-
+            </picture>
+        </a>    
+    
+    
+   
     </div>
 
 
