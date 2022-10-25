@@ -9,6 +9,7 @@ background-repeat: no-repeat;
 background-size: cover;
 background-color: rgba(210,220,250,.75);
 padding-bottom: 45px;
+z-index: 3;
 }
 
 
@@ -20,14 +21,6 @@ padding-bottom: 45px;
     margin-top: 20px;
 }
 
-/*.home-courses__list{
-margin: 0 auto;
-display: flex;
-min-width: 1315px;
-
-
-}
-*/
 .home-courses__item{
     border-radius: 150px;
     background-color: #ffffff;

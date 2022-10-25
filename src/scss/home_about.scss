@@ -1,6 +1,8 @@
 .home-about{
     position: relative;
-    z-index: 2;
+    z-index: 1;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #A6ACAD;
     .wrapper{
         &::before{
             content: url("../img/home/deco_flower.svg");
@@ -24,10 +26,5 @@
 
 }
 
-.home-about__photo-item{
-    & img{
-   //     max-height: 100%;
-  //min-width: 100%;
-    }
-}
+
 
