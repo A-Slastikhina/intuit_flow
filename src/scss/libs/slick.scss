@@ -121,7 +121,7 @@ width: 263px;
       cursor: pointer;
   
   &::after{
-      content: url("../../img/home/home_review/review_arrow_prev.svg");
+      content: url("../img/home/home_review/review_arrow_prev.svg");
       width: 30px;
       height: 30px;
   }
@@ -135,7 +135,7 @@ width: 263px;
   
   
   &::after{
-      content: url("../../img/home/home_review/review_arrow_next.svg");
+      content: url("../img/home/home_review/review_arrow_next.svg");
       width: 30px;
       height: 30px;
       z-index: 2;
