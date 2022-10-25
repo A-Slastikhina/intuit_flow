@@ -16,6 +16,8 @@ import slikCarousel from 'slick-carousel';
        // infinite:true
     })
 
+   $('.home-reviews__list').slick()
+
 import nanogallery2 from './jquery.nanogallery2.min.js';
 
 

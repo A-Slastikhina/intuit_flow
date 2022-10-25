@@ -1,0 +1,64 @@
+
+
+.home-reviews__title{
+    font-size: 22px;
+}
+
+.home-reviews__list{
+    width: 263px;
+    margin: 0 auto;
+
+& p{
+padding-left: 45px;
+//width: 235px;
+}
+}
+
+.home-reviews__reviewer-photo{
+    margin: 20px auto;
+    width: 85%;
+    display: block;
+}
+
+.home-reviews__reviewer-name{
+    color: #6B6BC5;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.home-reviews__course-name{
+    color: #7A7A7D;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+    position: relative;
+
+    &::before{
+        content: url("../img/home/home_review/commas.svg");
+        position: absolute;
+        left: 7px;
+    }
+}
+
+.home-reviews__review-text{
+    color: #7A7A7D;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    //position: relative;
+}
+
+.home-reviews__more-btn{
+    color: #464548;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    transform: translateY(-85%);
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 17px;
+
+}
