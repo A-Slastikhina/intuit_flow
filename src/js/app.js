@@ -13,10 +13,19 @@ import slikCarousel from 'slick-carousel';
 
     $(".home-courses__list").slick({
         dots:true,
+        initialSlide: 2,
+
        // infinite:true
     })
 
    $('.home-reviews__list').slick()
+   $(".home-timetable__classes-list").slick({
+        rows:3,
+        slidesPerRow:1,
+        mobileFirst: true,
+       appendArrows: $(".home-timetable__more-btn")
+       //slidesToShow: 3
+   })
 
 import nanogallery2 from './jquery.nanogallery2.min.js';
 
