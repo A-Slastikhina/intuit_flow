@@ -1,0 +1,85 @@
+.home-timetable{
+    padding-top: 30px;
+    background-image: url("../img/home/home_courses/courses_bckg.svg");
+}
+
+.home-about__subtitle{
+    color: #232323;
+}
+
+.home-timetable__text{
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    color: #232323;
+    font-weight: 100;
+    width: 72%;
+
+}
+
+.home-timetable__classes-wrap{
+}
+
+.home-timetable__classes{
+    margin: 0 auto;
+
+    border: 2px solid transparent;
+  border-radius: 56px;
+  background: 
+    url("../img/home/home_courses/courses_bckg.svg"), 
+    linear-gradient(to right, #6B6BC5 , #FF77F1,#CF7C00); 
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+  background-position: center;
+  /* Other styles */
+  max-width: 313px;
+  min-height: 98px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.home-timetable__classes-enroll-btn{
+    position: relative;
+    top: -17px;
+    left: 49%; 
+    border: 1px solid #6B6BC5; 
+    border-radius: 56px;
+    background-image: 
+    linear-gradient(to right, #B4B3FF , #FF77F1);  
+    color: #000000;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+   text-transform: uppercase;
+   font-weight: 300;
+   padding-left: 12px;
+   padding-right: 12px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+
+.home-timetable__classes-name{
+    color: #6B6BC5;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+
+
+
+
+}
+
+.home-timetable__classes-time{
+    color: #000000;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+   text-transform: uppercase;
+   font-weight: 300;
+}

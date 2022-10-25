@@ -1,4 +1,6 @@
-
+.home-reviews{
+    padding-bottom: 30px;
+}
 
 .home-reviews__title{
     font-size: 22px;
@@ -48,6 +50,8 @@ padding-left: 45px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
     //position: relative;
+    max-height: 160px;
+    overflow-y: scroll;
 }
 
 .home-reviews__more-btn{
