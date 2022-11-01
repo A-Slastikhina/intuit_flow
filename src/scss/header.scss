@@ -12,6 +12,7 @@
 .header__menu{
     display: flex;
     justify-content:space-between;
+    align-items: center;
     
 
 
@@ -27,6 +28,11 @@
 .header__item{
     display: none;
     font-family: 'Open Sans', sans-serif;
+    &--home{
+        background-image: url("../img/header/Home.png");
+        width: 30px;
+        height: 30px;
+    }
 }
 .header__item a{
     text-decoration: none;

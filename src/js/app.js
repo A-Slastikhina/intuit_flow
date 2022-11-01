@@ -5,8 +5,8 @@ flsFunctions.isWebp();
 import Swiper, { Navigation, Pagination } from 'swiper';
 
 const swiper = new Swiper();
-
-
+import {popupFunction} from "./modules/popup.js"
+popupFunction();
 import $ from 'jquery';
 import slikCarousel from 'slick-carousel';
 
