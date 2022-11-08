@@ -183,3 +183,18 @@ width: 263px;
 }
 }
 
+.intro__courses-list{
+  .slick-dots{
+    display: flex;
+  }
+  .slick-prev{
+    order: 1;
+  }
+  .slick-prev{
+    order: 3;
+  }
+  .slick-dots{
+    order: 2;
+  }
+}
+
