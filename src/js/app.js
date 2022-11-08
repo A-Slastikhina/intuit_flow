@@ -30,7 +30,9 @@ import slikCarousel from 'slick-carousel';
    $('.intro__courses-list').slick({
         dots:true,
         appendArrows: $(".intro__courses-slider-btns"),
-        appendDots: $(".intro__courses-slider-btns")
+        appendDots: $(".intro__courses-slider-btns"),
+        autoplay:true,
+        autoplaySpeed:5000
    });
 
 import nanogallery2 from './jquery.nanogallery2.min.js';

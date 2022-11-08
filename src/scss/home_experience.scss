@@ -2,7 +2,19 @@
 .experience{
     background-color: #ffffff;
     background-image: linear-gradient(#ffffff 60%, rgba(210,220,250,0.75));
- 
+    position: relative;
+    &::after{
+        content: "";
+        background-image: url("../img/home/intro-desktop/Decor-desktop.svg");
+        background-repeat: repeat-x;
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        height: 30px;
+        width: 1500px;
+        left: 0;
+        top:-32px
+    }
 }
 
 
