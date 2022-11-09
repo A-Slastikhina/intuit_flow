@@ -2,19 +2,7 @@
 .experience{
     background-color: #ffffff;
     background-image: linear-gradient(#ffffff 60%, rgba(210,220,250,0.75));
-    position: relative;
-    &::after{
-        content: "";
-        background-image: url("../img/home/intro-desktop/Decor-desktop.svg");
-        background-repeat: repeat-x;
-        background-size: cover;
-        background-position: center;
-        position: absolute;
-        height: 30px;
-        width: 1500px;
-        left: 0;
-        top:-32px
-    }
+    
 }
 
 
@@ -39,7 +27,63 @@
     }
 }
 .experience__photo{
-    display: block;
+   img{
     margin: 0 auto;
     width: 100%;
+   }
+   
+}
+
+@media(min-width:1020px){
+    .experience{
+
+        position: relative;
+        &::after{
+            content: "";
+            background-image: url("../img/home/intro-desktop/Decor-desktop.svg");
+            background-repeat: repeat-x;
+            background-size: cover;
+            background-position: center;
+            position: absolute;
+            height: 30px;
+            width: 100%;
+            left: 0;
+            top:-92px;
+            overflow: hidden;
+        }
+    }
+
+    .experience-wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 60px;
+
+    }
+    .experience__author-name{
+        grid-column-start: 1;
+        font-size: 30px;
+    }
+    .experience__author-position{
+        grid-column-start: 1;
+        font-size: 24px;
+    }
+    .experience__list{
+        grid-column-start: 1;
+        background-image: url("../img/home/experiance/desktop/experiance-deco-line.svg");
+        background-size: auto 504px;
+        background-position-y: 31px;
+        background-position-x: 10px;
+        min-height: 540px;
+
+    }
+
+    .experience__photo{
+       width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
+        grid-row-start: 1;
+        grid-column-start: 2;
+        grid-row-end: 4;
+    }
 }
