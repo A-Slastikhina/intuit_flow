@@ -142,7 +142,11 @@ width: 263px;
   }
   }
 }
-
+@media(min-width:1020px){
+  .home-courses__list{
+    width: 789px;
+  }
+}
 
 .home-timetable__more-btn{
   .slick-arrow{

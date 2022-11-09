@@ -14,9 +14,18 @@ import slikCarousel from 'slick-carousel';
     $(".home-courses__list").slick({
         dots:true,
         initialSlide: 2,
+        mobileFirst:true,
+        responsive: [
+            {
+            breakpoint: 1019,
+            settings: "unslick"
+ 
+        }
+        ]
 
-       // infinite:true
     });
+
+
 
    $('.home-reviews__list').slick();
    $(".home-timetable__classes-list").slick({
@@ -27,8 +36,9 @@ import slikCarousel from 'slick-carousel';
        //slidesToShow: 3
    });
 
+ 
    $('.intro__courses-list').slick({
-        
+       
         dots:true,
         appendArrows: $(".intro__courses-slider-btns"),
         appendDots: $(".intro__courses-slider-btns"),
