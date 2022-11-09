@@ -20,6 +20,8 @@
 
 .header__list{
     display: flex;
+    align-items: center;
+    z-index: 5;
 }
 
 .header__item{
