@@ -26,5 +26,12 @@
 
 }
 
-
+@media(min-width:1020px){
+    .desktop-hidden{
+        display: none;
+    }
+    .home-about__photo-gallery{
+        max-width: 550px;
+    }
+}
 

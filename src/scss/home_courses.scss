@@ -84,10 +84,20 @@ z-index: 3;
     .home-courses{
         background-size: contain;
         background-repeat: repeat-x;
+        background-image: url("../img/home/home_courses/courses_bckg.svg"),
+        linear-gradient(rgba(210,220,250,.75), #ffffff)
+        ;
+
     }
     .home-courses__wrapper{
         display: grid;
     grid-template-columns: 1fr 1fr;
+    }
+    .home-courses__title{
+        font-size: 30px;
+    }
+    .home-courses__subtitle{
+        font-size: 30px;
     }
     .home-courses__menu{
         display:flex ;
