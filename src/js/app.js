@@ -17,8 +17,8 @@ import slikCarousel from 'slick-carousel';
         mobileFirst:true,
         responsive: [
             {
-            breakpoint: 1019,
-            settings: "unslick"
+           // breakpoint: 1019,
+          //  settings: "unslick"
  
         }
         ]
@@ -27,7 +27,15 @@ import slikCarousel from 'slick-carousel';
 
 
 
-   $('.home-reviews__list').slick();
+   $('.home-reviews__list').slick({
+        mobileFirst:true,
+        responsive:[{
+            breakpoint:1019,
+            settings:{
+                slidesPerRow:4,
+            }
+        }]
+   });
    $(".home-timetable__classes-list").slick({
         rows:3,
         slidesPerRow:1,
