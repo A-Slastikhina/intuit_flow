@@ -5,20 +5,10 @@
 
 .home-courses__list{
 
-width: 263px;
- margin: 20px auto;
  //padding-bottom: 45px;
 
 //стрелки
-.home-courses__item{
-  border-radius: 150px;
-  background-color: #ffffff;
 
-  align-items: center;
-  width: 263px;
-  min-height: 420px;
-//margin: 0 auto;
-}
 .slick-arrow{
   position: absolute;
   bottom: -40px;
@@ -105,6 +95,9 @@ width: 263px;
   }
 }
 
+
+
+
 .home-reviews__list{
   //стрелки
 
@@ -150,11 +143,7 @@ width: 263px;
   }
   }
 }
-@media(min-width:1020px){
-  .home-courses__list{
-    width: 263px;
-  }
-}
+
 
 .home-timetable__more-btn{
   .slick-arrow{

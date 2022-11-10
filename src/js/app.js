@@ -17,9 +17,20 @@ import slikCarousel from 'slick-carousel';
         mobileFirst:true,
         responsive: [
             {
-           // breakpoint: 1019,
-          //  settings: "unslick"
+            breakpoint: 1019,
+           settings: {
+            slidesPerRow:2
+           }
  
+        },
+        {
+            breakpoint:1299,
+            settings:{
+                slidesPerRow:3,
+                dots:false,
+                prevArrow: false,
+                nextArrow: false
+            }
         }
         ]
 

@@ -91,17 +91,28 @@ display: flex;
 }
 .header__item{
     display: flex;
+    cursor: pointer;
 
     & a{
     text-transform:uppercase;
     font-family: 'Open Sans', sans-serif;
     color: #EDEBF6;
     text-transform: uppercase;
-   padding-left: 20px;
+   margin-left: 20px;
+    }
+    & .site-socials__item{
+        margin-left: 5px;
     }
 
     &--home{
         background-size: cover
+    }
+    &:hover a{
+        font-weight: 400;
+        border-bottom: 2px #FF8641 solid; 
+    }
+    &:hover .site-socials__item{
+        border-bottom: none;
     }
 }
 .header__popup-btn{
