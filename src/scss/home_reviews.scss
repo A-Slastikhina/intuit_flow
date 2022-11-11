@@ -16,6 +16,7 @@ padding-left: 45px;
 }
 }
 
+
 .home-reviews__reviewer-photo{
     margin: 20px auto;
     width: 85%;
@@ -67,6 +68,110 @@ padding-left: 45px;
 
 }
 
-@media(min-width:1020px){
-    
+@media(min-width:1300px){
+    .home-reviews__title{
+        margin-top: 50px;
+        font-size: 40px;
+    }
+
+    .home-reviews__list{
+        width: 1020px;
+        display: flex;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 100px;        
+        & p{
+            padding-left: 0;
+            max-width: 230px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    .home-reviews__item{
+        min-width: 263px;
+        height: 415px;
+       //display: block;
+        margin-left: 10px;
+        margin-right: 10px;
+        border: 1px solid #FFCE79;
+        position: relative;
+
+    }
+
+
+    .home-reviews__reviewer-photo{
+        position: absolute;
+    top: -94px;
+    left: 46px;
+    border: 1px solid #FFCE79;
+    border-radius: 50%;
+    width: 65%;
+    }
+ .home-reviews__reviewer-name{
+    text-align: center;
+    margin-top: 120px;
+
+ }
+ .home-reviews__course-name{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 10px;
+
+    &::before{
+        display: none;
+        content: "";
+    }
+ }
+
+ .home-reviews__review-text{
+    text-align: center;
+ }
+
+ .home-reviews__reviewer-socials{
+    display: flex;
+   justify-content: center;
+   margin-bottom: 50px;
+   position: relative;
+   &::after{
+    content: "";
+    background-image: url("../img/home/home_review/desktop/reviews-item-deco.svg");
+    position: absolute;
+    width: 230px;
+    height: 25px;
+    top: 29px;
+   }
+    &--IG{
+        width: 25px;
+        height: 25px;
+        display: block;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url("../img/home/home_review/desktop/Insta.svg");
+    }
+    &--VK{
+        width: 25px;
+        height: 25px;
+        display: block;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url("../img/home/home_review/desktop/vk.png");
+
+     }
+     &--TG{
+        width: 25px;
+        height: 25px;
+        display: block;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url("../img/home/home_review/desktop/telegram.svg");
+        margin-right: 5px;
+        margin-left: 5px;
+     }
+ }
+ 
+
 }
+
+

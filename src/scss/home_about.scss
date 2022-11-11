@@ -27,6 +27,16 @@
 }
 
 @media(min-width:1020px){
+    .home-about{
+        border: none;
+    }
+
+    .home-about__title{
+        font-size: 40px;
+    }
+    .home-about__subtitle{
+        font-size: 30px;
+    }
     .desktop-hidden{
         display: none;
     }

@@ -19,17 +19,18 @@ import slikCarousel from 'slick-carousel';
             {
             breakpoint: 1019,
            settings: {
-            slidesPerRow:2
+            slidesToShow:2
            }
  
         },
         {
             breakpoint:1299,
             settings:{
-                slidesPerRow:3,
+                slidesToShow:3,
                 dots:false,
                 prevArrow: false,
-                nextArrow: false
+                nextArrow: false,
+                //variableWidth: true
             }
         }
         ]
@@ -40,12 +41,16 @@ import slikCarousel from 'slick-carousel';
 
    $('.home-reviews__list').slick({
         mobileFirst:true,
-        responsive:[{
-            breakpoint:1019,
-            settings:{
-                slidesPerRow:4,
-            }
-        }]
+        slidesToShow:1,
+        arrows:true,
+        //infinite:false,
+        responsive: [
+  
+        {
+            breakpoint:1299,
+            settings:"unslick"
+        }
+        ]
    });
    $(".home-timetable__classes-list").slick({
         rows:3,
