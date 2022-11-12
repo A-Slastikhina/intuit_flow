@@ -101,7 +101,9 @@
 
 
 .home-reviews__list{
-
+  .slick-slide{
+    width: 263px;
+  }
 
   //стрелки
 
@@ -148,9 +150,7 @@
   }
 }
 
-@media(min-width:1020px){
 
-}
 
 
 
@@ -192,6 +192,8 @@
 }
 }
 }
+
+
 
 .intro__courses-slider-btns{
   display: none;
@@ -257,5 +259,13 @@
   }
   
 
+}
+
+@media(min-width:1020px){
+  .home-timetable__classes-list{
+    .slick-slide{
+      width: 400px;
+    }
+  }
 }
 

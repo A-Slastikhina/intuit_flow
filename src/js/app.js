@@ -7,6 +7,9 @@ import Swiper, { Navigation, Pagination } from 'swiper';
 const swiper = new Swiper();
 import {popupFunction} from "./modules/popup.js"
 popupFunction();
+
+import {toScrollReview} from "./modules/scroll-reviews.js"
+toScrollReview();
 import $ from 'jquery';
 import slikCarousel from 'slick-carousel';
 
@@ -48,8 +51,10 @@ import slikCarousel from 'slick-carousel';
   
         {
             breakpoint:1299,
-            settings:"unslick"
-            
+            settings:{
+                slidesToShow:3,
+                arrows:true
+            }
         }
         ]
    });

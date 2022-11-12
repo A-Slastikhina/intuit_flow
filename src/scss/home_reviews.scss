@@ -36,7 +36,7 @@ padding-left: 45px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     margin-bottom: 20px;
-    position: relative;
+   // position: relative;
 
     &::before{
         content: url("../img/home/home_review/commas.svg");
@@ -50,7 +50,7 @@ padding-left: 45px;
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
-    //position: relative;
+    position: relative;
     max-height: 160px;
     overflow-y: scroll;
 }
@@ -79,9 +79,9 @@ padding-left: 45px;
         display: flex;
     
     height: auto;
-    margin-top: 154px;
-    width: 100%;
-    justify-content: space-between;       
+    margin-top: 54px;
+    justify-content: space-between;  
+         
         & p{
             padding-left: 0;
             max-width: 230px;
@@ -90,28 +90,23 @@ padding-left: 45px;
         }
     }
     .home-reviews__item{
-        min-width: 263px;
-        position: relative;
-
-        height: 415px;
-       display: block;
-        margin-left: 10px;
-        margin-right: 10px;
-        border: 1px solid #FFCE79;
-
+        max-width: 263px;
+        min-height: 527px;
+        max-height: 527px;
+        border-radius: 25px;
     }
-
     .home-reviews__reviewer-photo{
-        position: absolute;
+       // position: absolute;
     top: -104px;
     left: 46px;
     border: 1px solid #FFCE79;
     border-radius: 50%;
-    width: 65%;
+    width: 200px;
+    background-color: white;
     }
  .home-reviews__reviewer-name{
     text-align: center;
-    margin-top: 120px;
+   // margin-top: 120px;
 
  }
  .home-reviews__course-name{
@@ -129,6 +124,13 @@ padding-left: 45px;
 
  .home-reviews__review-text{
     text-align: center;
+    overflow: auto;
+    //scrollbar-width: 0;
+    
+   &::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    } 
  }
 
  .home-reviews__reviewer-socials{
@@ -172,8 +174,44 @@ padding-left: 45px;
         margin-left: 5px;
      }
  }
- 
 
+ .home-reviews__item{
+    // box-shadow: inset 0 -7px 20px -10px rgba(0, 0, 0, .5);
+    &::after{
+        content: url("../img/home/home_review/desktop/review-arrow.svg");
+        background-color: hsla(0deg,0%,100%,.7);
+        position: relative;
+        bottom: 27px;
+        width: 263px;
+        display: flex;
+        justify-content: center;
+       
+    }
+    &:hover{
+        background-image: linear-gradient(#7070C9, #9797D3);
+        &::after{
+            content: "";
+
+        }
+    }
+    &:hover .home-reviews__review-text{
+        color: white;
+        max-height: 300px;
+        overflow-y:visible;
+        animation: marquee 5s linear infinite;
+
+    }
+
+    &:hover .home-reviews__reviewer-socials {
+        display: none;
+    }
+    &:hover  .home-reviews__course-name {
+        display: none;
+    }
+    &:hover .home-reviews__reviewer-name{
+        display: none;
+    }
+ }
 }
 
 
