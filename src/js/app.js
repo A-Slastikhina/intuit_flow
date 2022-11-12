@@ -49,6 +49,7 @@ import slikCarousel from 'slick-carousel';
         {
             breakpoint:1299,
             settings:"unslick"
+            
         }
         ]
    });
