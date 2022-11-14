@@ -29,3 +29,91 @@
     padding-bottom: 20px;
     display: flex;
 }
+
+.mobile-hidden{
+    display: none;
+}
+
+@media(min-width:1020px){
+    .footer{
+        border-top: 2px solid white;
+    }
+    .mobile-hidden{
+        display: contents;
+    }
+    .footer__wrapper{
+        width: auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer__copyright{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        color: #000000;
+        font-weight: 400;
+    }
+    .footer__content{
+        display: flex;
+        align-items: center;
+    }
+    .footer__socials{
+        min-width: 345px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 10px;
+    }
+    .footer__socials-text{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        color: #000000;
+        font-weight: 400;
+    }
+
+    .footer__socials-link{
+        width: 30px;
+        height: 30px;
+        background-position: center;
+        background-size: cover;
+       display: block;
+        &--ig{      
+        background-image: url("../img/footer/desktop/Insta.svg");        
+        }
+
+        &--tg{
+            background-image: url("../img/footer/desktop/Tg.svg");
+        }
+        &--youtube{
+            background-image: url("../img/footer/desktop/youtube.svg");
+        }
+        &--fb{
+            background-image: url("../img/footer/desktop/Fb.svg");
+        }
+        &--vk{
+            background-image: url("../img/footer/desktop/VK.svg");
+        }
+
+    }
+        .footer__socials-link--ig:hover{          
+        background-image: url("../img/footer/desktop/Inst-hover.svg");
+        }
+        .footer__socials-link--tg:hover{
+            background-image: url("../img/footer/desktop/telegram-hover.png");
+        }
+        .footer__socials-link--youtube:hover{
+            background-image: url("../img/footer/desktop/youtube-hover.png");
+        }
+        .footer__socials-link--fb:hover{
+            background-image: url("../img/footer/desktop/facebook-hover.png");
+        }
+        .footer__socials-link--vk:hover{
+            background-image: url("../img/footer/desktop/vk-hover.png");
+        }
+
+        .footer__link:first-of-type{
+                padding-left: 7px;
+             border-left: 1px solid black;
+            }
+        
+}
