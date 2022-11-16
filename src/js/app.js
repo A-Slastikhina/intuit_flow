@@ -50,7 +50,7 @@ import slikCarousel from 'slick-carousel';
         responsive: [
   
         {
-            breakpoint:1299,
+            breakpoint:1019,
             settings:{
                 slidesToShow:3,
                 arrows:true
@@ -72,8 +72,8 @@ import slikCarousel from 'slick-carousel';
         dots:true,
         appendArrows: $(".intro__courses-slider-btns"),
         appendDots: $(".intro__courses-slider-btns"),
-       // autoplay:true,
-       // autoplaySpeed:5000
+       autoplay:true,
+       autoplaySpeed:5000
    });
 
 

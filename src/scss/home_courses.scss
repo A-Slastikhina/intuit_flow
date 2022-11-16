@@ -93,8 +93,8 @@ z-index: 3;
         background-size: contain;
         background-repeat: repeat-x;
         background-image: url("../img/home/home_courses/courses_bckg.svg"),
-        linear-gradient(rgba(210,220,250,.75), #ffffff)
-        ;
+        linear-gradient(rgba(210,220,250,.75), #ffffff);
+        padding-bottom: 52px;
 
     }
     .home-courses__wrapper{
@@ -110,76 +110,17 @@ z-index: 3;
     }
    
     .home-courses__paragraph{
-        max-width: 365px;
+        max-width: 280px;
     }
 
 
-    .home-courses__menu{
-        padding-left: 4%;
-        padding-right: 4%;
-        display:flex ;
-        background-color: hsla(0, 0%, 100%, 0.5);
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 1px;
-        width: 100%;
     
-    }
     .home-courses__wrapper{
         padding-left: 8.08%;
         padding-right: 8.08%;
     }
-    .home-courses__menu-addition{
-        display: block;
-        position: relative;
+   
 
-    }
-    .home-courses__menu-list{
-        justify-content: space-between;
-        display: flex;
-        align-items: center;
-    }
-    .home-courses__menu-item{
-        display: flex;
-
-        & a{
-            text-transform:uppercase;
-            font-family: 'Open Sans', sans-serif;
-            color: #464548;
-            font-weight: 100;
-            text-transform: uppercase;
-           margin-left: 20px;
-        }
-        &--home{
-            background-image: url("../img/header/Home.png");
-            background-repeat: no-repeat;
-            background-position: center;
-            width: 30px;
-            height: 30px;
-        }
-        &:hover a{
-            font-weight: 400;
-            border-bottom: 2px #FF8641 solid;
-        }
-    }
-    .home-courses-socials__item{
-        text-decoration: none;
-        display: inline-block;
-         width: 27px;
-         height: 27px;
-         background-position: center;
-         background-repeat: no-repeat;
-         margin-left: 5px;
-         margin-right: 5px;
-         cursor: pointer;
-         
-        &--WA{
-            background-image: url("../img/home/home_courses/desktop/WA.svg");
-        }
-        &--IG{
-            background-image: url("../img/home/home_courses/desktop/insta.svg");
-        }
-    }
 
     .home-courses__more-btn{
         display: block;
