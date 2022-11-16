@@ -5,6 +5,7 @@
    background-position-y:top ;
 }
 
+
 .home-about__subtitle{
     color: #232323;
 }
@@ -120,6 +121,7 @@
     justify-items: start;
     width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
+    overflow: hidden;
 }
 .home-timetable__lector-photo{
     grid-column-start: 1;

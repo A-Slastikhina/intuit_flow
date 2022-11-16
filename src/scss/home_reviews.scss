@@ -77,10 +77,12 @@ padding-left: 45px;
 
 @media(min-width:1300px){
     .home-reviews__title{
-        margin-top: 50px;
+       // margin-top: 50px;
         font-size: 40px;
     }
-
+    .home-reviews__wrapper{
+        padding-top: 60px;
+    }
     .home-reviews__list{
         width: 1020px;
         display: flex;

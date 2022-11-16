@@ -24,11 +24,15 @@ const scrollHeader = function(){
     }
    // header.style.transition = '0.3s'
     if(pageYOffset < 50){
+        for (let headerItemLink of headerItemLinks){
+            headerItemLink.style.color = '#edebf6';
+        }
+        
         header.style.backgroundColor='transparent'
         header.style.position = 'absolute';
         headerIconWA.style.backgroundImage='url("../img/header/WA.png")'
         headerIconIG.style.backgroundImage='url("../img/header/Insta.png")'
-        
+
     }
 };
 
