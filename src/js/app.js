@@ -5,11 +5,11 @@ flsFunctions.isWebp();
 import Swiper, { Navigation, Pagination } from 'swiper';
 
 const swiper = new Swiper();
-import {popupFunction} from "./modules/popup.js"
+import {popupFunction} from "./modules/popup.js";
 popupFunction();
 
-import {toScrollReview} from "./modules/scroll-reviews.js"
-toScrollReview();
+import {scrollHeader} from "./modules/scroll-header.js";
+scrollHeader();
 import $ from 'jquery';
 import slikCarousel from 'slick-carousel';
 
@@ -72,8 +72,8 @@ import slikCarousel from 'slick-carousel';
         dots:true,
         appendArrows: $(".intro__courses-slider-btns"),
         appendDots: $(".intro__courses-slider-btns"),
-        autoplay:true,
-        autoplaySpeed:5000
+       // autoplay:true,
+       // autoplaySpeed:5000
    });
 
 
