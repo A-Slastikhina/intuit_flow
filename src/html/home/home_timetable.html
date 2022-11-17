@@ -9,7 +9,24 @@
             online классов
         </p>
         <p class="home-timetable__text">В настоящий момент практики проходят на основе donation оплаты</p>
-        
+        <div class="home-timetable__popup home-timetable__popup--hidden">
+            <form class="home-timetable__form" action="url" method="post">
+               <label class="home-timetable__form-name" for="">
+                <span class="label-text">Ваше имя</span>
+                <input type="text" name="name" required>
+               </label>
+               <label class="home-timetable__form-email" for="">
+                <span class="label-text">Email</span>
+                <input type="email" name="email" required>
+               </label>
+               <label class="home-timetable__form-mobile" for="">
+                <span class="label-text">Номер телефона</span>
+                <input type="tel" name="mobile" required>
+               </label>
+               <button class="home-timetable__form-submit">Записаться</button>
+            </form>
+        </div>
+
         <div class="home-timetable__classes-list">
             <div  class="home-timetable__classes-wrap">
                 <div class="home-timetable__classes">
