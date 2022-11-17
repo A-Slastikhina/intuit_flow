@@ -31,6 +31,17 @@
    }
 }
 
+.home-timetable__form--close{
+   cursor: pointer;
+    color:#ffcb73;
+    //border: 1px solid #ffcb73;
+    border: none;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+}
+
+
 .label-text{
     display: block;
     font-family: 'Open Sans', sans-serif;

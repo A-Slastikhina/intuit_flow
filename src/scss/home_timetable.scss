@@ -118,6 +118,7 @@
 
 .home-timetable__wrapper{
     padding-top: 90px;
+    padding-bottom: 20px;
     display: grid;
     justify-items: start;
     width: 100%;
@@ -177,13 +178,15 @@
     height: 270px;
     position: absolute;
     left: 28px;
-    margin-top: 50px;
+    //margin-top: 50px;
     }
 }
 .home-timetable__more-btn{
     grid-column-start: 3;
     display: flex;
     margin-left: 100px;
+    grid-row-start: 1;
+    margin-top: 320px;
 }
 
 

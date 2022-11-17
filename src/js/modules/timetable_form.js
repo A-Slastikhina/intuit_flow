@@ -2,7 +2,7 @@ const openTimetableForm = function(){
     const popupForm = document.querySelector('.home-timetable__popup');
     const enrollBtns = document.querySelectorAll('.home-timetable__classes-enroll-btn');
     const submitBtn = document.querySelector('.home-timetable__form-submit');
-
+    const closeBtn = document.querySelector('.home-timetable__form--close');
     for (let enrollBtn of enrollBtns){
         enrollBtn.addEventListener('click', function(){
             popupForm.classList.remove('home-timetable__popup--hidden')
@@ -21,6 +21,10 @@ const openTimetableForm = function(){
             popupForm.classList.add('home-timetable__popup--hidden')
         }
     });
+    closeBtn.addEventListener('click', function(){
+        popupForm.classList.add('home-timetable__popup--hidden')
+    })
+
 }
 
 export {openTimetableForm as openTimetableForm};

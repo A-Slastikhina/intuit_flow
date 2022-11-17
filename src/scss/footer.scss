@@ -21,13 +21,14 @@
 }
 
 .footer__wrapper{
-  width: 200px;
+  width: 300px;
     margin: 0 auto;
     padding-left: 0;
     padding-right: 0;
     padding-top: 20px;
     padding-bottom: 20px;
     display: flex;
+    justify-content: center;
 }
 
 .mobile-hidden{
