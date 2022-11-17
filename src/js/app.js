@@ -5,11 +5,10 @@ flsFunctions.isWebp();
 import Swiper, { Navigation, Pagination } from 'swiper';
 
 const swiper = new Swiper();
-import {popupFunction} from "./modules/popup.js";
-popupFunction();
 
-import {scrollHeader} from "./modules/scroll-header.js";
-scrollHeader();
+
+
+
 import $ from 'jquery';
 import slikCarousel from 'slick-carousel';
 
@@ -80,7 +79,12 @@ import slikCarousel from 'slick-carousel';
 
 import nanogallery2 from './jquery.nanogallery2.min.js';
 
+import {popupFunction} from "./modules/popup.js";
+popupFunction();
 
+import {scrollHeader} from "./modules/scroll-header.js";
+scrollHeader();
 
-
+import { openTimetableForm } from "./modules/timetable_form.js";
+openTimetableForm();
   
