@@ -31,7 +31,7 @@ const scrollHeader = function(){
         header.style.backgroundColor='transparent'
         header.style.position = 'absolute';
         headerIconWA.style.backgroundColor="transparent";
-        headerIconIG.style.backgroundImage='url("/img/header/Insta.png")';
+        headerIconIG.style.backgroundColor="transparent";
 
     }
 };
