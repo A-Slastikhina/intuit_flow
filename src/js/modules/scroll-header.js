@@ -10,8 +10,8 @@ const scrollHeader = function(){
  function siteScroll (){
     header.style.backgroundColor='hsla(0deg,0%,100%,.5)'
     header.style.position = 'sticky';
-    headerIconWA.style.backgroundImage='url("../../img/home/home_courses/desktop/WA.svg")'
-    headerIconIG.style.backgroundImage='url("../../img/home/home_courses/desktop/insta.svg")'
+    headerIconWA.style.backgroundImage='url(../../img/home/home_courses/desktop/WA.svg)'
+    headerIconIG.style.backgroundImage='url(../../img/home/home_courses/desktop/insta.svg)'
     for(let headerItemLink of headerItemLinks){
         headerItemLink.addEventListener('mouseover', function(){
             headerItemLink.style.textShadow='0 0 .65px #333, 0 0 .65px #333';
@@ -30,10 +30,8 @@ const scrollHeader = function(){
         
         header.style.backgroundColor='transparent'
         header.style.position = 'absolute';
-        headerIconWA.style.backgroundColor = 'black';
-        headerIconWA.style.type = 'svg+xml';
-        headerIconWA.style.backgroundImage='url("../../img/header/WA.png")';
-        headerIconIG.style.backgroundImage='url("../../img/header/Insta.png")';
+        headerIconWA.style.backgroundImage='url(../../img/header/WA.png)';
+        headerIconIG.style.backgroundImage='url(../../img/header/Insta.png)';
 
     }
 };
