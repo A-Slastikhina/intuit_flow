@@ -30,8 +30,8 @@ const scrollHeader = function(){
         
         header.style.backgroundColor='transparent'
         header.style.position = 'absolute';
-        headerIconWA.style.backgroundImage="url('../../img/header/WA.png')"
-        headerIconIG.style.backgroundImage='url("../../img/header/Insta.png")'
+        headerIconWA.style.backgroundImage="url('../../img/header/WA.png')";
+        headerIconIG.style.backgroundImage='url("../../img/header/Insta.png")';
 
     }
 };
