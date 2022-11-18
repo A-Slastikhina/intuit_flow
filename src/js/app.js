@@ -45,7 +45,7 @@ import slikCarousel from 'slick-carousel';
         mobileFirst:true,
         slidesToShow:1,
         arrows:true,
-        //infinite:false,
+        appendArrows: $(".home-reviews__slider-btns"),
         responsive: [
   
         {
