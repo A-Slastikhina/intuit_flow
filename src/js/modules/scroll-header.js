@@ -10,7 +10,7 @@ const scrollHeader = function(){
  function siteScroll (){
     header.style.backgroundColor='hsla(0deg,0%,100%,.5)'
     header.style.position = 'sticky';
-    headerIconWA.style.backgroundImage='url(../../img/home/home_courses/desktop/WA.svg)'
+    headerIconWA.style.backgroundImage="url('../../img/home/home_courses/desktop/WA.svg')"
     headerIconIG.style.backgroundImage='url(../../img/home/home_courses/desktop/insta.svg)'
     for(let headerItemLink of headerItemLinks){
         headerItemLink.addEventListener('mouseover', function(){
@@ -31,7 +31,7 @@ const scrollHeader = function(){
         header.style.backgroundColor='transparent'
         header.style.position = 'absolute';
         headerIconWA.style.backgroundImage="url('../img/header/WA.png')";
-        headerIconIG.style.backgroundImage='url("../../img/header/Insta.png")';
+        headerIconIG.style.backgroundImage='url("/img/header/Insta.png")';
 
     }
 };
