@@ -72,6 +72,10 @@ padding-left: 45px;
 }
 
 @media(min-width:1020px){
+    .home-reviews{
+        background-image: linear-gradient(#ffffff 85%, rgba(210,220,250,0.75));
+        padding-bottom: 0;
+    }
     .home-reviews__title{
        // margin-top: 50px;
         font-size: 40px;
@@ -84,7 +88,7 @@ padding-left: 45px;
         padding-top: 60px;
     }
     .home-reviews__list{
-        width: 963px;
+        width: 960px;
         display: flex;
     
     height: auto;
