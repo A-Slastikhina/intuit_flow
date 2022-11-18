@@ -127,8 +127,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #FFCB73;
-  width: 255px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 25px;
@@ -156,7 +154,15 @@
 
 }
 
+@media(min-width:1020px){
+  .home-reviews__slider-btns{
+   
+    background-color: #FFCB73;
+    width: 255px;
 
+    border-radius: 25px;
+  }
+}
 
 .home-timetable__more-btn{
   .slick-arrow{
