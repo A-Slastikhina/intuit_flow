@@ -18,7 +18,9 @@
     color: #232323;
     font-weight: 100;
     width: 72%;
-
+    &::selection{
+        background-color: rgb(166, 172, 173);
+    }
 }
 
 
@@ -199,7 +201,7 @@
 
 @media(min-width:1075px){
     .home-timetable__classes-list{
-        max-width: 400px;
+       // max-width: 400px;
     }
     
     .home-timetable__classes{

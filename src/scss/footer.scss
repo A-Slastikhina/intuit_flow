@@ -54,6 +54,10 @@
         font-size: 15px;
         color: #000000;
         font-weight: 400;
+
+        &::selection{
+            background-color: rgb(166, 172, 173);
+        }
     }
     .footer__content{
         display: flex;

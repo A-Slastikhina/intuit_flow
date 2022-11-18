@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+*::selection{
+    background-color:#FFCE79 ;
+}
+
 ul{
     list-style-type: none
 }

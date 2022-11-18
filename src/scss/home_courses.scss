@@ -19,6 +19,9 @@ z-index: 3;
 
 .home-courses__paragraph{
     margin-top: 20px;
+    &::selection{
+        background-color: rgb(166, 172, 173);
+    }
 }
 
 .home-courses__more-btn{
@@ -136,6 +139,7 @@ z-index: 3;
         padding-bottom: 5px;
         padding-left: 10px;
         padding-right: 30px;
+        width: 199px;
 
         &::after{
             content: url("../img/home/home_courses/desktop/btn-arrow.svg");
