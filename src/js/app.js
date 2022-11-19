@@ -71,7 +71,7 @@ import slikCarousel from 'slick-carousel';
         dots:true,
         appendArrows: $(".intro__courses-slider-btns"),
         appendDots: $(".intro__courses-slider-btns"),
-       autoplay:true,
+      // autoplay:true,
        autoplaySpeed:5000
    });
 

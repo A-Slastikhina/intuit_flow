@@ -1,11 +1,11 @@
 
 .header{
-    position: absolute;
+    position: sticky;
     top: 0;
     background-color: transparent;
     border-bottom: 1px solid rgba(255,255,255, 0.3);
     width: 100%;
-    z-index: 5;
+    z-index: 7;
 }
 
 
@@ -18,7 +18,9 @@
 
 }
 
-
+.header__addition--text{
+    display: none;
+}
 .header__list{
     display: flex;
     align-items: center;
@@ -136,45 +138,21 @@ z-index: 5;
     display: none;
 }
 .header__addition{
-    display: block;
+    display:flex;
+}
 
-    &::before{
-    content: "Авторские тренинги";
-    font-family: 'Open Sans', sans-serif;
-    color: #464548;
-    text-transform: uppercase;
-    position: absolute;
-    left: 19%;
-    top: 27%;
-       
+.header__addition-text{
+ display: block;
+ position: absolute;
+ font-family: 'Open Sans', sans-serif;
+color: #edebf6;
+text-transform: uppercase;  
+left: 18%; 
+}
+}
+
+@media(max-width:1266px){
+    .header__addition-text{
+        display: none;
     }
-    &::after{
-        content:"Михаила Царько";
-        font-family: 'Open Sans', sans-serif;
-        color: #464548;
-        text-transform: uppercase;
-        position: absolute;
-       // word-break: normal;
-       // width: 130px;
-       left: 20%;
-       top: 56%;
-    }
-
-}
-}
-
-@media(max-width:1236px){
-    .header__addition{
-        display: block;
-    
-        &::before{
-        content: " ";
-
-           
-        }
-        &::after{
-            content:" ";
-
-        }
-}
 }

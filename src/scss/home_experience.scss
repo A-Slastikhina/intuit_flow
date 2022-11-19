@@ -38,6 +38,7 @@
     .experience{
         overflow: hidden;
         position: relative;
+       // top: -34px;
 
         &::after{
             content: "";
@@ -54,7 +55,7 @@
     .experience-wrapper{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        padding-top: 38px;
+        padding-top: 0;
 
     }
     .experience__author-name{
