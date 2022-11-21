@@ -18,10 +18,17 @@
     
     .why-yoga__text-part{
         display: flex;
+        justify-content: space-between;
+
     }
     .why-yoga__paragraph{
         margin-top: 20px;
-        max-width: 549px;
+        max-width: 520px;
+        color: #000;
+        font-size: 15px;
+        font-family: "Open Sans",sans-serif;
+        font-weight: 300;
+        line-height: 20.43px;
         &::selection{
             background-color: rgb(166, 172, 173);
         }

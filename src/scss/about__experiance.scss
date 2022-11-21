@@ -21,4 +21,42 @@
            // overflow: hidden;  
         }
     }
+
+    .about__experience-wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 0;
+
+    }
+    .experience__author-name{
+        grid-column-start: 1;
+        font-size: 30px;
+    }
+    .experience__author-position{
+        grid-column-start: 1;
+        font-size: 24px;
+    }
+    .experience__list{
+        grid-column-start: 1;
+        background-image: url("../img/home/experiance/desktop/experiance-deco-line.svg");
+        background-size: auto 504px;
+        background-position-y: 31px;
+        background-position-x: 10px;
+        min-height: 540px;
+
+    }
+
+    .experience__photo{
+       width: 100%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        grid-row-start: 1;
+        grid-column-start: 2;
+        grid-row-end: 4;
+
+        & img{
+            min-height: 600px;
+        }
+    }
 }
