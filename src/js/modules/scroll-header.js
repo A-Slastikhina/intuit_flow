@@ -8,7 +8,7 @@ const scrollHeader = function(){
 const headerAdditionText = document.querySelector('.header__addition-text');
  document.addEventListener('scroll', siteScroll)
  function siteScroll (){
-    header.style.backgroundColor='hsla(0deg,0%,100%,.5)';
+    header.style.backgroundColor='hsla(0deg,0%,100%,.9)';
     header.style.transition='1s'
     //header.style.position = 'sticky';
     headerIconWA.style.backgroundColor="#A6ACAD";
@@ -28,12 +28,20 @@ const headerAdditionText = document.querySelector('.header__addition-text');
     if(pageYOffset < 50){
         for (let headerItemLink of headerItemLinks){
             headerItemLink.style.color = '#edebf6';
+            headerItemLink.addEventListener('mouseover', function(){
+                headerItemLink.style.textShadow='none';
+            })
+            headerItemLink.addEventListener('mouseout', function(){
+                headerItemLink.style.textShadow='none';
+            })
+            //headerItemLink.style.textShadow='none';
         }
         headerAdditionText.style.color = '#edebf6';
         header.style.backgroundColor='transparent';
       //  header.style.position = 'absolute';
         headerIconWA.style.backgroundColor="transparent";
         headerIconIG.style.backgroundColor="transparent";
+       
 
     }
 };

@@ -44,7 +44,12 @@
 display: flex;
 
 }
+.header__item-link--home{
+    display: block;
+    width: 30px;
+    height: 30px;
 
+}
 .site-socials__item{
     text-decoration: none;
    display: inline-block;
@@ -58,9 +63,15 @@ display: flex;
     border-radius: 50%;
     &--WA{
     background-image: url("../img/header/WA.png");
+    background-size: cover;
+  
+   
     }
     &--IG{
-        background-image: url("../img/header/Insta.png");
+    background-image: url("../img/header/Insta.png");
+    background-size: cover;
+
+
     }
     &--lang{
         background-image: url("../img/header/Lang.png");
@@ -70,9 +81,7 @@ display: flex;
         height: 27px;
     }
 }
-.site-socials__item--WA_scroll{
-    background-image: url("../img/home/home_courses/desktop/WA.svg");
-}
+
 .header__popup-btn{
    background-color: transparent; 
    width: 30px;
@@ -133,6 +142,11 @@ z-index: 5;
     &:hover .site-socials__item{
         border-bottom: none;
     }
+    &:hover .header__item-link--home{
+        border-bottom: none;
+    }
+
+    
 }
 .header__popup-btn{
     display: none;

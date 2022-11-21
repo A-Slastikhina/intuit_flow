@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="ru">
     @@include('html/head.html',{
-        "title": "Про нас"
+        "title": "О Михаиле"
     })
     <body>
       @@include('html/header.html',{}) 
-    <main></main>
+    <main>
+      @@include('html/home/home_intro.html', {})
+      @@include('html/about/about_expiriance.html',{})
+      @@include('html/about/about_why_yoga.html', {})
+    </main>
       @@include('html/footer.html',{})
+      <script src="js/app.min.js"></script>
     </body>
 </html>
