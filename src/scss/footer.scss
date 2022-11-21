@@ -8,15 +8,20 @@
     font-size: 15px;
     color: #000000;
     font-weight: 400;
+    display: block;
 
-    &:first-of-type{
+    &--organizer{
         border-right: 1px solid;
         padding-right: 7px;
 
     }
-    &:last-of-type{
+    &--contacts{
         padding-left: 7px;
 
+    }
+    &:hover a {
+       
+        border-bottom: 1px solid black;
     }
 }
 
@@ -106,8 +111,8 @@
     }
       
 
-        .footer__link:first-of-type{
-                padding-left: 7px;
+        .footer__link--organizer{
+            padding-left: 7px;
              border-left: 1px solid black;
             }
         
