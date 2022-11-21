@@ -45,8 +45,24 @@
     .why-yoga__paragraph--sec-col-sec-row{
         grid-column-start: 2;
         grid-row-start: 2;
+        display: grid;
     }
 
     .why-yoga__paragraph--italic{
         font-style: italic;
     }
+
+    .why-yoga__download-presentation{
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+       
+        & a {
+            color: #515192;
+            text-transform: uppercase;
+            font-size: 15px;
+            font-family: "Open Sans",sans-serif;
+            font-weight: bold;
+        }
+    }
+   
