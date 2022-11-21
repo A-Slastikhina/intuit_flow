@@ -64,13 +64,15 @@ display: flex;
     &--WA{
     background-image: url("../img/header/WA.png");
     background-size: cover;
-  
+    width: 27px;
+    height: 27px;
    
     }
     &--IG{
     background-image: url("../img/header/Insta.png");
     background-size: cover;
-
+    width: 27px;
+    height: 27px;
 
     }
     &--lang{
@@ -79,6 +81,7 @@ display: flex;
         border: none;
         width: 27px;
         height: 27px;
+        background-size: cover;
     }
 }
 

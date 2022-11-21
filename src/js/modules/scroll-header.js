@@ -13,6 +13,8 @@ const headerAdditionText = document.querySelector('.header__addition-text');
     //header.style.position = 'sticky';
     headerIconWA.style.backgroundColor="#A6ACAD";
     headerIconIG.style.backgroundColor="#A6ACAD";
+    headerIconIG.style.border = '0.1px solid white';
+    headerIconWA.style.border = '0.1px solid white';
     headerAdditionText.style.color = '#7a7a7d';
     for(let headerItemLink of headerItemLinks){
         headerItemLink.addEventListener('mouseover', function(){
@@ -41,6 +43,8 @@ const headerAdditionText = document.querySelector('.header__addition-text');
       //  header.style.position = 'absolute';
         headerIconWA.style.backgroundColor="transparent";
         headerIconIG.style.backgroundColor="transparent";
+        headerIconIG.style.border = 'none';
+        headerIconWA.style.border = 'none';
        
 
     }
