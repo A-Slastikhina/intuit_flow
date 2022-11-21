@@ -115,6 +115,7 @@ z-index: 5;
     display: flex;
     justify-content: space-between;
 }
+
 .header__item{
     display: block;
     cursor: pointer;
@@ -129,6 +130,7 @@ z-index: 5;
    margin-left: 20px;
 
     }
+
     & .site-socials__item{
         margin-left: 5px;
     }
@@ -149,6 +151,13 @@ z-index: 5;
     }
 
     
+}
+
+.header__item--home{
+    margin-left: 0;
+    & a{
+        margin-left: 0;  
+    }
 }
 .header__item--socials{
 
