@@ -68,7 +68,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-right: 10px;
+        margin-right: 50px;
     }
     .footer__socials-text{
         font-family: 'Open Sans', sans-serif;
@@ -97,25 +97,14 @@
             background-image: url("../img/footer/desktop/Fb.svg");
         }
         &--vk{
-            background-image: url("../img/footer/desktop/VK.svg");
+            background-image: url("../img/footer/desktop/vk.png");
+            border-radius: 50%;
+            width: 32px;
+            height: 32px;
         }
 
     }
-        .footer__socials-link--ig:hover{          
-        background-image: url("../img/footer/desktop/Inst-hover.svg");
-        }
-        .footer__socials-link--tg:hover{
-            background-image: url("../img/footer/desktop/telegram-hover.png");
-        }
-        .footer__socials-link--youtube:hover{
-            background-image: url("../img/footer/desktop/youtube-hover.png");
-        }
-        .footer__socials-link--fb:hover{
-            background-image: url("../img/footer/desktop/facebook-hover.png");
-        }
-        .footer__socials-link--vk:hover{
-            background-image: url("../img/footer/desktop/vk-hover.png");
-        }
+      
 
         .footer__link:first-of-type{
                 padding-left: 7px;

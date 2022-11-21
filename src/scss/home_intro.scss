@@ -115,9 +115,11 @@ content: url("../img//home/Decor.png");
         color: #ffffff;
         line-height: 22px;
         margin-top: 20px;
-        margin-bottom: 20px;
+       
         width: 327px;
-
+        &--big{
+            text-transform: uppercase;
+        }
     }
 
     .intro__courses-more{
@@ -132,7 +134,8 @@ content: url("../img//home/Decor.png");
         padding-right: 33px;
         padding-top: 5px;
         padding-bottom: 5px;
-
+        margin-top: 20px;
+        display: inline-block;
         &::after{
             content: url("../img/home/intro-desktop/more-btn-arrow.svg");
             position: relative;

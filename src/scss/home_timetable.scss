@@ -3,7 +3,7 @@
     background-image: url("../img/home/home_timetable/timetable_bckg.svg");
     background-size: cover;
    background-position-y:top ;
-   background-color: rgba(210,220,250,0.75);
+   background-color: white;
 }
 
 
@@ -118,7 +118,10 @@
 }
 
 @media(min-width:1020px){
-
+    .home-timetable{
+       
+       background-color: rgba(210,220,250,0.75);
+    }
 .home-timetable__wrapper{
     padding-top: 90px;
     padding-bottom: 20px;
