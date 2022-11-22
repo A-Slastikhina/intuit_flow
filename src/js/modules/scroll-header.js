@@ -11,7 +11,8 @@ const headerLogo = document.querySelector('.header__addition-logo');
  function siteScroll (){
     header.style.backgroundColor='hsla(0deg,0%,100%,.9)';
     //header.style.transition='1s'
-    headerLogo.style.backgroundImage = "url('../img/header/Intuit Flow_logo-scroll.svg')"
+    const imgLogoPath = "url('../img/header/Intuit Flow_logo-scroll.svg')"
+    headerLogo.style.backgroundImage = imgLogoPath;
     headerIconWA.style.backgroundColor="#A6ACAD";
     headerIconIG.style.backgroundColor="#A6ACAD";
     headerIconIG.style.border = '0.1px solid white';
