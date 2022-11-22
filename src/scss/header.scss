@@ -17,7 +17,12 @@
 
 
 }
-
+.header__addition-logo{
+    background-image: url("../img/header/intuit_flow_logo.png");
+    width:119px;
+    height: 29px;
+    background-repeat: no-repeat;
+}
 .header__addition--text{
     display: none;
 }

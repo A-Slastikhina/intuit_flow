@@ -6,11 +6,12 @@ const scrollHeader = function(){
  const headerIconWA = document.querySelector('.site-socials__item--WA');
  const headerIconIG = document.querySelector('.site-socials__item--IG');
 const headerAdditionText = document.querySelector('.header__addition-text');
+const headerLogo = document.querySelector('.header__addition-logo');
  document.addEventListener('scroll', siteScroll)
  function siteScroll (){
     header.style.backgroundColor='hsla(0deg,0%,100%,.9)';
     //header.style.transition='1s'
- 
+    headerLogo.style.backgroundImage = "url('../../img/header/Intuit Flow_logo-scroll.svg')"
     headerIconWA.style.backgroundColor="#A6ACAD";
     headerIconIG.style.backgroundColor="#A6ACAD";
     headerIconIG.style.border = '0.1px solid white';

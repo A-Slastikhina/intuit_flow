@@ -1,0 +1,63 @@
+.about__bright-experiance{
+    background-image: linear-gradient(#fff 60%,rgba(210,220,250,.75));
+   // overflow: hidden;
+   position: relative;
+
+    &::after{
+        content: "";
+        background-image: url("../img/home/experiance/desktop/experience-decor-flower.svg");
+        background-position: right;
+        position: absolute;
+        width: 319px;
+        height: 319px;
+        overflow: hidden;
+        right: 0;
+        transform: rotate(180deg);
+        top: -169px;
+    }
+}
+
+.about__bright-wrapper{
+    display: flex;
+    flex-direction: row;
+    padding-top: 65px;
+    padding-bottom: 50px;
+    padding-left: 8.08%;
+    padding-right: 8.08%;
+   
+}
+
+.about__bright-img{
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    & img {
+        display: block;
+    }
+}
+.about__bright-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.about__bright-text-part{
+   display: flex;
+
+}
+
+.bright__paragraph--third-col{
+    margin-left: 35px;
+}
+
+.bright__paragraph{
+    max-width: 362px;
+    color: #000;
+    font-size: 16px;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 300;
+    line-height: 20.43px;
+    margin-top: 30px;
+    &::selection{
+        background-color: #FFCE79;
+    }
+}

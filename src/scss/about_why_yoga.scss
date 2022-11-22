@@ -1,14 +1,15 @@
 .why-yoga{
-    background-color: #FFC773;
+    //background-color: #FFC773;
     //position: relative;
     //overflow-x: hidden;
-    overflow-y: hidden;
+    overflow: hidden;
     background-image: url("../img/home/home_courses/courses_bckg.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(210,220,250,.75);
     padding-bottom: 45px;
     z-index: 3;
+
     }
     
     .why-yoga-wrapper{
@@ -19,6 +20,7 @@
       grid-column-start: 2;
       grid-row-start: 1;
       margin-bottom: 40px;
+      font-size: 35px;
     }
     
     .why-yoga__text-part{
@@ -27,6 +29,8 @@
         grid-template-rows: 0.5fr 2fr;
        grid-column-gap: 50px;
        //grid-row-gap: 50px;
+       max-width: 1145px;
+       margin: 0 auto;
     }
     .why-yoga__paragraph{
        // margin-top: 20px;
