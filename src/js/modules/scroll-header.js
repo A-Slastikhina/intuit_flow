@@ -11,7 +11,7 @@ const headerLogo = document.querySelector('.header__addition-logo');
  function siteScroll (){
     header.style.backgroundColor='hsla(0deg,0%,100%,.9)';
     //header.style.transition='1s'
-    const imgLogoPath = 'url(//img/home/home_courses/desktop/insta.png)'
+    const imgLogoPath = "url('../intuit_flow/img/home/home_courses/desktop/WA.svg')"
     headerLogo.style.backgroundImage = imgLogoPath;
     headerIconWA.style.backgroundColor="#A6ACAD";
     headerIconIG.style.backgroundColor="#A6ACAD";
