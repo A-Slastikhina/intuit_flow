@@ -31,8 +31,19 @@
     margin-right: 50px;
     display: flex;
     align-items: center;
+    position: relative;
     & img {
         display: block;
+    }
+
+    &::after{
+        content: "";
+        background-image: url("../img/home/home_timetable/desktop/timetable-deco-line.svg");
+        width: 7px;
+        height: 390px;
+        position: absolute;
+        top: 98px;
+        right: -29px;
     }
 }
 .about__bright-inner{

@@ -9,9 +9,9 @@ const headerAdditionText = document.querySelector('.header__addition-text');
 const headerLogo = document.querySelector('.header__addition-logo');
  document.addEventListener('scroll', siteScroll)
  function siteScroll (){
-    header.style.backgroundColor='hsla(0deg,0%,100%,.9)';
+    //header.style.backgroundColor='hsla(0deg,0%,100%,.9)';
     headerLogo.style.backgroundImage = "url('../intuit_flow/img/header/Intuit_Flow_logo-scroll.svg')";
-    //headerLogo.style.backgroundImage = "url('../img/header/Intuit_Flow_logo-scroll.svg')";
+    headerLogo.style.backgroundImage = "url('../img/header/Intuit_Flow_logo-scroll.svg')";
     headerIconWA.style.backgroundColor="#A6ACAD";
     headerIconIG.style.backgroundColor="#A6ACAD";
     headerIconIG.style.border = '0.1px solid white';
@@ -32,7 +32,7 @@ const headerLogo = document.querySelector('.header__addition-logo');
         for (let headerItemLink of headerItemLinks){
             headerItemLink.style.color = 'white';
             headerItemLink.addEventListener('mouseover', function(){
-                headerItemLink.style.textShadow='none';
+                headerItemLink.style.textShadow='0 0 .65px #ffffff, 0 0 .65px #ffffff';
             })
             headerItemLink.addEventListener('mouseout', function(){
                 headerItemLink.style.textShadow='none';

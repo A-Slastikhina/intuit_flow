@@ -47,12 +47,22 @@ import slikCarousel from 'slick-carousel';
         arrows:true,
         appendArrows: $(".home-reviews__slider-btns"),
         responsive: [
+            {
+                breakpoint:799,
+                settings:{
+                    slidesToShow:2,
+                    arrows:true,
+                    slidesToScroll: 2
+
+            }
+            },
   
         {
             breakpoint:1019,
             settings:{
                 slidesToShow:3,
-                arrows:true
+                arrows:true,
+                slidesToScroll: 3
             }
         }
         ]
@@ -62,7 +72,6 @@ import slikCarousel from 'slick-carousel';
         slidesPerRow:1,
         mobileFirst: true,
        appendArrows: $(".home-timetable__more-btn")
-       //slidesToShow: 3
    });
 
  

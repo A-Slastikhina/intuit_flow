@@ -154,7 +154,36 @@
 
 }
 
+@media(min-width:800px){
+  .home-reviews__list{
+    width: 526px;
+    .slick-list{
+      width: 526px;
+    }
+  }
+
+  .home-reviews__item{
+    width: 263px;
+  }
+}
+
 @media(min-width:1020px){
+  .home-reviews__list{
+    width: 960px;
+    display: flex;
+
+    height: auto;
+    margin-top: 54px;
+    justify-content: center;  
+    .slick-list{
+      width: 789px;
+      margin-left: -20px;
+    }
+    .slick-slide>div{
+      padding-left: 20px;
+    }
+  }
+
   .home-reviews__slider-btns{
    
     background-color: #FFCB73;
@@ -274,7 +303,7 @@
 @media(min-width:1020px){
   .home-timetable__classes-list{
     .slick-slide{
-      width: 400px;
+      //width: 400px;
     }
   }
 }
