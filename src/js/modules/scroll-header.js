@@ -9,9 +9,11 @@ const headerAdditionText = document.querySelector('.header__addition-text');
 const headerLogo = document.querySelector('.header__addition-logo');
  document.addEventListener('scroll', siteScroll)
  function siteScroll (){
-    //header.style.backgroundColor='hsla(0deg,0%,100%,.9)';
+    header.style.backgroundColor='hsla(0deg,0%,100%,.9)';
+    //
     headerLogo.style.backgroundImage = "url('../intuit_flow/img/header/Intuit_Flow_logo-scroll.svg')";
-    headerLogo.style.backgroundImage = "url('../img/header/Intuit_Flow_logo-scroll.svg')";
+   // headerLogo.style.backgroundImage = "url('../img/header/Intuit_Flow_logo-scroll.svg')";
+   //
     headerIconWA.style.backgroundColor="#A6ACAD";
     headerIconIG.style.backgroundColor="#A6ACAD";
     headerIconIG.style.border = '0.1px solid white';
@@ -38,9 +40,10 @@ const headerLogo = document.querySelector('.header__addition-logo');
                 headerItemLink.style.textShadow='none';
             })
         }
-       headerLogo.style.backgroundImage = "url('../intuit_flow/img/header/intuit_flow_logo.png')"
-
-        //headerLogo.style.backgroundImage = "url('../img/header/intuit_flow_logo.png')"
+        //
+       headerLogo.style.backgroundImage = "url('../intuit_flow/img/header/intuit_flow_logo.png')";
+        //headerLogo.style.backgroundImage = "url('../img/header/intuit_flow_logo.png')";
+        //
 
         headerAdditionText.style.color = 'white';
         header.style.backgroundColor='transparent';
