@@ -48,7 +48,7 @@ import slikCarousel from 'slick-carousel';
         appendArrows: $(".home-reviews__slider-btns"),
         responsive: [
             {
-                breakpoint:799,
+                breakpoint:699,
                 settings:{
                     slidesToShow:2,
                     arrows:true,
