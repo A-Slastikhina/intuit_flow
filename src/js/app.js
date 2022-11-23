@@ -71,7 +71,7 @@ import slikCarousel from 'slick-carousel';
         rows:3,
         slidesPerRow:1,
         mobileFirst: true,
-       appendArrows: $(".home-timetable__more-btn")
+        appendArrows: $(".home-timetable__more-btn")
    });
 
  
@@ -80,11 +80,15 @@ import slikCarousel from 'slick-carousel';
         dots:true,
         appendArrows: $(".intro__courses-slider-btns"),
         appendDots: $(".intro__courses-slider-btns"),
-      // autoplay:true,
+        autoplay:true,
        autoplaySpeed:5000
    });
 
+ $('.about__photo-slider').slick({
+    appendArrows:$('.about__photo-slider-btns'),
+    arrows:true
 
+ });
 
 import nanogallery2 from './jquery.nanogallery2.min.js';
 

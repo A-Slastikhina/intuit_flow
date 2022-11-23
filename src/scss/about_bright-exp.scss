@@ -1,6 +1,6 @@
 .about__bright-experiance{
     background-image: linear-gradient(#fff 60%,rgba(210,220,250,.75));
-   // overflow: hidden;
+   //overflow: hidden;
    position: relative;
 
     &::after{
@@ -24,6 +24,7 @@
     padding-bottom: 50px;
     padding-left: 8.08%;
     padding-right: 8.08%;
+    overflow: hidden;
    
 }
 
@@ -32,6 +33,7 @@
     display: flex;
     align-items: center;
     position: relative;
+ 
     & img {
         display: block;
     }

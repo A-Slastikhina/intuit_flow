@@ -233,7 +233,6 @@
 }
 
 
-
 .intro__courses-slider-btns{
   display: none;
   @media(min-width: 1020px){
@@ -308,3 +307,39 @@
   }
 }
 
+.about__photo-slider-btns{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  .about__photo-slider-btn{
+    order: 2;
+    color: #464548;
+    font-size: 15px;
+    font-family: "Open Sans",sans-serif;
+    text-transform: uppercase;
+    border-bottom: 1px solid #000;
+  }
+  .slick-arrow{
+    border: none;
+    background-color: transparent;
+    font-size: 0;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+  }
+  .slick-prev{
+    order: 1;
+    &::after{
+      content: url("../img/home/home_review/review_arrow_prev.svg");
+
+    }
+  }
+  .slick-next{
+    order: 3;
+    &::after{
+      content: url("../img/home/home_review/review_arrow_next.svg");
+    }
+  }
+}
