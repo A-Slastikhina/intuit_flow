@@ -1,0 +1,39 @@
+
+.bioenergy-content{
+    background-image: linear-gradient(#fff 60%,rgba(210,220,250,.75));
+   //overflow: hidden;
+   
+
+
+}
+
+.bioenergy__content-wrapper{
+    display: flex;
+    flex-direction: row;
+   // padding-top: 65px;
+    padding-bottom: 50px;
+    padding-left: 8.08%;
+    padding-right: 8.08%;
+    overflow: hidden;
+}
+
+.bioenergy__content-img{
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+ 
+    & img {
+        display: block;
+    }
+
+    &::after{
+        content: "";
+        background-image: url("../img/home/home_timetable/desktop/timetable-deco-line.svg");
+        width: 7px;
+        height: 390px;
+        position: absolute;
+        top: 98px;
+        right: -29px;
+    }
+}

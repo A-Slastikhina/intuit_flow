@@ -1,0 +1,87 @@
+
+.bioenergy-programm{
+    overflow: hidden;
+    position: relative;
+    &::before{
+        content: "";
+        background-image: url("../img/about/about-deco.png");
+        position: absolute;
+        width: 100%;
+        height: 20px;
+        background-repeat: repeat-x;
+        left: 5px;
+        background-size: cover;
+    }
+}
+
+.bioenergy-programm__wrapper{
+    padding-top: 67px;   
+    
+}
+
+.bioenergy-programm__description-inner{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+
+}
+
+.bioenergy-programm__description-part{
+max-width: 676px;
+}
+
+.bioenergy-programm__title{
+    margin-bottom: 20px;
+}
+.bioenergy-programm__description-text{
+    font-family: "Open Sans",sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    color: black;
+    font-weight: 300;
+}
+
+.bioenergy-programm__next{
+ background-image: url("../img/bioenergy/bioenergy_programm/bioenergy_button_next.svg");
+width: 324px;
+height: 80px;
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+}
+
+.bioenergy-programm__request-text{
+    font-family: "Open Sans",sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    color: #464548;
+    font-weight: 300;
+    max-width: 280px;
+    padding-top: 54px;
+    text-align: center;
+}
+
+.bioenergy-programm__request{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+.bioenergy-programm__request-btn{
+    color: black;
+    font-size: 15px;
+    font-family: "Open Sans",sans-serif;
+    text-transform: uppercase;
+    border: none;
+    background-color: #ffcb73;
+    border-radius: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 17px;
+    padding-right: 17px;
+    margin-top: 10px;
+}
+

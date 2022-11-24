@@ -1,5 +1,6 @@
-.about__intro{
-    background-image:url("../img/home/intro.svg") ;  
+
+.bioenergy__intro{
+    background-image:url("../img/home/intro-desktop/bio-energy.svg") ;  
     min-height: 360px;
     background-repeat: no-repeat;
     background-position: center;
@@ -36,7 +37,7 @@
         display: none;
     }
     @media(min-width:1020px){
-        .about__intro{
+        .bioenergy__intro{
           position: relative;
             height: 400px;
             background-image: none;
@@ -62,7 +63,7 @@
                 display: none;
             }
         }
-        .about__intro-wrapper{
+        .bioenergy__intro-wrapper{
             padding: 0;
         
         }
@@ -72,7 +73,7 @@
         
     
     
-        .about__intro-item{
+        .bioenergy__intro-item{
             display: block;
           padding-top: 147px;
             padding-bottom: 10px;
@@ -81,7 +82,7 @@
             height: 400px;
             box-sizing: border-box;
             background-color: #6B6BC5;
-            background-image: url("../img/intro_bckg.svg");
+            background-image: url("../img/home/intro-desktop/bio-energy.svg");
             background-position: center;
             
         }
