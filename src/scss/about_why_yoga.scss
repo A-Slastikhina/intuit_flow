@@ -3,9 +3,9 @@
     //position: relative;
     //overflow-x: hidden;
     overflow: hidden;
-    background-image: url("../img/home/home_courses/courses_bckg.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image:  url("../img/home/home_courses/courses_bckg.svg"),linear-gradient(rgba(210,220,250,.75) 60%, #fff);
+    background-repeat: repeat-x;
+    background-size: contain;
     background-color: rgba(210,220,250,.75);
     padding-bottom: 45px;
     z-index: 3;
