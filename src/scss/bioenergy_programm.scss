@@ -83,5 +83,266 @@ background-position: center;
     padding-left: 17px;
     padding-right: 17px;
     margin-top: 10px;
+    cursor: pointer;
+}
+.bioenergy-introductory__title{
+    margin-bottom: 30px;
+}
+.bioenergy-programm__introductory-content{
+    border: 1px solid #ffcb73;
+    max-width: 1014px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    margin-left: auto;
+    margin-bottom: 30px;
+    &--main{
+        flex-direction: column;
+        justify-content: end;
+        align-items: normal;
+    }
 }
 
+.bioenergy-programm__introductory-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap:35px;
+    margin-top: 50px;
+    margin-left: 160px;
+    margin-bottom: 30px;
+    max-width: 814px;
+    //position: relative;
+ 
+    &--intro::before{
+        content: "";
+        background-image: url("../img/bioenergy/bioenergy_programm/vvodnoe-img.svg");
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        left: -99px;
+        top: 15%;
+    }
+    &--firstline{
+        margin-bottom: 0;
+    }
+    &--firstline::before{
+        content: "";
+        background-image: url("../img/bioenergy/bioenergy_programm/chakri-img.svg");
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        left: -99px;
+        
+    }
+    &--secondline{
+        margin-bottom: 0;
+    }
+    &--secondline::before{
+        content: "";
+        background-image: url("../img/bioenergy/bioenergy_programm/zarad_vodi-img.svg");
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        left: -99px;
+        
+    }
+  
+    &--thirdline::before{
+        content: "";
+        background-image: url("../img/bioenergy/bioenergy_programm/elements-img.svg");
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        left: -99px;
+        
+    }
+ 
+    &--sensoric::before{
+        content: "";
+        background-image: url("../img/bioenergy/bioenergy_programm/sensoric-img.svg");
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        left: -99px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+.bioenergy-programm__introductory-item{
+    max-width: 262px;
+}
+.bioenergy-programm__introductory-item-title{
+    font-size: 15px;
+    font-family: "Open Sans",sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #6B6BC5;
+    line-height: 22px;
+    position: relative;
+    margin-bottom: 30px;
+
+    &--1::before{
+        content: "1.";
+        font-size: 15px;
+        font-family: "Open Sans",sans-serif;
+        text-transform: uppercase;
+        font-weight: 500;
+        color: #6B6BC5;
+        line-height: 22px;
+        position: absolute;
+        left: -16px;
+    }
+    &--2::before{
+        content: "2.";
+        font-size: 15px;
+        font-family: "Open Sans",sans-serif;
+        text-transform: uppercase;
+        font-weight: 500;
+        color: #6B6BC5;
+        line-height: 22px;
+        position: absolute;
+        left: -16px;
+    }
+    &--3::before{
+        content: "3.";
+        font-size: 15px;
+        font-family: "Open Sans",sans-serif;
+        text-transform: uppercase;
+        font-weight: 500;
+        color: #6B6BC5;
+        line-height: 22px;
+        position: absolute;
+        left: -16px;
+    }
+    &--4::before{
+        content: "4.";
+        font-size: 15px;
+        font-family: "Open Sans",sans-serif;
+        text-transform: uppercase;
+        font-weight: 500;
+        color: #6B6BC5;
+        line-height: 22px;
+        position: absolute;
+        left: -16px;
+    }
+    &--5::before{
+        content: "5.";
+        font-size: 15px;
+        font-family: "Open Sans",sans-serif;
+        text-transform: uppercase;
+        font-weight: 500;
+        color: #6B6BC5;
+        line-height: 22px;
+        position: absolute;
+        left: -16px;
+    }
+    &--6::before{
+        content: "6.";
+        font-size: 15px;
+        font-family: "Open Sans",sans-serif;
+        text-transform: uppercase;
+        font-weight: 500;
+        color: #6B6BC5;
+        line-height: 22px;
+        position: absolute;
+        left: -16px;
+    }
+    &--7::before{
+        content: "7.";
+        font-size: 15px;
+        font-family: "Open Sans",sans-serif;
+        text-transform: uppercase;
+        font-weight: 500;
+        color: #6B6BC5;
+        line-height: 22px;
+        position: absolute;
+        left: -16px;
+    }
+    &--8::before{
+        content: "8.";
+        font-size: 15px;
+        font-family: "Open Sans",sans-serif;
+        text-transform: uppercase;
+        font-weight: 500;
+        color: #6B6BC5;
+        line-height: 22px;
+        position: absolute;
+        left: -16px;
+    }
+    &--9::before{
+        content: "9.";
+        font-size: 15px;
+        font-family: "Open Sans",sans-serif;
+        text-transform: uppercase;
+        font-weight: 500;
+        color: #6B6BC5;
+        line-height: 22px;
+        position: absolute;
+        left: -16px;
+    }
+}
+
+.bioenergy-programm__introductory-item-text{
+    color: black;
+    font-size: 15px;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 100s;
+    line-height: 22px;
+}
+
+.bioenergy-programm__introductory-purchase{
+    max-width: 1014px;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.bioenergy-programm__introductory-purchase-text{
+    font-size: 15px;
+    font-family: "Open Sans",sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: black;
+    line-height: 22px;
+    &--blue{
+    color: #6B6BC5;
+    }
+}
+.bioenergy-programm__purchase-btn{
+    color: black;
+    font-size: 15px;
+    font-family: "Open Sans",sans-serif;
+    text-transform: uppercase;
+    border: none;
+    background-color: #ffcb73;
+    border-radius: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 17px;
+    padding-right: 17px;
+    cursor: pointer;
+}
+
+.bioenergy-programm__border-deco{
+    border-bottom: 1px solid #A6ACAD;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.bioenergy-programm__introductory-addition{
+    max-width: 1014px;
+    margin-left: auto;
+}
+.bioenergy-programm__introductory-homework{
+   color: #464548;
+   font-size: 15px;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 100;
+
+    &--black{
+        font-weight: 600;
+    }
+}
