@@ -1,0 +1,25 @@
+
+.bioenergy-photo{
+    background-image: linear-gradient(#fff 50%,rgba(210,220,250, 0.75));
+    overflow: hidden;
+    position: relative;
+
+    &::before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 20px;
+        background-repeat: repeat-x;
+        left: 5px;
+        background-size: cover;
+        background-image: url("../img/about/about-deco.png");
+        bottom: 0;
+    }
+}
+
+.bioenergy-photo__wrapper{
+    padding-bottom: 55px;
+    padding-top: 25px;
+    padding-left: 8.08%;
+    padding-right: 8.08%;
+}
