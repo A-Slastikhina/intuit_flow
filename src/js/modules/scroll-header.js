@@ -11,8 +11,8 @@ const headerLogo = document.querySelector('.header__addition-logo');
  function siteScroll (){
     header.style.backgroundColor='hsla(0deg,0%,100%,.9)';
     //
-    headerLogo.style.backgroundImage = "url('../intuit_flow/img/header/Intuit_Flow_logo-scroll.svg')";
-   // headerLogo.style.backgroundImage = "url('../img/header/Intuit_Flow_logo-scroll.svg')";
+   headerLogo.style.backgroundImage = "url('../intuit_flow/img/header/Intuit_Flow_logo-scroll.svg')";
+  // headerLogo.style.backgroundImage = "url('../img/header/Intuit_Flow_logo-scroll.svg')";
    //
     headerIconWA.style.backgroundColor="#A6ACAD";
     headerIconIG.style.backgroundColor="#A6ACAD";

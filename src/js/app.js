@@ -90,7 +90,7 @@ import slikCarousel from 'slick-carousel';
 
  });
 
-import nanogallery2 from './jquery.nanogallery2.min.js';
+import nanogallery2 from 'nanogallery2';
 
 import {popupFunction} from "./modules/popup.js";
 popupFunction();
