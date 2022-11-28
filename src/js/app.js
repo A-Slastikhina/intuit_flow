@@ -92,6 +92,7 @@ import slikCarousel from 'slick-carousel';
 
 import nanogallery2 from './jquery.nanogallery2.min.js';
 
+
 import {popupFunction} from "./modules/popup.js";
 popupFunction();
 
