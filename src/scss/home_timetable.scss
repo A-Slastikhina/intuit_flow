@@ -155,7 +155,7 @@
 .home-timetable__classes-list{
     grid-column-start: 3;
     grid-row-start: 1;
-   width: 400px;
+  // width: 400px;
 
   
 }
@@ -200,6 +200,7 @@
 .home-timetable__classes{
     min-height: 70px;
     height: 70px;
+    margin: 0 0;
 }
 }
 
