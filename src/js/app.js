@@ -124,8 +124,8 @@ jQuery(document).ready(function () {
                 topRight:   ' zoomButton, closeButton'
             } ,  
     icons:{
-            viewerImgPrevious: '<i style="background:rgba(0,0,0,0);font-size:0; background-image:url(../img/home/home_review/review_arrow_prev.svg);background-repeat:no-repeat; background-size:contain;width:60px;height:60px;" class="nGY2Icon-ngy2_chevron-left"></i>',
-            viewerImgNext:'<i style="background:rgba(0,0,0,0);font-size:0; background-image:url(../img/home/home_review/review_arrow_next.svg);background-repeat:no-repeat; background-size:contain;width:60px;height:60px;" class="nGY2Icon-ngy2_chevron-right"></i>',  // icon for next image (toolbar)
+            viewerImgPrevious: '<i style="background:rgba(0,0,0,0);font-size:0; background-image:url(../intuit_flow/img/home/home_review/review_arrow_prev.svg);background-repeat:no-repeat; background-size:contain;width:60px;height:60px;" class="nGY2Icon-ngy2_chevron-left"></i>',
+            viewerImgNext:'<i style="background:rgba(0,0,0,0);font-size:0; background-image:url(../intuit_flow/img/home/home_review/review_arrow_next.svg);background-repeat:no-repeat; background-size:contain;width:60px;height:60px;" class="nGY2Icon-ngy2_chevron-right"></i>',  // icon for next image (toolbar)
             buttonClose: '<i style="text-shadow:none; color:#6B6BC5;" class="nGY2Icon-ngy2_close2"></i>',         // close button icon
             viewerPlay:  '<i style="text-shadow:none; color:#6B6BC5;" class="nGY2Icon-play"></i>',                // icon play - to start the slideshow (toolbar)
             viewerPause: '<i style="text-shadow:none; color:#6B6BC5;" class="nGY2Icon-pause"></i>',               // icon pause - to stop the slideshow (toolbar)
