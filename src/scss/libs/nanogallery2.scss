@@ -1,0 +1,34 @@
+@import "../../../node_modules/nanogallery2/src/css/nanogallery2";
+
+
+
+
+.nGY2Icon-ngy2_chevron_left3{
+  &::before{
+    content: '';
+    font-size: 0;
+    background-image: url("../img/home/home_review/review_arrow_prev.svg");
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    display: block;
+    //position: absolute;
+
+  }
+}
+
+.nGY2Icon-ngy2_chevron_right3{
+  background-color: transparent;
+  &::before{
+    content: '';
+    font-size: 0;
+    background-image: url("../img/home/home_review/review_arrow_next.svg");
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    display: block;
+    background-color: hsla(38, 100%, 73%, 0.7);
+    //position: absolute;
+
+  }
+}
