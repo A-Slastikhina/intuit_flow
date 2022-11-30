@@ -19,7 +19,7 @@
 .course-enrollment__img-part{
     max-width: 390px;
     img{
-
+      
         bottom: 91px;
         position: relative;
         right: 112px;
@@ -32,7 +32,7 @@
     position: relative;
     &::before{
         content: "";
-        background-image: url(../img/home/home_timetable/desktop/timetable-deco-line.svg);
+        background-image: url("../img/home/home_timetable/desktop/timetable-deco-line.svg");
         width: 7px;
         height: 390px;
         position: absolute;
