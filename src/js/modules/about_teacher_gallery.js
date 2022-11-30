@@ -25,7 +25,7 @@ const aboutGallery1 = function(){
 { src: '../intuit_flow/img/about/about_photo/about_photo4.svg', srct: '../intuit_flow/img/about/about_photo/about_photo4.svg', title: '' },
 { src: '../intuit_flow/img/about/about_photo/about_photo5.svg', srct: '../intuit_flow/img/about/about_photo/about_photo5.svg', title: '' },
 { src: '../intuit_flow/img/about/about_photo/about_photo2.svg', srct: '../intuit_flow/img/about/about_photo/about_photo2.svg', title: '' },
-{ src: '../intuit_flow/img//home/home_about/photo-4.svg', srct: '../intuit_flow/img/home/home_about/photo-4.svg', title: '' }
+{ src: '../intuit_flow/img/home/home_about/photo-4.svg', srct: '../intuit_flow/img/home/home_about/photo-4.svg', title: '' }
 
 //
           ],
