@@ -114,6 +114,7 @@
 & img{
     display: block;
     margin: 0 auto;
+    width: 85%;
 }
 }
 
@@ -155,7 +156,7 @@
 .home-timetable__classes-list{
     grid-column-start: 3;
     grid-row-start: 1;
-  // width: 400px;
+  width: 400px;
 
   
 }

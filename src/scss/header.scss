@@ -161,6 +161,9 @@ z-index: 5;
 
     
 }
+.site-socials__list{
+    display: flex;
+}
 
 .header__item--home{
     margin-left: 0;
@@ -194,11 +197,11 @@ left: 18%;
         display: none;
     }
 }
-@media (min-width: 1020px) and (max-width: 1080px){
+@media (min-width: 967px) and (max-width: 1019px){
     .header__menu{
         margin-bottom: 0;
-        padding-bottom: 0;
-        padding-top: 0;
+        //padding-bottom: 0;
+        //padding-top: 0;
     }
 }
 
