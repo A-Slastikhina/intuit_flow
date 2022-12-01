@@ -184,7 +184,7 @@
         width: 278px;
     height: 270px;
     position: absolute;
-    left: 28px;
+    left: 19px;
     //margin-top: 50px;
     }
 }
@@ -207,11 +207,14 @@
 
 @media(min-width:1075px){
     .home-timetable__classes-list{
-       // max-width: 400px;
+       max-width: 400px;
     }
     
     .home-timetable__classes{
-      //  max-width: 400px;
+      max-width: 400px;
 
+    }
+    .home-timetable__classes-enroll-btn {
+        left: 63%;
     }
 }

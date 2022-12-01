@@ -39,6 +39,9 @@
 .mobile-hidden{
     display: none;
 }
+.footer__content{
+    display:flex ;
+}
 
 @media(min-width:1020px){
     .footer{

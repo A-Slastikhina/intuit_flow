@@ -115,6 +115,7 @@ z-index: 5;
     margin-bottom: 17px;
     padding-bottom: 17px;
     padding-top: 17px;
+
 }
 
 .header__list{
@@ -197,11 +198,13 @@ left: 18%;
         display: none;
     }
 }
-@media (min-width: 967px) and (max-width: 1019px){
+@media (min-width: 1020px) and (max-width: 1072px){
     .header__menu{
-        margin-bottom: 0;
-        //padding-bottom: 0;
-        //padding-top: 0;
+        justify-content: center;
+    }
+    .header__addition-logo{
+        display: none;
+
     }
 }
 
