@@ -18,7 +18,7 @@ const headerPopupBtb = document.querySelector('.header__popup-btn');
    //
 
    //
-   //headerPopupBtb.style.backgroundImage="url('../img/header/header_popup_bth_dark.svg')"
+//    headerPopupBtb.style.backgroundImage="url('../img/header/header_popup_bth_dark.svg')"
    headerPopupBtb.style.backgroundImage="url('../intuit_flow/img/header/header_popup_bth_dark.svg')"
    //
 
@@ -54,8 +54,8 @@ const headerPopupBtb = document.querySelector('.header__popup-btn');
         // headerLogo.style.backgroundImage = "url('../img/header/intuit_flow_logo.png')";
         //
     //
-      //   headerPopupBtb.style.backgroundImage="url('../img/header/header_popup.png')"
          headerPopupBtb.style.backgroundImage="url('../intuit_flow/img/header/header_popup.png')"
+        // headerPopupBtb.style.backgroundImage="url('../img/header/header_popup.png')"
     //
 
         headerAdditionText.style.color = 'white';
