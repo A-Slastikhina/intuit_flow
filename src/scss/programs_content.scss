@@ -1,5 +1,5 @@
 
-.bioenergy-content{
+.programm-section__content{
     background-image: linear-gradient(#fff 60%,rgba(210,220,250,.75));
    //overflow: hidden;
    
@@ -7,7 +7,7 @@
 
 }
 
-.bioenergy__content-wrapper{
+.programm-section__content-wrapper{
     display: flex;
     flex-direction: row;
    // padding-top: 65px;
@@ -17,7 +17,7 @@
     overflow: hidden;
 }
 
-.bioenergy__content-img{
+.programm-section__content-btn{
     margin-right: 50px;
     display: flex;
     align-items: center;
@@ -35,5 +35,32 @@
         position: absolute;
         top: 98px;
         right: -29px;
+    }
+}
+
+.programm-section__specification{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.programm-section__specification-text-block{
+   display: flex;
+
+}
+
+.programm-section__paragraph-third-col{
+    margin-left: 35px;
+}
+
+.programm-section__paragraph{
+    max-width: 362px;
+    color: #000;
+    font-size: 16px;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 300;
+    line-height: 20.43px;
+    margin-top: 30px;
+    &::selection{
+        background-color: #FFCE79;
     }
 }

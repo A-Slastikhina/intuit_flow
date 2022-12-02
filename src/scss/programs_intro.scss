@@ -1,6 +1,6 @@
 
-.bioenergy__intro{
-    background-image:url("../img/home/intro-desktop/bio-energy.svg") ;  
+.programm-section__intro{
+      
     min-height: 360px;
     background-repeat: no-repeat;
     background-position: center;
@@ -10,6 +10,9 @@
     box-shadow: inset 0 101px 28px -20px rgb(106 50 9 / 30%);
     position: relative;
     top: -86px;
+    &--bio{
+        background-image:url("../img/home/intro-desktop/bio-energy.svg") 
+    }
     &::after{
     content: url("../img//home/Decor.png");
       width: 250px;
@@ -21,7 +24,7 @@
     
     }
     }
-    .home-page__intro-text{
+    .programm-section__intro-text{
         font-family: 'Open Sans', sans-serif;
         text-transform: uppercase;
         color: #EDEBF6;
@@ -33,11 +36,11 @@
         margin: 0 auto;
     
     }
-    .about__intro-item{
+    .programm-section__intro-item{
         display: none;
     }
     @media(min-width:1020px){
-        .bioenergy__intro{
+        .programm-section__intro{
           position: relative;
             height: 400px;
             background-image: none;
@@ -63,17 +66,17 @@
                 display: none;
             }
         }
-        .bioenergy__intro-wrapper{
+        .programm-section__wrapper{
             padding: 0;
         
         }
-        .home-page__intro-text{
+        .programm-section__intro-text{
             display: none;
         } 
         
     
     
-        .bioenergy__intro-item{
+        .programm-section__intro-item{
             display: block;
           padding-top: 147px;
             padding-bottom: 10px;
@@ -87,7 +90,7 @@
             
         }
     
-        .intro__courses-name{
+        .programm-section__courses-name{
             font-family: 'Open Sans', sans-serif;
             color: #ffffff;
             font-weight: 100;
@@ -107,7 +110,7 @@
              left: -6px;
             }
         }
-        .intro__courses-info{
+        .programm-section__courses-info{
             font-family: 'Open Sans', sans-serif;
             color: #ffffff;
             line-height: 22px;

@@ -1,5 +1,5 @@
 
-.bioenergy-programm{
+.programm-course{
     overflow: hidden;
     position: relative;
     &::before{
@@ -14,26 +14,32 @@
     }
 }
 
-.bioenergy-programm__wrapper{
+.programm-course__wrapper{
     padding-top: 67px;   
     
 }
 
-.bioenergy-programm__description-inner{
+.programm-course__description{
     display: flex;
     justify-content: space-between;
     margin-bottom: 45px;
 
 }
 
-.bioenergy-programm__description-part{
+.programm-course__description-part{
 max-width: 676px;
 }
 
-.bioenergy-programm__title{
-    margin-bottom: 20px;
+.programm-section__title{
+    &--bio{
+        margin-bottom: 20px;
+    }
+    &--intro{
+        margin-bottom: 30px;
+    }
+    
 }
-.bioenergy-programm__description-text{
+.programm-course__description-text{
     font-family: "Open Sans",sans-serif;
     font-size: 15px;
     line-height: 22px;
@@ -41,7 +47,7 @@ max-width: 676px;
     font-weight: 300;
 }
 
-.bioenergy-programm__next{
+.programm-course__next{
  background-image: url("../img/bioenergy/bioenergy_programm/bioenergy_button_next.svg");
 width: 324px;
 height: 80px;
@@ -50,7 +56,7 @@ background-size: contain;
 background-position: center;
 }
 
-.bioenergy-programm__request-text{
+.programm-course__request-text{
     font-family: "Open Sans",sans-serif;
     font-size: 15px;
     line-height: 22px;
@@ -61,7 +67,7 @@ background-position: center;
     text-align: center;
 }
 
-.bioenergy-programm__request{
+.programm-course__request{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -70,7 +76,7 @@ background-position: center;
 
 
 
-.bioenergy-programm__request-btn{
+.programm-course__request-btn{
     color: black;
     font-size: 15px;
     font-family: "Open Sans",sans-serif;
@@ -85,10 +91,8 @@ background-position: center;
     margin-top: 10px;
     cursor: pointer;
 }
-.bioenergy-introductory__title{
-    margin-bottom: 30px;
-}
-.bioenergy-programm__introductory-content{
+
+.programm-course__intro-content{
     border: 1px solid #ffcb73;
     max-width: 1014px;
     display: flex;
@@ -103,7 +107,7 @@ background-position: center;
     }
 }
 
-.bioenergy-programm__introductory-list{
+.programm-course__list{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap:35px;
@@ -122,10 +126,10 @@ background-position: center;
         left: -99px;
         top: 15%;
     }
-    &--firstline{
+    &--chakri{
         margin-bottom: 0;
     }
-    &--firstline::before{
+    &--chakri::before{
         content: "";
         background-image: url("../img/bioenergy/bioenergy_programm/chakri-img.svg");
         position: absolute;
@@ -134,10 +138,10 @@ background-position: center;
         left: -99px;
         
     }
-    &--secondline{
+    &--water{
         margin-bottom: 0;
     }
-    &--secondline::before{
+    &--water::before{
         content: "";
         background-image: url("../img/bioenergy/bioenergy_programm/zarad_vodi-img.svg");
         position: absolute;
@@ -147,7 +151,7 @@ background-position: center;
         
     }
   
-    &--thirdline::before{
+    &--elements::before{
         content: "";
         background-image: url("../img/bioenergy/bioenergy_programm/elements-img.svg");
         position: absolute;
@@ -170,10 +174,10 @@ background-position: center;
     }
 }
 
-.bioenergy-programm__introductory-item{
+.programm-course__intro-item{
     max-width: 262px;
 }
-.bioenergy-programm__introductory-item-title{
+.programm-course__intro-item-title{
     font-size: 15px;
     font-family: "Open Sans",sans-serif;
     text-transform: uppercase;
@@ -284,7 +288,7 @@ background-position: center;
     }
 }
 
-.bioenergy-programm__introductory-item-text{
+.programm-course__intro-item-text{
     color: black;
     font-size: 15px;
     font-family: "Open Sans",sans-serif;
@@ -292,7 +296,7 @@ background-position: center;
     line-height: 22px;
 }
 
-.bioenergy-programm__introductory-purchase{
+.programm-course__purchase{
     max-width: 1014px;
     margin-left: auto;
     display: flex;
@@ -300,7 +304,7 @@ background-position: center;
     align-items: center;
 
 }
-.bioenergy-programm__introductory-purchase-text{
+.programm-course__purchase-text{
     font-size: 15px;
     font-family: "Open Sans",sans-serif;
     text-transform: uppercase;
@@ -311,7 +315,7 @@ background-position: center;
     color: #6B6BC5;
     }
 }
-.bioenergy-programm__purchase-btn{
+.programm-course__purchase-btn{
     color: black;
     font-size: 15px;
     font-family: "Open Sans",sans-serif;
@@ -326,17 +330,17 @@ background-position: center;
     cursor: pointer;
 }
 
-.bioenergy-programm__border-deco{
+.programm-course__border-deco{
     border-bottom: 1px solid #A6ACAD;
     margin-top: 35px;
     margin-bottom: 35px;
 }
 
-.bioenergy-programm__introductory-addition{
+.programm-course__addition{
     max-width: 1014px;
     margin-left: auto;
 }
-.bioenergy-programm__introductory-homework{
+.programm-course__addition-homework{
    color: #464548;
    font-size: 15px;
     font-family: "Open Sans",sans-serif;
