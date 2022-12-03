@@ -90,6 +90,33 @@ import slikCarousel from 'slick-carousel';
 
  });
 
+ $('.programm-reviews__list').slick({
+    mobileFirst:true,
+    slidesToShow:1,
+    arrows:true,
+    appendArrows: $(".programm-reviews__slider-btns"),
+    responsive: [
+        {
+            breakpoint:699,
+            settings:{
+                slidesToShow:2,
+                arrows:true,
+                slidesToScroll: 2
+
+        }
+        },
+
+    {
+        breakpoint:1019,
+        settings:{
+            slidesToShow:3,
+            arrows:true,
+            slidesToScroll: 3
+        }
+    }
+    ]
+});
+
 import nanogallery2 from './jquery.nanogallery2.min.js';
 
 

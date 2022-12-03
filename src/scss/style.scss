@@ -17,7 +17,15 @@ ul{
     list-style-type: none
 }
 body{
-   // background-color: pink;
+    scrollbar-width: 12px;
+    &::-webkit-scrollbar {
+        background: #ffcb73;        /* цвет дорожки */
+      }
+    &::-webkit-scrollbar-thumb {
+        background-color: rgb(166, 172, 173);    /* цвет плашки */
+        border-radius: 20px;       /* закругления плашки */
+        border: 3px solid #ffcb73;  /* padding вокруг плашки */
+      }
 }
 
 .section-title{
@@ -75,6 +83,6 @@ a{
 "timetable_form";
 @import "about_why_yoga", "about__experiance","about_bright-exp","about_photo","about_secrets",
 "about_intro";
-@import "programs_intro","programs_content","course_programm","bioenergy_photo","bioenergy_reviews";
+@import "programs_intro","programs_content","course_programm","programs_photo","programs_reviews";
 @import "enrollment";
 @import "./libs/nanogallery2";

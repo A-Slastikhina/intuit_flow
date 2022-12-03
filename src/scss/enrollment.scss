@@ -54,12 +54,27 @@
 
 .course-enrollment__form-part{
     margin-top: 40px;
+
+    & input[type=text]{
+      font-size: 15px;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 300;
+    color: #6B6BC5;
+    }
+    & input[type=text]:focus{
+      outline: 0;
+      outline-offset: 0;
+      border: 2px solid transparent;
+
+    }
+
+
 }
 
 .course-enrollment__input{
    margin-left: auto;
 
-    border: 1px solid transparent;
+  border: 1px solid transparent;
   border-radius: 56px;
   background: 
     url("../img/home/home_courses/courses_bckg.svg"), 
@@ -78,6 +93,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+
 
   &--contacts{
     margin-top: 24px;

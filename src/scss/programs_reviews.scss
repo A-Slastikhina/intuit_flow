@@ -1,0 +1,270 @@
+
+.programm-reviews__wrapper{
+    margin-bottom: 40px;
+    padding-top: 55px;
+
+}
+
+.programm-reviews__title{
+    font-size: 22px;
+}
+
+.programm-reviews__list{
+    width: 263px;
+    margin: 0 auto;
+
+& p{
+padding-left: 45px;
+//width: 235px;
+}
+}
+
+
+.programm-reviews__reviewer-photo{
+    margin: 20px auto;
+    width: 85%;
+    display: block;
+}
+
+.programm-reviews__reviewer-name{
+    color: #6B6BC5;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.programm-reviews__course-name{
+    color: #7A7A7D;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+   position: relative;
+
+    &::before{
+        content: url("../img/home/home_review/commas.svg");
+        position: absolute;
+        left: 7px;
+    }
+}
+
+.programm-reviews__review-text{
+    color: #7A7A7D;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    position: relative;
+    max-height: 160px;
+    overflow: auto;
+    scrollbar-width: 0;
+    
+   &::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    } 
+    
+}
+
+.programm-reviews__more-btn{
+    color: #464548;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    margin-right: 45px;
+    margin-left: 45px;
+}
+
+
+
+@media(min-width:1020px){
+   
+    .programm-reviews__title{
+       // margin-top: 50px;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .programm-reviews__subtitle{
+        font-size: 22px;
+    }
+    .programm-reviews__wrapper{
+        padding-top: 60px;
+    }
+    .programm-reviews__list{
+   
+         
+        & p{
+            padding-left: 0;
+            max-width: 230px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    .programm-reviews__item{
+        margin-top: 42px;
+        position: relative;
+        width: 263px;
+        top:-52px;
+       // min-height: 527px;
+        //max-height: 527px;
+       // border-radius: 25px;
+    }
+
+    .programm-reviews__item-inner{
+        position: absolute;
+        min-height: 427px;
+        max-height: 427px;
+        border: 1px solid #FFCE79;
+        width: 100%;
+        top: 100px;
+        z-index: 0;
+    }
+    .programm-reviews__reviewer-photo{
+        left: 0px;
+        border: 1px solid rgb(255, 206, 121);
+        border-radius: 50%;
+        width: 200px;
+        background-color: rgb(255, 255, 255);
+        z-index: 5;
+        position: relative;
+        top: -4px;
+
+    }
+ .programm-reviews__reviewer-name{
+    text-align: center;
+   // margin-top: 120px;
+
+ }
+ .programm-reviews__course-name{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 10px;
+
+    &::before{
+        display: none;
+        content: "";
+    }
+ }
+
+ .programm-reviews__review-text{
+    text-align: center;
+    overflow: auto;
+    //scrollbar-width: 0;
+    
+   &::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    } 
+ }
+
+ .programm-reviews__reviewer-contacts{
+    display: flex;
+   justify-content: center;
+   margin-bottom: 50px;
+   position: relative;
+   &::after{
+    content: "";
+    background-image: url("../img/home/home_review/desktop/reviews-item-deco.svg");
+    position: absolute;
+    width: 230px;
+    height: 25px;
+    top: 29px;
+   }
+   
+ }
+.programm-reviews__reviewer-socials{
+    
+    &--IG{
+        width: 25px;
+        height: 25px;
+        display: block;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url("../img/home/home_review/desktop/Insta.svg");
+    }
+    &--VK{
+        width: 25px;
+        height: 25px;
+        display: block;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url("../img/home/home_review/desktop/vk.svg");
+
+     }
+     &--TG{
+        width: 25px;
+        height: 25px;
+        display: block;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url("../img/home/home_review/desktop/telegram.svg");
+        margin-right: 5px;
+        margin-left: 5px;
+     }
+}
+ .programm-reviews__item{
+
+    // box-shadow: inset 0 -7px 20px -10px rgba(0, 0, 0, .5);
+    &::after{
+        content: url("../img/home/home_review/desktop/review-arrow.svg");
+        background-color: hsla(0deg,0%,100%,.7);
+        position: relative;
+        bottom: 27px;
+        width: 266px;
+        display: flex;
+        justify-content: center;
+       margin: 0 auto;
+    }
+    &:hover{
+       
+        &::after{
+            content: "";
+
+        }
+    }
+    &:hover .programm-reviews__item-inner{
+        background-image: linear-gradient(#7070C9, #9797D3);
+
+    }
+    &:hover .programm-reviews__review-text{
+        color: white;
+       position: relative;
+       bottom: -126px;
+        max-height: 300px;
+        transform: translateY(-300px);
+        transition:  20s, color 1s;
+
+
+    }
+
+    &:hover .programm-reviews__reviewer-photo{
+       // display: none;
+    }
+    &:hover .programm-reviews__reviewer-contacts {
+        display: none;
+    }
+    &:hover  .programm-reviews__course-name {
+        display: none;
+    }
+    &:hover .programm-reviews__reviewer-name{
+        display: none;
+    }
+ }
+
+ .programm-reviews__more-btn{
+    margin-left: 0;
+    margin-right: 0;
+    border-bottom: 1px solid #000;
+
+}
+}
+
+
+@media (min-width:1020px) and (max-width:1114px ) {
+    .programm-reviews__list{
+        position: relative;
+          left: 50%;
+           transform: translateX(-50%);
+    }
+}
