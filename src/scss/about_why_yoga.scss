@@ -70,3 +70,27 @@
         }
     }
    
+
+    @media (min-width:0px) and (max-width:576px){
+        .why-yoga{
+            padding-bottom: 30px;
+            background-size: cover;
+        }
+
+        .why-yoga-wrapper{
+            margin-top: 30px;
+        }
+        .why-yoga__text-part{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    @media (min-width:577px) and (max-width:992px){
+        .why-yoga{
+            padding-bottom: 30px;
+        }
+        .why-yoga-wrapper{
+            margin-top: 30px;
+        }
+    }
