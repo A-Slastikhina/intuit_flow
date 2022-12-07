@@ -79,9 +79,9 @@
 @media (min-width:0px) and (max-width:768px){
     .about__bright-wrapper{
     
-    padding-top: 17px;
+    padding-top: 30px;
     padding-bottom: 17px;
-    margin-top: 10px;
+  
     flex-direction: column;
     }
 
@@ -103,6 +103,9 @@
      }
 }
 @media (min-width:769px) and (max-width:1019px){
+    .about__bright-wrapper{
+        padding-top: 30px;
+    }
     .about__bright-img {
         display: block;
         max-width: 222px;
@@ -117,5 +120,6 @@
 .about__bright-wrapper{
     padding-left: 21px;
     padding-right: 21px;
+  //  margin-top: 30px;
 }
 }

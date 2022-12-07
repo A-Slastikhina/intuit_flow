@@ -84,6 +84,9 @@
             display: flex;
             flex-direction: column;
         }
+        .why-yoga__title{
+            font-size: 28px;
+        }
     }
 
     @media (min-width:577px) and (max-width:992px){
@@ -91,6 +94,6 @@
             padding-bottom: 30px;
         }
         .why-yoga-wrapper{
-         //   margin-top: 30px;
+         margin-top: 31px;
         }
     }

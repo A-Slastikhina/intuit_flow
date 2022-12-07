@@ -379,6 +379,7 @@ text-transform: uppercase;
         display: flex;
         flex-direction: column;
         margin-left: 0;
+        margin-bottom: 20px;
       
         &--intro::before{
             content: "";
@@ -388,6 +389,7 @@ text-transform: uppercase;
     .programm-course__intro-content{
         border: none;
         padding-top: 154px;
+        margin-bottom: 0;
         &--initiatory{     
             background-image: url("../img/bioenergy/bioenergy_programm/vvodnoe-img.svg");
             background-position: top;
@@ -438,6 +440,12 @@ text-transform: uppercase;
 
     .programm-course__intro-item-text{
         padding-left: 20px;
+    }
+    .programm-course__purchase{
+        flex-direction: column;
+    }
+    .programm-course__purchase-btn{
+        margin-top: 10px;
     }
 }
 @media (min-width:768px){
