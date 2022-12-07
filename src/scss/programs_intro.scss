@@ -1,5 +1,6 @@
 
-.programm-section__intro{
+
+.programm-intro{
       
     min-height: 360px;
     background-repeat: no-repeat;
@@ -24,7 +25,7 @@
     
     }
     }
-    .programm-section__intro-text{
+    .programm-intro__text{
         font-family: 'Open Sans', sans-serif;
         text-transform: uppercase;
         color: #EDEBF6;
@@ -36,17 +37,17 @@
         margin: 0 auto;
     
     }
-    .programm-section__intro-item{
+    .programm-intro__item{
         display: none;
     }
+
     @media(min-width:1020px){
-        .programm-section__intro{
-          position: relative;
+        .programm-intro {
+            position: relative;
             height: 400px;
             background-image: none;
-            //background-position: right;
             top: -69px;
-    
+
             &::before{
                 content: "";
                 background-image: url("../img/home/intro-desktop/Decor-desktop.svg");
@@ -63,20 +64,15 @@
             }
             &::after{
                 content: "";
-                display: none;
             }
-        }
+            }
         .programm-section__wrapper{
             padding: 0;
-        
         }
-        .programm-section__intro-text{
+        .programm-intro__text{
             display: none;
-        } 
-        
-    
-    
-        .programm-section__intro-item{
+        }
+        .programm-intro__item{
             display: block;
           padding-top: 147px;
             padding-bottom: 10px;
@@ -89,7 +85,6 @@
             background-position: center;
             
         }
-    
         .programm-section__courses-name{
             font-family: 'Open Sans', sans-serif;
             color: #ffffff;
@@ -121,8 +116,6 @@
                 text-transform: uppercase;
             }
         }
-    
-
     }
     
     

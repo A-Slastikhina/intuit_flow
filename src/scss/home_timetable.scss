@@ -219,8 +219,15 @@
     }
 }
 
+
 @media(min-width:576px){
     .home-timetable__lector-photo{
         width: 60%;
+    }
+}
+
+@media(min-width:576px) and (max-width:1019px){
+    .home-timetable__wrapper{
+        margin-top: 20px;
     }
 }

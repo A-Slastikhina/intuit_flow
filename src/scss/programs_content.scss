@@ -1,23 +1,23 @@
 
-.programm-section__content{
+.programm-content{
     background-image: linear-gradient(#fff 60%,rgba(210,220,250,.75));
-   //overflow: hidden;
+ 
    
 
 
 }
 
-.programm-section__content-wrapper{
+.programm-content__wrapper{
     display: flex;
     flex-direction: row;
-   // padding-top: 65px;
+    padding-top: 35px;
     padding-bottom: 50px;
     padding-left: 8.08%;
     padding-right: 8.08%;
-    overflow: hidden;
+    //overflow: hidden;
 }
 
-.programm-section__content-btn{
+.programm-content__img{
     margin-right: 50px;
     display: flex;
     align-items: center;
@@ -33,26 +33,29 @@
         width: 7px;
         height: 390px;
         position: absolute;
-        top: 98px;
+        top: 89px;
         right: -29px;
     }
 }
-
-.programm-section__specification{
+.programm-section__section-title{
+    position: relative;
+    top: -10px;
+}
+.programm-content__specification{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
-.programm-section__specification-text-block{
+.programm-content__specification-text-block{
    display: flex;
 
 }
 
-.programm-section__paragraph-third-col{
+.programm-content__paragraph-third-col{
     margin-left: 35px;
 }
 
-.programm-section__paragraph{
+.programm-content__paragraph{
     max-width: 362px;
     color: #000;
     font-size: 16px;
@@ -63,4 +66,50 @@
     &::selection{
         background-color: #FFCE79;
     }
+}
+
+@media (min-width:0px) and (max-width:768px){
+    .programm-content__wrapper{
+    
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 17px;
+    padding-bottom: 17px;
+    margin-top: 10px;
+    flex-direction: column;
+    }
+
+    .programm-content__paragraph{
+        max-width: none;
+
+    &:first-of-type{
+        margin-top: 10px;
+    }
+    }
+    .programm-section__section-title{
+        top: -20px;
+    }
+    .programm-content__paragraph-third-col{
+        margin-left: 0px;
+    }
+
+    .programm-content__specification-text-block{
+
+        flex-direction: column;
+     }
+
+     .programm-content__img{
+        display: none;
+     }
+}
+
+@media (min-width: 769px) and (max-width: 1019px){
+.programm-content__img {
+    display: block;
+    max-width: 222px;
+
+    & img{
+        width: 100%;
+    }
+}
 }
