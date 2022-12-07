@@ -37,7 +37,7 @@
 }
 .experience__author-name{
     position: relative;
-    top: -40px;
+  top: -40px;
 }
 .experience__author-position{
     position: relative;
@@ -71,10 +71,12 @@
     .experience__author-name{
         grid-column-start: 1;
         font-size: 30px;
+        position: static;
     }
     .experience__author-position{
         grid-column-start: 1;
         font-size: 24px;
+        position: static;
     }
     .experience__list{
         grid-column-start: 1;
