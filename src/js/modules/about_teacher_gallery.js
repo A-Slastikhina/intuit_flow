@@ -12,20 +12,20 @@ const aboutGallery1 = function(){
           thumbnailL1GutterWidth: 10,
           thumbnailL1GutterHeight:10, 
         items: [
-            { src: '../img/about/about_photo/about_photo1.svg', srct: '../img/about/about_photo/about_photo1.svg', title: '' },    
-            { src: '../img/about/about_photo/about_photo3.svg', srct: '../img/about/about_photo/about_photo3.svg', title: '' },
-            { src: '../img/about/about_photo/about_photo4.svg', srct: '../img/about/about_photo/about_photo4.svg', title: '' },
-            { src: '../img/about/about_photo/about_photo5.svg', srct: '../img/about/about_photo/about_photo5.svg', title: '' },
-            { src: '../img/about/about_photo/about_photo2.svg', srct: '../img/about/about_photo/about_photo2.svg', title: '' },
-            { src: '../img//home/home_about/photo-4.svg', srct: '../img/home/home_about/photo-4.svg', title: '' }
+            // { src: '../img/about/about_photo/about_photo1.svg', srct: '../img/about/about_photo/about_photo1.svg', title: '' },    
+            // { src: '../img/about/about_photo/about_photo3.svg', srct: '../img/about/about_photo/about_photo3.svg', title: '' },
+            // { src: '../img/about/about_photo/about_photo4.svg', srct: '../img/about/about_photo/about_photo4.svg', title: '' },
+            // { src: '../img/about/about_photo/about_photo5.svg', srct: '../img/about/about_photo/about_photo5.svg', title: '' },
+            // { src: '../img/about/about_photo/about_photo2.svg', srct: '../img/about/about_photo/about_photo2.svg', title: '' },
+            // { src: '../img//home/home_about/photo-4.svg', srct: '../img/home/home_about/photo-4.svg', title: '' }
  
 //
-// { src: '../intuit_flow/img/about/about_photo/about_photo1.svg', srct: '../intuit_flow/img/about/about_photo/about_photo1.svg', title: '' },    
-// { src: '../intuit_flow/img/about/about_photo/about_photo3.svg', srct: '../intuit_flow/img/about/about_photo/about_photo3.svg', title: '' },
-// { src: '../intuit_flow/img/about/about_photo/about_photo4.svg', srct: '../intuit_flow/img/about/about_photo/about_photo4.svg', title: '' },
-// { src: '../intuit_flow/img/about/about_photo/about_photo5.svg', srct: '../intuit_flow/img/about/about_photo/about_photo5.svg', title: '' },
-// { src: '../intuit_flow/img/about/about_photo/about_photo2.svg', srct: '../intuit_flow/img/about/about_photo/about_photo2.svg', title: '' },
-// { src: '../intuit_flow/img/home/home_about/photo-4.svg', srct: '../intuit_flow/img/home/home_about/photo-4.svg', title: '' }
+{ src: '../intuit_flow/img/about/about_photo/about_photo1.svg', srct: '../intuit_flow/img/about/about_photo/about_photo1.svg', title: '' },    
+{ src: '../intuit_flow/img/about/about_photo/about_photo3.svg', srct: '../intuit_flow/img/about/about_photo/about_photo3.svg', title: '' },
+{ src: '../intuit_flow/img/about/about_photo/about_photo4.svg', srct: '../intuit_flow/img/about/about_photo/about_photo4.svg', title: '' },
+{ src: '../intuit_flow/img/about/about_photo/about_photo5.svg', srct: '../intuit_flow/img/about/about_photo/about_photo5.svg', title: '' },
+{ src: '../intuit_flow/img/about/about_photo/about_photo2.svg', srct: '../intuit_flow/img/about/about_photo/about_photo2.svg', title: '' },
+{ src: '../intuit_flow/img/home/home_about/photo-4.svg', srct: '../intuit_flow/img/home/home_about/photo-4.svg', title: '' }
 
 //
           ],
