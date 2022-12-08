@@ -1,104 +1,89 @@
 @import "../../../node_modules/slick-carousel/slick/slick.scss";
 //@import "../../../node_modules/slick-carousel/slick/slick-theme.scss";
 
-//блок слайдера
+//блок слайдера курсы- дом. стр.
 
-.home-courses__list{
-
- //padding-bottom: 45px;
-
-//стрелки
-
-.slick-arrow{
-  position: absolute;
-  bottom: -40px;
-  transform: translateY(-85%);
-  left: 50%;
-  transform: translateX(-50%);
-  border: none;
-  background-color: transparent;
-  font-size: 0;
-  cursor: pointer;
-  width: 30px;
-  height: 30px;
-  }
-  
-  .slick-prev{
-      left:15%;
-      bottom: -40px;
-      transform: translateX(-50%);
-      cursor: pointer;
-  
-  &::after{
-      content: url("../img/home/home_courses/slider_prev_btn.svg");
-      width: 30px;
-      height: 30px;
-  }
-  }
-  
-  .slick-next{
-      left: 85%;
-      transform: translateX(-50%);
-      cursor: pointer;
-      z-index: 2;
-  
-  
-  &::after{
-      content: url("../img/home/home_courses/slider_next_btn.svg");
-      width: 30px;
-      height: 30px;
-      z-index: 2;
-  }
-  }
-  
-  .slick-dots{
-    z-index: 2;
-    padding: 0;
-    margin: 0;
-    position: relative;  
-  bottom: -40px;
-   transform: translateY(75%);
-  
-   left: 50%;
-   transform: translateX(-50%);
-   width: 150px;
-    text-align: center;
-  
-    li{
-      display: inline-block;
-      margin: 0 5px;
-      height: 30px;
+.home-courses__slider-btns{
+  display: flex;
+  justify-content: center;
+  .slick-arrow{
+    border: none;
+    background-color: transparent;
+    font-size: 0;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
     }
-    button{
-      background-color: transparent;
-      font-size: 0;
-      width: 15px;
-      height: 15px;
-      border: 1px solid #464548;
-      border-radius: 50%;
-      cursor: pointer;
-      vertical-align: center;
-    }
-  }
-  
-  .slick-active{
-     button{
-      width: 23px;
-      height: 23px;
-      border-radius: 50%;
-      background-image:url("../img/home/home_courses/controller_checked.svg") ;
-      background-size: 15px 15px;
-      background-position: center;
-      background-repeat: no-repeat;
-     }
+    
+    .slick-prev{
+      order: 1;
       
-  }
+      cursor: pointer;
+    
+    &::after{
+        content: url("../img/home/home_courses/slider_prev_btn.svg");
+        width: 30px;
+        height: 30px;
+    }
+    }
+    
+    .slick-next{
+      order: 3; 
+      cursor: pointer;
+       z-index: 2;
+    
+    
+    &::after{
+        content: url("../img/home/home_courses/slider_next_btn.svg");
+        width: 30px;
+        height: 30px;
+        z-index: 2;
+    }
+    }
+    .slick-dots{
+      order: 2;
+      z-index: 2;
+      padding: 0;
+      margin: 0;
+   
 
-
+    
+      li{
+        display: inline-block;
+        margin: 0 5px;
+        height: 30px;
+      }
+      button{
+        background-color: transparent;
+        font-size: 0;
+        width: 15px;
+        height: 15px;
+        border: 1px solid #464548;
+        border-radius: 50%;
+        cursor: pointer;
+        vertical-align: center;
+      }
+    }
+    
+    .slick-active{
+       button{
+        width: 23px;
+        height: 23px;
+        border-radius: 50%;
+        background-image:url("../img/home/home_courses/controller_checked.svg") ;
+        background-size: 15px 15px;
+      background-position: 50% 45%;
+      background-repeat: no-repeat;
+       }
+        
+    }
 }
 
-
-
+@media (min-width:1300px) {
+  .home-courses__slider-btns{
+    display: none;
+  } 
+}
 
 .home-reviews__list{
   .slick-slide{
@@ -205,9 +190,7 @@
     height: 30px;
     }
   .slick-prev{
-   //left:15%;
-   // bottom: -40px;
-   // transform: translateX(-50%);
+ 
     cursor: pointer;
 
 &::after{
@@ -218,8 +201,7 @@
 }
 
 .slick-next{
-   // left: 85%;
-  //  transform: translateX(-50%);
+ 
     cursor: pointer;
     z-index: 2;
 
@@ -436,7 +418,9 @@
    
     background-color: #FFCB73;
     width: 255px;
-
     border-radius: 25px;
+    position: relative;
+    top: -38px;
+
   }
 }

@@ -35,14 +35,7 @@
    }
    
 }
-.experience__author-name{
-    position: relative;
-  top: -40px;
-}
-.experience__author-position{
-    position: relative;
-    top: -25px;
-}
+
 
 @media(min-width:1020px){
     .experience{
@@ -66,17 +59,18 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         padding-top: 0;
+        margin-top: 30px;
 
     }
     .experience__author-name{
         grid-column-start: 1;
         font-size: 30px;
-        position: static;
+       
     }
     .experience__author-position{
         grid-column-start: 1;
         font-size: 24px;
-        position: static;
+       
     }
     .experience__list{
         grid-column-start: 1;

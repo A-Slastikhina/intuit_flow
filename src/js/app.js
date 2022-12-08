@@ -17,6 +17,8 @@ import slikCarousel from 'slick-carousel';
         dots:true,
         initialSlide: 2,
         mobileFirst:true,
+        appendArrows: $(".home-courses__slider-btns"),
+        appendDots:$(".home-courses__slider-btns"),
         responsive: [
             {
             breakpoint: 1019,
@@ -46,6 +48,7 @@ import slikCarousel from 'slick-carousel';
         slidesToShow:1,
         arrows:true,
         appendArrows: $(".home-reviews__slider-btns"),
+        
         responsive: [
             {
                 breakpoint:699,

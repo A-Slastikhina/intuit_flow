@@ -17,6 +17,7 @@ ul{
     list-style-type: none
 }
 body{
+    
     scrollbar-width: 12px;
     &::-webkit-scrollbar {
         background: #ffcb73;        /* цвет дорожки */
@@ -51,7 +52,7 @@ body{
 .wrapper{
     padding-left: 21px;
     padding-right: 21px;
-    padding-top: 17px;
+    padding-top: 25px;
     padding-bottom: 17px;
 }
 

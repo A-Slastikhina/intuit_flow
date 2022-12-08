@@ -8,9 +8,15 @@ const scrollHeader = function(){
 const headerAdditionText = document.querySelector('.header__addition-text');
 const headerLogo = document.querySelector('.header__addition-logo');
 const headerPopupBtb = document.querySelector('.header__popup-btn');
-
+var sticky = header.offsetTop;
  document.addEventListener('scroll', siteScroll)
  function siteScroll (){
+    if (window.pageYOffset > sticky) {
+        header.classList.add("sticky_header");
+      } else {
+        header.classList.remove("sticky_header");
+      }
+
     header.style.backgroundColor='hsla(0deg,0%,100%,.9)';
     //
     headerLogo.style.backgroundImage = "url('../intuit_flow/img/header/Intuit_Flow_logo-scroll.svg')";
@@ -39,8 +45,9 @@ const headerPopupBtb = document.querySelector('.header__popup-btn');
         headerItemLink.style.fontWeight='100'
     }
 
-    if(pageYOffset < 50){
+    if(pageYOffset < 5){
         for (let headerItemLink of headerItemLinks){
+          
             headerItemLink.style.color = 'white';
             headerItemLink.addEventListener('mouseover', function(){
                 headerItemLink.style.textShadow='0 0 .65px #ffffff, 0 0 .65px #ffffff';

@@ -87,10 +87,11 @@ padding-left: 45px;
         font-size: 22px;
     }
     .programm-reviews__wrapper{
-        padding-top: 60px;
+        padding-top: 68px;
+        margin-bottom: 0;
     }
     .programm-reviews__list{
-   
+        margin-top: 45px;
          
         & p{
             padding-left: 0;
@@ -100,7 +101,7 @@ padding-left: 45px;
         }
     }
     .programm-reviews__item{
-        margin-top: 42px;
+        margin-top: 35px;
         position: relative;
         width: 263px;
         top:-52px;
