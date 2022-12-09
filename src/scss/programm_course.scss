@@ -16,11 +16,13 @@
 
 .programm-course__wrapper{
     padding-top: 73px;   
+    padding-bottom: 0;
     
 }
 .programm-course__container{
     padding-top: 0;
     margin-top: 40px;
+    padding-bottom: 0;
 
 }
 
@@ -367,6 +369,11 @@ text-transform: uppercase;
 }
 
 @media (min-width:0px) and (max-width:767px){
+    .programm-course__wrapper{
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-top: 40px;
+    }
     .programm-course__description{
         flex-direction: column;
     }
@@ -382,32 +389,80 @@ text-transform: uppercase;
            // margin-bottom: 130px;
         }
     }
+    .programm-course__container{
 
+        padding-bottom: 0;
+    
+    }
     .programm-course__list{
         display: flex;
         flex-direction: column;
         margin-left: 0;
-        margin-bottom: 20px;
-      
+        margin-bottom: 0px;
+        margin-top: 0;
+
+        &--intro{
+           margin-top: 50px;
+        }
         &--intro::before{
             content: "";
             display: none;
         }
+        &--chakri{
+         margin-top: 50px;       
+        }
+
+        &--chakri::before{
+            content: "";
+            display: none;           
+        }
+     
+        
+        &--water::before{
+            content: "";
+            display: none;
+            
+        }
+      
+        &--elements::before{
+            content: "";
+            display: none;
+            
+        }
+        
+        &--sensoric{
+            margin-top: 50px;
+         }
+        &--sensoric::before{
+            content: "";
+            display: none;
+        }
+
+
     }
     .programm-course__intro-content{
         border: none;
         padding-top: 154px;
         margin-bottom: 0;
+        background-position: top;
+        background-size: 200px 200px;
+        background-repeat: no-repeat;
+        margin-top: 30px;
         &--initiatory{     
             background-image: url("../img/bioenergy/bioenergy_programm/vvodnoe-img.svg");
-            background-position: top;
-            background-size: 200px 200px;
-            background-repeat: no-repeat;
+        }      
+        &--main{
+            background-image: url("../img/bioenergy/bioenergy_programm/chakri-img.svg");
+        }
+        &--sensoric{
+            background-image: url("../img/bioenergy/bioenergy_programm/chakri-img.svg");
         }
     }
     .programm-course__intro-item{
         max-width: none;
-      
+      & br{
+        display: none;
+      }
     }
     .programm-course__intro-item-title{
         padding-left: 20px;
@@ -451,9 +506,21 @@ text-transform: uppercase;
     }
     .programm-course__purchase{
         flex-direction: column;
+        margin-top: 35px;
     }
     .programm-course__purchase-btn{
         margin-top: 10px;
+    }
+    .programm-course__purchase-text{
+        text-align: center;
+    }
+    .programm-course__purchase-info{
+    display: flex;
+     flex-direction: column;
+    align-items: center;
+    }
+    .programm-course__addition{
+     display: none;
     }
 }
 @media (min-width:768px){

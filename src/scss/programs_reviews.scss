@@ -1,78 +1,82 @@
 
-.programm-reviews__wrapper{
-    margin-bottom: 40px;
-    padding-top: 55px;
-
-}
-
-.programm-reviews__title{
-    font-size: 22px;
-}
-
-.programm-reviews__list{
-    width: 263px;
-    margin: 0 auto;
-
-& p{
-padding-left: 45px;
-//width: 235px;
-}
-}
-
-
-.programm-reviews__reviewer-photo{
-    margin: 20px auto;
-    width: 85%;
-    display: block;
-}
-
-.programm-reviews__reviewer-name{
-    color: #6B6BC5;
-    font-size: 20px;
-    font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.programm-reviews__course-name{
-    color: #7A7A7D;
-    font-size: 20px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    margin-bottom: 20px;
-   position: relative;
-
-    &::before{
-        content: url("../img/home/home_review/commas.svg");
-        position: absolute;
-        left: 7px;
+    .programm-reviews__wrapper{
+        margin-bottom: 40px;
+        padding-top: 35px;
+        padding-bottom: 0;
+    
     }
-}
-
-.programm-reviews__review-text{
-    color: #7A7A7D;
-    font-size: 15px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 100;
-    position: relative;
-    max-height: 160px;
-    overflow: auto;
-    scrollbar-width: 0;
     
-   &::-webkit-scrollbar {
-    width: 0;
-    height: 0;
-    } 
+    .programm-reviews__title{
+        font-size: 22px;
+    }
     
-}
+    .programm-reviews__list{
+        width: 263px;
+        margin: 0 auto;
+    
+    & p{
+    padding-left: 45px;
+    //width: 235px;
+    }
+    }
+    
+    
+    .programm-reviews__reviewer-photo{
+        margin: 20px auto;
+        width: 85%;
+        display: block;
+    }
+    
+    .programm-reviews__reviewer-name{
+        color: #6B6BC5;
+        font-size: 20px;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .programm-reviews__course-name{
+        color: #7A7A7D;
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        margin-bottom: 20px;
+       position: relative;
+    
+        &::before{
+            content: url("../img/home/home_review/commas.svg");
+            position: absolute;
+            left: 7px;
+        }
+    }
+    
+    .programm-reviews__review-text{
+        color: #7A7A7D;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 100;
+        position: relative;
+        max-height: 160px;
+        overflow: auto;
+        scrollbar-width: 0;
+        
+       &::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+        } 
+        
+    }
+    
+    .programm-reviews__more-btn{
+        color: #464548;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        text-transform: uppercase;
+        margin-right: 45px;
+        margin-left: 45px;
+        text-align: center;
+    }
+    
 
-.programm-reviews__more-btn{
-    color: #464548;
-    font-size: 15px;
-    font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-    margin-right: 45px;
-    margin-left: 45px;
-}
 
 
 

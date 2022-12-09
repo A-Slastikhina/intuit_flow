@@ -368,6 +368,7 @@
    background-image: url("../img/home/home_review/review_arrow_prev.svg");
    width: 28px;
    height: 30px;
+   background-position: center;
 }
 &  .slick-next{
     font-size: 0; 
@@ -379,6 +380,8 @@
   width: 28px;
   height: 30px;
   z-index: 2;
+  background-position: center;
+
 }
 
 }

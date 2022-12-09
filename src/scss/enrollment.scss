@@ -125,3 +125,59 @@
     padding-top: 3px;
     padding-bottom: 3px;
 }
+
+@media (min-width:0px) and (max-width:968px){
+  .course-enrollment{
+    max-height: none;
+  }
+  .course-enrollment__wrapper{
+  padding-bottom: 0;
+
+    padding-top: 0;
+    margin-top: 40px;
+   
+  }
+  .course-enrollment__content{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.course-enrollment__title {
+  margin: 0;
+}
+.course-enrollment__img-part{
+  order: 3;
+  max-width: none;
+  height: 250px;
+
+  & img{
+    bottom: 59px;
+  right:auto;
+  }
+}
+
+.course-enrollment__text-part{
+  padding-left: 0;
+  &::before{
+      content: "";
+    display: none;
+  }
+}
+.course-enrollment__form-part{
+
+}
+
+.course-enrollment__form{
+
+}
+.course-enrollment__input{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 313px;
+  height: 75px;
+}
+.course-enrollment__submit-btn {
+  left: 47%;
+}
+}
+
