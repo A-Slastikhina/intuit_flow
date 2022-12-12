@@ -12,7 +12,7 @@ const openTimetableForm = function(){
         }
         submitBtn.addEventListener('click',function(evt){
             //удалить следующую строчку когда разместим на сервере
-            evt.preventDefault();
+          //  evt.preventDefault();
             popupForm.classList.add('home-timetable__popup--hidden')
     
         });
