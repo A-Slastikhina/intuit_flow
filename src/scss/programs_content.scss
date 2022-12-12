@@ -1,7 +1,9 @@
 
 .programm-content{
     background-image: linear-gradient(#fff 60%,rgba(210,220,250,.75));
- 
+ &--look{
+    overflow: hidden;
+ }
    
 
 

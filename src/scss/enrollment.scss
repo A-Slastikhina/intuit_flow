@@ -146,13 +146,15 @@
   margin: 0;
 }
 .course-enrollment__img-part{
+  display: flex;
+  justify-content: center;
   order: 3;
   max-width: none;
-  height: 250px;
+  //height: 250px;
+  
 
   & img{
-    bottom: 59px;
-  right:auto;
+  position: static;
   }
 }
 

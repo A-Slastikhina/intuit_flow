@@ -14,6 +14,11 @@
     &--bio{
         background-image:url("../img/bioenergy/bio_bckg.png") 
     }
+    &--look{
+        border-image: none;
+        background-color: #6B6BC5;
+
+    }
     &::after{
     content: url("../img//home/Decor.png");
       width: 250px;
@@ -80,9 +85,12 @@
             height: 400px;
             box-sizing: border-box;
             background-color: #6B6BC5;
-            background-image: url("../img/home/intro-desktop/bio-energy.svg");
             background-position: center;
-            
+          
+            &--bio{
+            background-image: url("../img/bioenergy/bio_bckg.png");
+
+            }
         }
         .programm-section__courses-name{
             font-family: 'Open Sans', sans-serif;
