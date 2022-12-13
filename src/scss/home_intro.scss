@@ -42,6 +42,7 @@ content: url("../img//home/Decor.png");
         background-image: none;
         background-position: right;
        // top: -69px;
+       position: relative;
 
         &::before{
             content: "";
@@ -53,7 +54,7 @@ content: url("../img//home/Decor.png");
             height: 30px;
             width: 100%;
             left: 0;
-            top: 372px;
+            bottom: 0;
             overflow: hidden;
             z-index: 1;
         }
