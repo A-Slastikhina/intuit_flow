@@ -9,6 +9,7 @@ const headerAdditionText = document.querySelector('.header__addition-text');
 const headerLogo = document.querySelector('.header__addition-logo');
 const headerPopupBtb = document.querySelector('.header__popup-btn');
 var sticky = header.offsetTop;
+
  document.addEventListener('scroll', siteScroll)
  function siteScroll (){
     if (window.pageYOffset > sticky) {
@@ -19,15 +20,11 @@ var sticky = header.offsetTop;
 
     header.style.backgroundColor='hsla(0deg,0%,100%,.9)';
     //
-    headerLogo.style.backgroundImage = "url('../intuit_flow/img/header/Intuit_Flow_logo-scroll.svg')";
-//    headerLogo.style.backgroundImage = "url('../img/header/Intuit_Flow_logo-scroll.svg')";
-   //
-
-   //
-//    headerPopupBtb.style.backgroundImage="url('../img/header/header_popup_bth_dark.svg')"
-   headerPopupBtb.style.backgroundImage="url('../intuit_flow/img/header/header_popup_bth_dark.svg')"
-   //
-
+    headerLogo.classList.remove('header__addition-logo--light');
+    headerLogo.classList.add('header__addition-logo--scroll');
+ 
+   headerPopupBtb.classList.remove('header__popup-btn--top');
+   headerPopupBtb.classList.add('header__popup-btn--scroll');
 
     headerIconWA.style.backgroundColor="#A6ACAD";
     headerIconIG.style.backgroundColor="#A6ACAD";
@@ -56,14 +53,12 @@ var sticky = header.offsetTop;
                 headerItemLink.style.textShadow='none';
             })
         }
-        //
-      headerLogo.style.backgroundImage = "url('../intuit_flow/img/header/intuit_flow_logo.png')";
-        // headerLogo.style.backgroundImage = "url('../img/header/intuit_flow_logo.png')";
-        //
-    //
-         headerPopupBtb.style.backgroundImage="url('../intuit_flow/img/header/header_popup.png')"
-        // headerPopupBtb.style.backgroundImage="url('../img/header/header_popup.png')"
-    //
+        
+        headerLogo.classList.remove('header__addition-logo--scroll');
+        headerLogo.classList.add('header__addition-logo--light');
+    
+    headerPopupBtb.classList.remove('header__popup-btn--scroll');
+    headerPopupBtb.classList.add('header__popup-btn--top');
 
         headerAdditionText.style.color = 'white';
         header.style.backgroundColor='transparent';

@@ -22,11 +22,17 @@
 
 }
 .header__addition-logo{
-    background-image: url("../img/header/intuit_flow_logo.png");
+    
     width:119px;
     height: 29px;
     background-repeat: no-repeat;
     background-position: center;
+    &--light{
+        background-image: url("../img/header/intuit_flow_logo.png");
+    }
+    &--scroll{
+        background-image: url("../img/header/Intuit_Flow_logo-scroll.svg");
+    }
 }
 .header__addition--text{
     display: none;
@@ -100,7 +106,12 @@ display: flex;
    height: 22px;
    border: none;
     cursor: pointer;
-   background-image: url("../img/header/header_popup.png");
+    &--top{
+        background-image: url("../img/header/header_popup.png");
+    }
+    &--scroll{
+        background-image: url("../img/header/header_popup_bth_dark.svg");
+    }
 }
 .hidden-popup{
     display: none;
@@ -208,7 +219,7 @@ left: 18%;
     }
     .header__addition-logo{
         display: none;
-
+        
     }
 }
 
