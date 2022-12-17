@@ -29,9 +29,11 @@ z-index: 3;
 }
 .home-courses__list{
 
-    width: 263px;
+    width: 100vw;
      margin: 20px auto;
+     z-index: 2;
 }
+
 .home-courses__item{
     border-radius: 150px;
     background-color: #ffffff;
