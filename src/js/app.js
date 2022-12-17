@@ -88,7 +88,9 @@ import slikCarousel from 'slick-carousel';
    });
 
    $(".intro-courses__mobile-list").slick({
-    arrows:false
+    arrows:false,
+    autoplay:true,
+    autoplaySpeed:5000
    });
 
  $('.about__photo-slider').slick({
