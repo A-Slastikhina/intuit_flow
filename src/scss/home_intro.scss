@@ -45,6 +45,7 @@ position: relative;
 
 .intro-courses__mobile-item{
 min-height: 360px;
+width: 100vw; ;
 }
 
 .intro-courses__mobile-backround{
@@ -57,9 +58,9 @@ min-height: 360px;
     z-index: 0;
 
     & img{
-       
+       min-width: 100%;
         z-index: 0;
-        object-fit: cover;
+        object-fit:cover;
     }
 }
 
