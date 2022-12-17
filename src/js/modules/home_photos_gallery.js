@@ -10,27 +10,7 @@ const myNanogallery2 = function(){
           thumbnailGutterHeight : 10,
           thumbnailL1GutterWidth: 10,
           thumbnailL1GutterHeight:10, 
-        items: [
-            // { src: '../img/home/home_about/photo1_desktop.svg', srct: '../img/home/home_about/photo1_desktop.svg', title: '' },
-      
-            // { src: '../img/home/home_about/photo3_mobile.svg', srct: '../img/home/home_about/photo3_mobile.svg', title: '' },
-            // { src: '../img/home/home_about/photo2_desktop.svg', srct: '../img/home/home_about/photo2_desktop.svg', title: '' },
-            // { src: '../img/home/home_about/photo-4.svg', srct: '../img/home/home_about/photo-4.svg', title: '' },
-            // { src: '../img/home/home_about/photo-5.svg', srct: '../img/home/home_about/photo-5.svg', title: '' },
-            // { src: '../img/home/home_about/photo-6.svg', srct: '../img/home/home_about/photo-6.svg', title: '' }
-  
- //
- { src: '../intuit_flow/img/home/home_about/photo1_desktop.svg', srct: '../intuit_flow/img/home/home_about/photo1_desktop.svg', title: '' },
-      
- { src: '../intuit_flow/img/home/home_about/photo3_mobile.svg', srct: '../intuit_flow/img/home/home_about/photo3_mobile.svg', title: '' },
- { src: '../intuit_flow/img/home/home_about/photo2_desktop.svg', srct: '../intuit_flow/img/home/home_about/photo2_desktop.svg', title: '' },
- { src: '../intuit_flow/img/home/home_about/photo-4.svg', srct: '../intuit_flow/img/home/home_about/photo-4.svg', title: '' },
- { src: '../intuit_flow/img/home/home_about/photo-5.svg', srct: '../intuit_flow/img/home/home_about/photo-5.svg', title: '' },
- { src: '../intuit_flow/img/home/home_about/photo-6.svg', srct: '../intuit_flow/img/home/home_about/photo-6.svg', title: '' }
 
-  //
-  
-          ],
        viewerTheme: {
               background:             'hsla(38, 100%, 73%, 0.5)',
               barBackground:          'hsla(38, 100%, 73%, 1)',
@@ -43,8 +23,8 @@ const myNanogallery2 = function(){
                   topRight:   ' zoomButton, closeButton'
               } ,  
       icons:{
-              viewerImgPrevious: '<i style="background:rgba(0,0,0,0);font-size:0; background-image:url(../intuit_flow/img/home/home_review/review_arrow_prev.svg);background-repeat:no-repeat; background-size:contain;width:60px;height:60px;" class="nGY2Icon-ngy2_chevron-left"></i>',
-              viewerImgNext:'<i style="background:rgba(0,0,0,0);font-size:0; background-image:url(../intuit_flow/img/home/home_review/review_arrow_next.svg);background-repeat:no-repeat; background-size:contain;width:60px;height:60px;" class="nGY2Icon-ngy2_chevron-right"></i>',  // icon for next image (toolbar)
+                viewerImgPrevious: '<i style="background:rgba(0,0,0,0);font-size:30px;font-weight:100;color:#6B6BC5;text-shadow:none;" class="nGY2Icon-ngy2_chevron-left"></i>',
+                viewerImgNext:'<i style="background:rgba(0,0,0,0);font-size:30px;font-weight:100;color:#6B6BC5;text-shadow:none;" class="nGY2Icon-ngy2_chevron-right"></i>',  // icon for next image (toolbar)
               buttonClose: '<i style="text-shadow:none; color:#6B6BC5;" class="nGY2Icon-ngy2_close2"></i>',         // close button icon
               viewerPlay:  '<i style="text-shadow:none; color:#6B6BC5;" class="nGY2Icon-play"></i>',                // icon play - to start the slideshow (toolbar)
               viewerPause: '<i style="text-shadow:none; color:#6B6BC5;" class="nGY2Icon-pause"></i>',               // icon pause - to stop the slideshow (toolbar)

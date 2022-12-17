@@ -50,15 +50,19 @@
         background-image: url("../img/header/Home.png");
         width: 30px;
         height: 30px;
+
+    &--socials{
+        display:none;
+    }
     }
 }
 .header__item a{
     text-decoration: none;
 
 }
-.header__item--socials{
-display: flex;
-}
+// .header__item--socials{
+// display: flex;
+// }
 .header__item-link--home{
     display: block;
     width: 30px;

@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, inital-scale=1.0">
-    <link rel="stylesheet" href="css/style.min.css?_v=20221214100513">
+    <link rel="stylesheet" href="css/style.min.css?_v=20221217175926">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap&_v=20221214100513" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap&_v=20221217175926" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,800;1,900&display=swap&_v=20221214100513" rel="stylesheet">
-    <link  href="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/css/nanogallery2.min.css?_v=20221214100513" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,800;1,900&display=swap&_v=20221217175926" rel="stylesheet">
+    <link  href="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/css/nanogallery2.min.css?_v=20221217175926" rel="stylesheet" type="text/css">
 
   
   
@@ -81,6 +81,13 @@
                 <li class="header__popup-item">
                     <a href="#">блог</a>
                 </li>
+                <li class="header__popup-item  header__popup-item--socials">
+                    <div class="site-socials__list">
+                        <a class="site-socials__item site-socials__item--WA" href=""></a>
+                        <a class="site-socials__item site-socials__item--IG" href=""></a>
+                        <button class="site-socials__item site-socials__item--lang" type="button"></button>
+                    </div>
+                </li>
             </ul>
         </div>
         
@@ -91,14 +98,41 @@
       
     
         <div class="home-page__intro">
-            <div class="wrapper home-page__intro-wrapper">
-                <h1 class="home-page__intro-text">
-                    авторские тренинги<br>
-                    михаила царько
-                </h1>
+            <ul class="intro-courses__mobile-list">
 
+                <li class="intro-courses__mobile-item">
+
+                        <p class=" intro-courses__mobile-title">авторсике тренинги </p>
+                        <p class=" intro-courses__mobile-title">михаила царько </p>
+
+                        <div class="intro-courses__mobile-backround">
+                         <img src="img/home/Img.svg" alt="">
+                        </div>
+                    
+                 
+                </li>
+                <li class="intro-courses__mobile-item">
+                    <p class=" intro-courses__mobile-title">курс</p>
+                    <p class=" intro-courses__mobile-title">"биоэнергетика"</p>
+
+                    <div class="intro-courses__mobile-backround">
+                     <picture><source srcset="img/bioenergy/bio_bckg.webp" type="image/webp"><img src="img/bioenergy/bio_bckg.png" alt=""></picture>
+                    </div>
+                 </li>
+                 <li class="intro-courses__mobile-item">
+                        <p class=" intro-courses__mobile-title">курс</p>
+                        <p class=" intro-courses__mobile-title">"взгляд в себя"</p>
+                    <div class="intro-courses__mobile-backround">
+                     <img src="img/intro_bckg.svg" alt="">
+                    </div>
+                 </li>
+            </ul>
+            <div class="intro-courses__mobile-sliderbtns"></div>
+            <div class="wrapper home-page__intro-wrapper">
+              
                 <ul class="intro__courses-list">
-                    <li class="intro__courses-item intro__courses-item--flow">
+                    <li class="intro__courses-item">
+                      
                        <div class="list-wrapper">
                         <h2 class="intro__courses-name">morning</h2>
                         <h2 class="intro__courses-name intro__courses-name--big intro__courses-name--ff">flow</h2>
@@ -108,7 +142,9 @@
                         </p>
                         <a href="" class="intro__courses-more">Подробнее</a>
                        </div>
-                       
+                       <div class="intro__courses-background">
+                        <img src="img/intro_bckg.svg" alt="">
+                    </div>
                         
                     </li>
                     <li class="intro__courses-item intro__courses-item--bio">
@@ -118,7 +154,9 @@
                             <p class="intro__courses-info intro__courses-info--big">старт курса 10-го сентября</p>
                             <a href="bioenergy.html" class="intro__courses-more">Подробнее</a>
                         </div>
-                       
+                         <div class="intro__courses-background">
+                        <img src="img/home/intro-desktop/bio-energy.svg" alt="">
+                    </div>
                     </li>
                     <li class="intro__courses-item intro__courses-item--look">
 
@@ -248,24 +286,28 @@
        
 
         <ul class="home-courses__list">
-            <li class="home-courses__item">
-                <a href="">
-                    <img class="home-courses__item-img" src="img/home/home_courses/course1_img.svg" alt="">
-                </a>
-                <a href="">
-                    <p class="home-courses__item-name section-title">
-                    биоэнергетика
-                </p></a>
-                
-                <p class="home-courses__item-description paragraph">
-                    Сотни часов активных практик в разных странах позволили
-                </p>
-                <a class="home-courses__item--more-btn" href="#">
-                    подробнее
-                </a>
-            </li>
+            <div>
+                <li class="home-courses__item">
+                    <a href="">
+                        <img class="home-courses__item-img" src="img/home/home_courses/course1_img.svg" alt="">
+                    </a>
+                    <a href="">
+                        <p class="home-courses__item-name section-title">
+                        биоэнергетика
+                    </p></a>
+                    
+                    <p class="home-courses__item-description paragraph">
+                        Сотни часов активных практик в разных странах позволили
+                    </p>
+                    <a class="home-courses__item--more-btn" href="#">
+                        подробнее
+                    </a>
+                </li>
+            </div>
+           
 
-            <li class="home-courses__item">
+           <div> 
+                <li class="home-courses__item">
                 <a href="">
                     <img class="home-courses__item-img" src="img/home/home_courses/course2_img.svg" alt="">
                 </a>
@@ -281,7 +323,9 @@
                     подробнее
                 </a>
             </li>
-            <li class="home-courses__item home-courses__item--active">
+         </div>
+         <div>  
+                <li class="home-courses__item home-courses__item--active">
                 <a href="">
                     <img class="home-courses__item-img" src="img/home/home_courses/course3_img.svg" alt="">
                 </a>
@@ -297,41 +341,47 @@
                 <a class="home-courses__item--more-btn" href="#">
                     подробнее
                 </a>
-            </li>
-             <li class="home-courses__item">
-                <a href="">
-                    <img class="home-courses__item-img" src="img/home/home_courses/course1_img.svg" alt="">
-                </a>
-                <a href="">
-                    <p class="home-courses__item-name section-title">
-                        биоэнергетика
+                </li>
+            </div>
+          
+            <div>
+                <li class="home-courses__item">
+                    <a href="">
+                        <img class="home-courses__item-img" src="img/home/home_courses/course1_img.svg" alt="">
+                    </a>
+                    <a href="">
+                        <p class="home-courses__item-name section-title">
+                            биоэнергетика
+                        </p>
+                    </a>
+                    <p class="home-courses__item-description paragraph">
+                        Сотни часов активных практик в разных странах позволили
                     </p>
-                </a>
-                <p class="home-courses__item-description paragraph">
-                    Сотни часов активных практик в разных странах позволили
-                </p>
-                <a class="home-courses__item--more-btn" href="#">
-                    подробнее
-                </a>
-            </li>
+                    <a class="home-courses__item--more-btn" href="#">
+                        подробнее
+                    </a>
+                </li>
+            </div>
 
-            <li class="home-courses__item">
-                <a href="">
-                    <img class="home-courses__item-img" src="img/home/home_courses/course2_img.svg" alt="">
-                </a>
-                <a href="">
-                    <p class="home-courses__item-name section-title">
-                        цигун
+           <div>
+                <li class="home-courses__item">
+                    <a href="">
+                        <img class="home-courses__item-img" src="img/home/home_courses/course2_img.svg" alt="">
+                    </a>
+                    <a href="">
+                        <p class="home-courses__item-name section-title">
+                            цигун
+                        </p>
+                    </a>
+
+                    <p class="home-courses__item-description paragraph">
+                        Сотни часов активных практик в разных странах позволили
                     </p>
-                </a>
-
-                <p class="home-courses__item-description paragraph">
-                    Сотни часов активных практик в разных странах позволили
-                </p>
-                <a class="home-courses__item--more-btn" href="#">
-                    подробнее
-                </a>
-            </li>
+                    <a class="home-courses__item--more-btn" href="#">
+                        подробнее
+                    </a>
+                </li>
+           </div>
             
         </ul>
         <div class="home-courses__slider-btns"></div>
@@ -342,26 +392,62 @@
 
       
 <section class="home-about">
-<div class="wrapper home-about__wrapper">
-    <h2 class="section-title home-about__title">
-        фото
-    </h2>
-    <p class="section-subtitle home-about__subtitle">
-        наших мероприятий
-    </p>
-    <div class="home-about__photo-gallery" id="my_nanogallery2"
-    
-    >
+    <div class="wrapper home-about__wrapper">
+        <h2 class="section-title home-about__title">
+            фото
+        </h2>
+        <p class="section-subtitle home-about__subtitle">
+            наших мероприятий
+        </p>
+        <div class="home-about__photo-gallery" id="my_nanogallery2"
         
+        >
+        <a href="img/home/home_about/photo1_desktop.svg" >
+            <picture>
+                <source media="(min-width: 600px)" srcset="img/home/home_about/photo1_desktop.svg">
+                  <img class="product-item__photo" src="img/home/home_about/photo1_mobile.svg" alt="">
+                  </picture>
+        </a>
+        <a class="desktop-hidden" href="img/home/home_about/photo3_mobile.svg" >
+            <picture>
+                <source media="(min-width: 600px)" srcset="img/home/home_about/photo3_mobile.svg">
+                  <img class="product-item__photo desktop-hidden" src="img/home/home_about/photo3_mobile.svg" alt="">
+                  </picture>
+        </a>
+        <a href="img/home/home_about/photo2_desktop.svg" >
+            <picture>
+                <source media="(min-width: 600px)" srcset="img/home/home_about/photo2_desktop.svg">
+                  <img class="product-item__photo" src="img/home/home_about/photo2_mobile.svg" alt="">
+                  </picture>
+        </a>
+        <a href="img/home/home_about/photo-4.svg">
+            <picture>
+                <source media="(min-width:600px" srcset="img/home/home_about/photo-4.svg">
+                <img class="product-item__photo" src="img/home/home_about/photo-4.svg" alt="">
+            </picture>
+        </a>
+        <a href="img/home/home_about/photo-5.svg">
+            <picture>
+                <source media="(min-width:600px" srcset="img/home/home_about/photo-5.svg">
+                <img class="product-item__photo" src="img/home/home_about/photo-5.svg" alt="">
+            </picture>
+        </a>
+        <a href="img/home/home_about/photo-6.svg">
+            <picture>
+                <source media="(min-width:600px" srcset="img/home/home_about/photo-6.svg">
+                <img class="product-item__photo" src="img/home/home_about/photo-6.svg" alt="">
+            </picture>
+        </a>
+    
+        </div>
+    
+    
     </div>
-
-
-</div>
-</section>
-
-
-
-
+    </section>
+    
+    
+    
+    
       <section class="home-reviews">
     <div class="wrapper home-reviews__wrapper">
         <h2 class="section-title home-reviews__title">
@@ -581,13 +667,13 @@
        
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.min.js?_v=20221214100513" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.min.js?_v=20221217175926" type="text/javascript"></script>
           
     <!-- nanogallery2 -->
-    <script  type="text/javascript" src="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/jquery.nanogallery2.min.js?_v=20221214100513"></script>
+    <script  type="text/javascript" src="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/jquery.nanogallery2.min.js?_v=20221217175926"></script>
 </footer>
  
-      <script src="js/app.min.js?_v=20221214100513"></script>
+      <script src="js/app.min.js?_v=20221217175926"></script>
 
     </body>
 </html>

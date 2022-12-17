@@ -1,6 +1,8 @@
 
 .programm-content{
     background-image: linear-gradient(#fff 60%,rgba(210,220,250,.75));
+    position: relative;
+    z-index: 2;
  &--look{
     overflow: hidden;
  }

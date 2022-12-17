@@ -87,6 +87,10 @@ import slikCarousel from 'slick-carousel';
        autoplaySpeed:5000
    });
 
+   $(".intro-courses__mobile-list").slick({
+    arrows:false
+   });
+
  $('.about__photo-slider').slick({
     appendArrows:$('.about__photo-slider-btns'),
     arrows:true

@@ -112,6 +112,40 @@
        // min-height: 527px;
         //max-height: 527px;
        // border-radius: 25px;
+
+       // box-shadow: inset 0 -7px 20px -10px rgba(0, 0, 0, .5);
+
+    &:hover .programm-reviews__item-inner{
+        background-image: linear-gradient(#7070C9, #9797D3);
+        &::after{
+            content: "";
+
+        }
+    }
+    &:hover .programm-reviews__review-text{
+        color: white;
+       position: relative;
+       z-index: 2;
+       bottom: -126px;
+        max-height: 300px;
+        transform: translateY(-300px);
+        transition:  20s, color 1s;
+
+
+    }
+
+    &:hover .programm-reviews__reviewer-photo{
+       // display: none;
+    }
+    &:hover .programm-reviews__reviewer-contacts {
+        display: none;
+    }
+    &:hover  .programm-reviews__course-name {
+        display: none;
+    }
+    &:hover .programm-reviews__reviewer-name{
+        display: none;
+    }
     }
 
     .programm-reviews__item-inner{
@@ -121,7 +155,17 @@
         border: 1px solid #FFCE79;
         width: 100%;
         top: 100px;
-        z-index: 0;
+        z-index: 1;
+        &::after{
+            content: url("../img/home/home_review/desktop/review-arrow.svg");
+            background-color: hsla(0deg,0%,100%,.7);
+            position: absolute;
+            bottom: 0px;
+            width: 266px;
+            display: flex;
+            justify-content: center;
+           margin: 0 auto;
+        }
     }
     .programm-reviews__reviewer-photo{
         left: 0px;
@@ -210,51 +254,7 @@
 }
  .programm-reviews__item{
 
-    // box-shadow: inset 0 -7px 20px -10px rgba(0, 0, 0, .5);
-    &::after{
-        content: url("../img/home/home_review/desktop/review-arrow.svg");
-        background-color: hsla(0deg,0%,100%,.7);
-        position: relative;
-        bottom: 27px;
-        width: 266px;
-        display: flex;
-        justify-content: center;
-       margin: 0 auto;
-    }
-    &:hover{
-       
-        &::after{
-            content: "";
-
-        }
-    }
-    &:hover .programm-reviews__item-inner{
-        background-image: linear-gradient(#7070C9, #9797D3);
-
-    }
-    &:hover .programm-reviews__review-text{
-        color: white;
-       position: relative;
-       bottom: -126px;
-        max-height: 300px;
-        transform: translateY(-300px);
-        transition:  20s, color 1s;
-
-
-    }
-
-    &:hover .programm-reviews__reviewer-photo{
-       // display: none;
-    }
-    &:hover .programm-reviews__reviewer-contacts {
-        display: none;
-    }
-    &:hover  .programm-reviews__course-name {
-        display: none;
-    }
-    &:hover .programm-reviews__reviewer-name{
-        display: none;
-    }
+    
  }
 
  .programm-reviews__more-btn{

@@ -28,7 +28,14 @@
         color: #6b6bc5;
     }
 }
-
+.header__popup-item--socials{
+    .site-socials__item--WA{
+        background-image: url("../img/header/WA_dark.png");
+    }
+    .site-socials__item--IG{
+        background-image: url("../img/header/ig_dark.png");
+    }
+}
 .header__popup-btn--close{
     position: absolute;
     right: 1%;
