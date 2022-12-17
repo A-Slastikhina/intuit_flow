@@ -2,10 +2,13 @@
 //@import "../../../node_modules/slick-carousel/slick/slick-theme.scss";
 
 //блок слайдера курсы- дом. стр.
-
-.home-courses__list{
-  .slick-slide{}
+.slick-slide{
+  .home-courses__item{
+ display: flex !important;
+ justify-content: center;
+  }
 }
+
 .home-courses__slider-btns{
   display: flex;
   justify-content: center;
