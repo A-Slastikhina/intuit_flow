@@ -3,6 +3,9 @@
 
 //блок слайдера курсы- дом. стр.
 
+.home-courses__list{
+  .slick-slide{}
+}
 .home-courses__slider-btns{
   display: flex;
   justify-content: center;
