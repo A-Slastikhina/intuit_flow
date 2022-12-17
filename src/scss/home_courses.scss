@@ -14,6 +14,8 @@ z-index: 3;
 
 .home-courses__wrapper{
     padding-top: 35px;
+    position:relative;
+    z-index: 3;
 }
 
 
@@ -28,7 +30,7 @@ z-index: 3;
     display: none;
 }
 .home-courses__list{
-
+    height: 500px;
     width: 100%;
      padding-bottom: 20px;
 }
