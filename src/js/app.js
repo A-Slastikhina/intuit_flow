@@ -141,6 +141,8 @@ openTimetableForm();
 import {scrollHeader} from "./modules/scroll-header.js";
 scrollHeader();
 
+import {reviewsHover as reviewsHover} from "./modules/home_reviews_hover.js";
+reviewsHover();
 import {myNanogallery2 as myNanogallery2} from "./modules/home_photos_gallery.js";
 import {aboutGallery1 as aboutGallery1} from "./modules/about_teacher_gallery.js";
 import {aboutGallery2 as aboutGallery2} from "./modules/about_teacher_gallery.js";

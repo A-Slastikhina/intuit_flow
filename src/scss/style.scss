@@ -20,12 +20,12 @@ body{
     
     scrollbar-width: 12px;
     &::-webkit-scrollbar {
-        background: #ffcb73;        /* цвет дорожки */
+        background-image: linear-gradient(#6B6BC5 , #FF77F1,#CF7C00);       /* цвет дорожки */
       }
     &::-webkit-scrollbar-thumb {
-        background-color: rgb(166, 172, 173);    /* цвет плашки */
+        background-color: #6B6BC5;    /* цвет плашки */
         border-radius: 20px;       /* закругления плашки */
-        border: 3px solid #ffcb73;  /* padding вокруг плашки */
+        border: 3px solid #FF77F1;  /* padding вокруг плашки */
       }
 }
 

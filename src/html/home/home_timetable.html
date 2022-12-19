@@ -1,21 +1,22 @@
 <section class="home-timetable">
     <div class="home-timetable__popup home-timetable__popup--hidden">
-        <form class="home-timetable__form" action="url" method="post">
+
+        <div class="home-timetable__form-part">
             <button type="button" class="home-timetable__form--close">&#10006;</button>
-           <label class="home-timetable__form-name" for="">
-            <span class="label-text">Ваше имя</span>
-            <input type="text" name="name" required>
-           </label>
-           <label class="home-timetable__form-email" for="">
-            <span class="label-text">Email</span>
-            <input type="email" name="email" required>
-           </label>
-           <label class="home-timetable__form-mobile" for="">
-            <span class="label-text">Номер телефона</span>
-            <input type="tel" name="mobile" required>
-           </label>
-           <button class="home-timetable__form-submit">Записаться</button>
-        </form>
+
+            <form action="post" class="home-timetable__form" action="url" method="post">
+                <label for="">
+                    <input class="home-timetable__input" type="text" name="name" id="course-enrollment__form-name" placeholder="Имя:">
+                </label>
+                <label for="">
+                    <input class="home-timetable__input home-timetable__input--contacts" type="text" name="contacts" id="course-enrollment__form-contacts" placeholder="whatsapp / telegram">
+                </label>
+                <button type="submit" class="home-timetable__form-submit">
+                    записаться</button>
+            </form>
+           
+        </div>
+      
     </div>
     <div class="wrapper home-timetable__wrapper">
         <h2 class="section-title home-timetable__title">
@@ -32,9 +33,9 @@
         <div class="home-timetable__classes-list">
             <div  class="home-timetable__classes-wrap">
                 <div class="home-timetable__classes">
-                <h3 class="home-timetable__classes-name">
+                <a class="home-timetable__classes-name" href="">
                     Online тренировка биоэнергетики
-                </h3>
+                </a>
                 <p class="home-timetable__classes-time">Вторник, 17:00
                 </p>
                 </div>
@@ -43,7 +44,7 @@
             </div>
             <div class="home-timetable__classes-wrap">
                 <div class="home-timetable__classes">
-                <h3 class="home-timetable__classes-name">пост ковид йога</h3>
+                <a class="home-timetable__classes-name" href="">пост ковид йога</a>
                 <p class="home-timetable__classes-time">среда, 8:30</p>
                 </div>
                 <button class="home-timetable__classes-enroll-btn">
@@ -51,8 +52,8 @@
             </div>
             <div class="home-timetable__classes-wrap">
                 <div class="home-timetable__classes">
-                <h3 class="home-timetable__classes-name">Ecstatic Dance Online
-                </h3>
+                <a class="home-timetable__classes-name" href="">Ecstatic Dance Online
+                </a>
                 <p class="home-timetable__classes-time">
                     последняя суббота месяца
                 </p>
@@ -64,9 +65,9 @@
 
             <div  class="home-timetable__classes-wrap">
                 <div class="home-timetable__classes">
-                <h3 class="home-timetable__classes-name">
+                <a class="home-timetable__classes-name" href="">
                     Online тренировка биоэнергетики
-                </h3>
+                </a>
                 <p class="home-timetable__classes-time">Вторник, 17:00
                 </p>
                 </div>
@@ -75,16 +76,16 @@
             </div>
             <div class="home-timetable__classes-wrap">
                 <div class="home-timetable__classes">
-                <h3 class="home-timetable__classes-name">пост ковид йога</h3>
+                <a class="home-timetable__classes-name" href="">пост ковид йога</a>
                 <p class="home-timetable__classes-time">среда, 8:30</p>
                 </div>
-                <button class="home-timetable__classes-enroll-btn" data-name="Пост ковид йога">
+                <button class="home-timetable__classes-enroll-btn">
                     записаться</button>
             </div>
             <div class="home-timetable__classes-wrap">
                 <div class="home-timetable__classes">
-                <h3 class="home-timetable__classes-name">Ecstatic Dance Online
-                </h3>
+                <a class="home-timetable__classes-name" href="">Ecstatic Dance Online
+                </a>
                 <p class="home-timetable__classes-time">
                     последняя суббота месяца
                 </p>

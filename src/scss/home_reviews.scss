@@ -110,14 +110,10 @@ padding-left: 45px;
        // border-radius: 25px;
 
  
-    &:hover .home-reviews__item-inner{
+    .home-reviews__item-inner--hover{
         background-image: linear-gradient(#7070C9, #9797D3);
-        &::after{
-            content: "";
-
-        }
     }
-    &:hover .home-reviews__review-text{
+    .home-reviews__review-text--hover{
         color: white;
        position: relative;
        bottom: -126px;
@@ -129,17 +125,19 @@ padding-left: 45px;
 
     }
 
-    &:hover .home-reviews__reviewer-photo{
-       // display: none;
-    }
-    &:hover .home-reviews__reviewer-socials {
+  
+    .home-reviews__reviewer-socials--hover {
         display: none;
     }
-    &:hover  .home-reviews__course-name {
+    .home-reviews__course-name--hover {
         display: none;
     }
-    &:hover .home-reviews__reviewer-name{
+    .home-reviews__reviewer-name--hover{
         display: none;
+    }
+    .home-reviews__arrow-btn--hover{
+        display: none;
+    
     }
     }
 
@@ -150,18 +148,19 @@ padding-left: 45px;
         border: 1px solid #FFCE79;
         width: 100%;
         top: 100px;
-        z-index: 1;
-
-        &::after{
-            content: url("../img/home/home_review/desktop/review-arrow.svg");
-            background-color: hsla(0deg,0%,100%,.7);
-            position: absolute;
-            bottom: 0;
-            width: 266px;
-            display: flex;
-            justify-content: center;
-           margin: 0 auto;
-        }
+        z-index: 0;
+    }
+    .home-reviews__arrow-btn{
+        background-image: url("../img/home/home_review/desktop/review-arrow.svg");
+        background-color: hsla(0deg,0%,100%,.7);
+        position: absolute;
+        bottom: 0;
+        width: 266px;
+        height: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+       margin: 0 auto;
     }
     .home-reviews__reviewer-photo{
         left: 0px;

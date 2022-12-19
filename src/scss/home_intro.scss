@@ -52,15 +52,16 @@ width: 100vw; ;
     position: absolute;
     top: -4px;
     display: flex;
-   // min-height: 360px;
+   min-height: 360px;
     min-width: 100vw;
     
     z-index: 0;
 
     & img{
-       width:  initial;
+       width:  100vw;
         z-index: 0;
         object-fit:cover;
+        height: 360px;
 
     }
 }
@@ -86,8 +87,10 @@ width: 100vw; ;
         background-position: right;
        // top: -69px;
        position: relative;
-
         &::before{
+            display: none;
+        }
+        &::after{
             content: "";
             background-image: url("../img/home/intro-desktop/Decor-desktop.svg");
             background-repeat: repeat-x;

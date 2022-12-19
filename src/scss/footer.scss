@@ -7,7 +7,7 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     color: #000000;
-    font-weight: 400;
+    font-weight: 100;
     display: block;
 
     &--organizer{
@@ -61,7 +61,7 @@
         font-family: 'Open Sans', sans-serif;
         font-size: 15px;
         color: #000000;
-        font-weight: 400;
+        font-weight: 100;
 
         &::selection{
             background-color: rgb(166, 172, 173);
@@ -72,7 +72,7 @@
         align-items: center;
     }
     .footer__socials{
-        min-width: 345px;
+        min-width: 340px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -82,41 +82,136 @@
         font-family: 'Open Sans', sans-serif;
         font-size: 15px;
         color: #000000;
-        font-weight: 400;
+        font-weight: 100;
+        margin-right: 10px;
     }
-
+    .footer__socials-inner{
+        display: inline-flex;
+    }
     .footer__socials-link{
         width: 30px;
         height: 30px;
         background-position: center;
         background-size: cover;
        display: block;
-        &--ig{      
-        background-image: url("../img/footer/desktop/Insta.svg");        
-        }
 
-        &--tg{
-            background-image: url("../img/footer/desktop/Tg.svg");
-        }
-        &--youtube{
-            background-image: url("../img/footer/desktop/youtube.svg");
-        }
-        &--fb{
-            background-image: url("../img/footer/desktop/Fb.svg");
-        }
+
+  
+
         &--vk{
-            background-image: url("../img/footer/desktop/vk.png");
-            border-radius: 50%;
-            width: 32px;
-            height: 32px;
+    
         }
 
     }
-      
+   
+    .footer__socials-hover{
+        width: 30px;
+        height: 30px;
+        background-position: center;
+        background-size: cover;
+        display: block;
+        border: 1px solid white;
+        border-radius: 50%;
 
-        .footer__link--organizer{
-            padding-left: 7px;
-             border-left: 1px solid black;
-            }
+    }
+
+    .footer__socials-link--ig{      
+        background-image: url("../img/footer/desktop/Insta.svg"); 
+        position: relative;       
+        }  
+    .footer__socials-hover--ig{      
+        background-image: url("../img/footer/desktop/Inst-hover.svg"); 
+        position: absolute;  
+        opacity: 0;
+        border: none;
         
+    }
+
+    .footer__socials-hover--ig:hover{
+        opacity: 1;
+        .footer__socials-link--ig{
+            opacity: 0;
+        }
+    }
+
+    .footer__socials-link--tg{
+        background-image: url("../img/footer/desktop/Tg.svg");
+        position: relative; 
+              
+    }
+    
+    .footer__socials-hover--tg{
+        background-image: url("../img/footer/desktop/telegram-hover.png");
+       position: absolute;
+       opacity: 0;
+       
+    }
+    .footer__socials-hover--tg:hover{
+        opacity: 1;
+        .footer__socials-link--tg{
+            opacity: 0;
+        }
+    }
+  
+    .footer__socials-link--youtube{
+        background-image: url("../img/footer/desktop/youtube.svg");
+        position: relative;
+    }
+
+    .footer__socials-hover--youtube{
+        background-image: url("../img/footer/desktop/youtube-hover.png");
+        position: absolute;
+        opacity: 0;
+    }
+    .footer__socials-hover--youtube:hover{
+        opacity: 1;
+        .footer__socials-link--youtube{
+            opacity: 0;
+        }
+    }
+
+           
+    .footer__socials-link--fb{
+        background-image: url("../img/footer/desktop/Fb.svg");
+        position: relative;
+    }            
+   .footer__socials-hover--fb{
+        background-image: url("../img/footer/desktop/facebook-hover.png");
+        position: absolute;
+        opacity: 0;
+   }
+
+   .footer__socials-hover--fb:hover{
+    opacity: 1;
+    .footer__socials-link--fb{
+        opacity: 0;
+    }
+    }
+
+    .footer__socials-link--vk{
+        position: relative;
+        background-image: url("../img/footer/desktop/vk.png");
+        border-radius: 50%;
+        width: 32px;
+        height: 32px;
+    }            
+    .footer__socials-hover--vk{
+        position: absolute;
+        background-image: url("../img/footer/desktop/vk-hover.png");
+        opacity: 0;
+        width: 32px;
+        height: 32px;
+    }
+
+    .footer__socials-hover--vk:hover{
+        opacity: 1;
+    .footer__socials-link--vk{
+        opacity: 0;
+    }
+    }
+    .footer__link--organizer{
+        padding-left: 7px;
+        border-left: 1px solid black;
+        }
+
 }
