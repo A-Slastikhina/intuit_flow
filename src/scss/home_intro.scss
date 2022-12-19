@@ -52,13 +52,13 @@ width: 100vw; ;
     position: absolute;
     top: -4px;
     display: flex;
-    min-height: 360px;
+   // min-height: 360px;
     min-width: 100vw;
     
     z-index: 0;
 
     & img{
-       min-width:  100vw;
+       width:  initial;
         z-index: 0;
         object-fit:cover;
 
