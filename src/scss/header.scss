@@ -223,10 +223,14 @@ left: 18%;
     }
     .header__addition-logo{
         display: none;
-        
-    }
+        &--light{
+            display: none;
+        }
+        &--scroll{
+            display: none;
+        }
 }
-
+}
 @media (min-width:967px) and (max-width:1019px){
     .header__menu{
          margin-bottom: 0;
