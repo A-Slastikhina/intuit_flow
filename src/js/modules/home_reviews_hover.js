@@ -6,7 +6,7 @@ const reviewsHover = function(){
     const reviewerNames = document.querySelectorAll('.home-reviews__reviewer-name');
     const courseNames = document.querySelectorAll('.home-reviews__course-name');
     const itemInners = document.querySelectorAll('.home-reviews__item-inner');
-
+    
     for(let i=0; i<itemInners.length; i++){
         showReviewBtns[i].addEventListener('click', function(){
 
