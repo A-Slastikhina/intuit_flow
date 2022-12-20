@@ -11,7 +11,7 @@
     }
     
     .programm-reviews__list{
-        width: 263px;
+        width: 100%;
         margin: 0 auto;
     
     & p{
@@ -20,6 +20,9 @@
     }
     }
     
+    .programm-reviews__item-content{
+        width: 263px;
+    }
     
     .programm-reviews__reviewer-photo{
         margin: 20px auto;

@@ -7,16 +7,18 @@
 }
 
 .home-reviews__list{
-    width: 263px;
+    // width: 263px;
     margin: 0 auto;
-
+   width: 100%;
 & p{
 padding-left: 45px;
 //width: 235px;
 }
 }
 
-
+.home-reviews__item-content{
+    width: 263px;
+}
 .home-reviews__reviewer-photo{
     margin: 20px auto;
     width: 85%;
@@ -71,7 +73,9 @@ padding-left: 45px;
     margin-left: 45px;
 }
 
-
+.home-reviews__slider-btns{
+    margin-top: 20px;
+}
 
 @media(min-width:1020px){
     .home-reviews{
