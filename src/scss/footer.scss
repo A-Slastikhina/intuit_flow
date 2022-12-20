@@ -46,7 +46,7 @@
 @media(min-width:1020px){
     .footer{
         border-top: 2px solid white;
-        padding-bottom: 20px;
+       // padding-bottom: 20px;
     }
     .mobile-hidden{
         display: contents;
@@ -55,6 +55,8 @@
         width: auto;
         justify-content: space-between;
         align-items: center;
+        padding-left: 8.08%;
+        padding-right: 8.08%;
     }
 
     .footer__copyright{
@@ -94,13 +96,6 @@
         background-position: center;
         background-size: cover;
        display: block;
-
-
-  
-
-        &--vk{
-    
-        }
 
     }
    

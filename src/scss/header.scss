@@ -127,11 +127,12 @@
 
 .header{
 z-index: 5;
+height: 70px;
 }
 
 .header__menu{
    // margin-top: 17px;
-    margin-bottom: 17px;
+    //margin-bottom: 17px;
     padding-bottom: 17px;
     padding-top: 17px;
 
@@ -209,6 +210,7 @@ z-index: 5;
 color: #edebf6;
 text-transform: uppercase;  
 left: 18%; 
+top: 12px;
 }
 }
 
