@@ -816,6 +816,7 @@ a {
 }
 .intro-courses__mobile-backround img {
   z-index: 0;
+  object-fit: cover;
   height: 450px;
 }
 
