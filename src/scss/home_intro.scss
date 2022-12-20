@@ -55,15 +55,16 @@ overflow: hidden;
     position: absolute;
     top: -4px;
     display: flex;
+    justify-content: center;
    min-height: 360px;
-    min-width: 100vw;
+    width: 100vw;
     overflow: hidden;
     z-index: 0;
 
     & img{
-       width:  1020px;
+       width: 1020PX;
         z-index: 0;
-        object-fit:cover;
+        //object-fit:cover;
     //scale:1.5 ;
     height: 450px;
     }
