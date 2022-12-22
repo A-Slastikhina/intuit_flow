@@ -78,6 +78,8 @@ a{
     }
 }
 
+
+
 @import "./libs/slick.scss";
 @import "header", "home_intro","home_experience","home_courses", 
 "home_about", "home_reviews","home_timetable", "footer", "popup",
@@ -85,5 +87,5 @@ a{
 @import "about_why_yoga", "about__experiance","about_bright-exp","about_photo","about_secrets",
 "about_intro";
 @import "programs_intro","programs_content","programm_course","programs_photo","programs_reviews";
-@import "enrollment";
+@import "enrollment", "js_reviews_hover";
 @import "./libs/nanogallery2";

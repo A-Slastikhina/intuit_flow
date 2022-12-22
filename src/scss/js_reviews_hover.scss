@@ -1,0 +1,33 @@
+
+
+
+    ._js-reviews__item-inner--hover{
+        background-image: linear-gradient(#7070C9, #9797D3);
+    }
+    ._js-reviews__review-text--hover{
+        color: white;
+       position: relative;
+       bottom: -126px;
+        max-height: 400px;
+        transform: translateY(-400px);
+        transition:  30s, color 1s;
+        z-index: 2;
+    
+    
+    }
+    
+    
+    ._js-reviews__reviewer-socials--hover {
+        display: none;
+    }
+    ._js-reviews__course-name--hover {
+        display: none;
+    }
+    ._js-reviews__reviewer-name--hover{
+        display: none;
+    }
+    ._js-reviews__arrow-btn--hover{
+        display: none;
+    
+    }
+

@@ -20,9 +20,18 @@
 
 }
 
+@media (min-width: 700px) and (max-width:1019px){
+  .programm-reviews__list, .home-reviews__list {
+    display: flex !important;
+   justify-content: center;
+  }
+}
+
+
 .home-courses__slider-btns{
   display: flex;
   justify-content: center;
+
   .slick-arrow{
     border: none;
     background-color: transparent;
@@ -376,6 +385,8 @@
   margin-left: auto;
   margin-right: auto;
   border-radius: 25px;
+  margin-top: 30px;
+
 
 &  .slick-prev{
   font-size: 0;    
