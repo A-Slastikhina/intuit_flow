@@ -182,6 +182,12 @@ a {
   justify-content: center;
 }
 
+@media (min-width: 700px) and (max-width: 1019px) {
+  .programm-reviews__list, .home-reviews__list {
+    display: flex !important;
+    justify-content: center;
+  }
+}
 .home-courses__slider-btns {
   display: flex;
   justify-content: center;
@@ -478,6 +484,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   border-radius: 25px;
+  margin-top: 30px;
 }
 .programm-reviews__slider-btns .slick-prev {
   font-size: 0;
@@ -1275,6 +1282,8 @@ a {
 .home-reviews__list {
   margin: 0 auto;
   width: 100%;
+  display: flex !important;
+  justify-content: center;
 }
 .home-reviews__list p {
   padding-left: 45px;
@@ -1371,30 +1380,6 @@ a {
     width: 263px;
     top: -52px;
     height: 526px;
-  }
-  .home-reviews__item .home-reviews__item-inner--hover {
-    background-image: linear-gradient(#7070C9, #9797D3);
-  }
-  .home-reviews__item .home-reviews__review-text--hover {
-    color: white;
-    position: relative;
-    bottom: -126px;
-    max-height: 300px;
-    transform: translateY(-300px);
-    transition: 20s, color 1s;
-    z-index: 2;
-  }
-  .home-reviews__item .home-reviews__reviewer-socials--hover {
-    display: none;
-  }
-  .home-reviews__item .home-reviews__course-name--hover {
-    display: none;
-  }
-  .home-reviews__item .home-reviews__reviewer-name--hover {
-    display: none;
-  }
-  .home-reviews__item .home-reviews__arrow-btn--hover {
-    display: none;
   }
   .home-reviews__item-inner {
     position: absolute;
@@ -1617,7 +1602,7 @@ a {
   }
   .home-timetable::after {
     content: "";
-    background-image: url(../img/home/home_timetable/test.png);
+    background-image: url("../img/home/home_timetable/test.png");
     position: absolute;
     width: 100%;
     height: 390px;
@@ -3318,6 +3303,7 @@ a {
 
 .programm-reviews__item-content {
   width: 263px;
+  overflow: hidden;
 }
 
 .programm-reviews__reviewer-photo {
@@ -3398,30 +3384,7 @@ a {
     position: relative;
     width: 263px;
     top: -52px;
-  }
-  .programm-reviews__item:hover .programm-reviews__item-inner {
-    background-image: linear-gradient(#7070C9, #9797D3);
-  }
-  .programm-reviews__item:hover .programm-reviews__item-inner::after {
-    content: "";
-  }
-  .programm-reviews__item:hover .programm-reviews__review-text {
-    color: white;
-    position: relative;
-    z-index: 2;
-    bottom: -126px;
-    max-height: 300px;
-    transform: translateY(-300px);
-    transition: 20s, color 1s;
-  }
-  .programm-reviews__item:hover .programm-reviews__reviewer-contacts {
-    display: none;
-  }
-  .programm-reviews__item:hover .programm-reviews__course-name {
-    display: none;
-  }
-  .programm-reviews__item:hover .programm-reviews__reviewer-name {
-    display: none;
+    height: 526px;
   }
   .programm-reviews__item-inner {
     position: absolute;
@@ -3430,17 +3393,19 @@ a {
     border: 1px solid #FFCE79;
     width: 100%;
     top: 100px;
-    z-index: 1;
   }
-  .programm-reviews__item-inner::after {
-    content: url("../img/home/home_review/desktop/review-arrow.svg");
+  .programm-reviews__arrow-btn {
+    background-image: url("../img/home/home_review/desktop/review-arrow.svg");
     background-color: hsla(0deg, 0%, 100%, 0.7);
     position: absolute;
-    bottom: 0px;
+    bottom: -2px;
     width: 266px;
-    display: flex;
-    justify-content: center;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
     margin: 0 auto;
+    z-index: 2;
   }
   .programm-reviews__reviewer-photo {
     left: 0px;
@@ -3518,6 +3483,7 @@ a {
     margin-left: 0;
     margin-right: 0;
     border-bottom: 1px solid #000;
+    margin-top: 30px;
   }
 }
 @media (min-width: 1020px) and (max-width: 1114px) {
@@ -3686,6 +3652,36 @@ a {
     left: 47%;
   }
 }
+._js-reviews__item-inner--hover {
+  background-image: linear-gradient(#7070C9, #9797D3);
+}
+
+._js-reviews__review-text--hover {
+  color: white;
+  position: relative;
+  bottom: -126px;
+  max-height: 400px;
+  transform: translateY(-400px);
+  transition: 30s, color 1s;
+  z-index: 2;
+}
+
+._js-reviews__reviewer-socials--hover {
+  display: none;
+}
+
+._js-reviews__course-name--hover {
+  display: none;
+}
+
+._js-reviews__reviewer-name--hover {
+  display: none;
+}
+
+._js-reviews__arrow-btn--hover {
+  display: none;
+}
+
 /***************************/
 /* nanogallery2 - CSS      */
 /***************************/
