@@ -1060,12 +1060,10 @@ a {
   }
 }
 .home-courses {
-  background-color: #FFC773;
   overflow-y: hidden;
-  background-image: url("../img/home/home_courses/courses_bckg.svg");
+  background-image: url("../img/home/home_courses/courses_bckg.svg"), linear-gradient(rgba(210, 220, 250, 0.75), #ffffff);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: rgba(210, 220, 250, 0.75);
   z-index: 3;
 }
 
@@ -1282,8 +1280,6 @@ a {
 .home-reviews__list {
   margin: 0 auto;
   width: 100%;
-  display: flex !important;
-  justify-content: center;
 }
 .home-reviews__list p {
   padding-left: 45px;
@@ -1488,9 +1484,9 @@ a {
 }
 .home-timetable {
   padding-top: 30px;
-  background-image: url("../img/home/home_timetable/timetable_bckg.svg");
+  background-image: url("../img/home/home_timetable/backg2.png");
   background-size: cover;
-  background-position-y: top;
+  background-position-y: bottom;
   background-color: white;
   overflow: hidden;
   position: relative;
@@ -3483,7 +3479,6 @@ a {
     margin-left: 0;
     margin-right: 0;
     border-bottom: 1px solid #000;
-    margin-top: 30px;
   }
 }
 @media (min-width: 1020px) and (max-width: 1114px) {

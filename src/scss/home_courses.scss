@@ -1,13 +1,12 @@
 
 .home-courses{
-background-color: #FFC773;
 //position: relative;
 //overflow-x: hidden;
 overflow-y: hidden;
-background-image: url("../img/home/home_courses/courses_bckg.svg");
+background-image: url("../img/home/home_courses/courses_bckg.svg"),
+linear-gradient(rgba(210, 220, 250, 0.75), #ffffff);
 background-repeat: no-repeat;
 background-size: cover;
-background-color: rgba(210,220,250,.75);
 //padding-bottom: 45px;
 z-index: 3;
 }
