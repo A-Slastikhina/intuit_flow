@@ -10,6 +10,7 @@
     // width: 263px;
     margin: 0 auto;
    width: 100%;
+   
 & p{
 padding-left: 45px;
 //width: 235px;
@@ -114,36 +115,6 @@ padding-left: 45px;
         //max-height: 527px;
        // border-radius: 25px;
 
- 
-    .home-reviews__item-inner--hover{
-        background-image: linear-gradient(#7070C9, #9797D3);
-    }
-    .home-reviews__review-text--hover{
-        color: white;
-       position: relative;
-       bottom: -126px;
-        max-height: 300px;
-        transform: translateY(-300px);
-        transition:  20s, color 1s;
-        z-index: 2;
-
-
-    }
-
-  
-    .home-reviews__reviewer-socials--hover {
-        display: none;
-    }
-    .home-reviews__course-name--hover {
-        display: none;
-    }
-    .home-reviews__reviewer-name--hover{
-        display: none;
-    }
-    .home-reviews__arrow-btn--hover{
-        display: none;
-    
-    }
     }
 
     .home-reviews__item-inner{
